@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Sea Voyage</title>
+            <author>John Fletcher and Philip Massinger</author>
+            <respStmt>
+               <resp>Editor in Chief</resp>
+               <name xml:id="cmlb">Claire M. L. Bourne</name>
+            </respStmt>
+            <respStmt>
+               <resp>Project Manager</resp>
+               <name xml:id="hf">Heather Froehlich</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding Consultant</resp>
+               <name xml:id="jr">John Russell</name>
+            </respStmt>
+            <respStmt>
+               <resp>Graduate Assistant</resp>
+               <name xml:id="dl" from="2019-08-26" to="2020-05-08">David LeBlanc</name>
+            </respStmt>
+            <respStmt>
+               <resp>Annotator(s)</resp>
+               <name xml:id="formerOwner">Former Owner - Author of Handwritten
+                  Annotations</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Published by the Open Publishing Unit of The Pennsylvania State University Libraries.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Francis Beaumont</author>
+                  <author>John Fletcher</author>
+                  <title>Comedies and Tragedies Written by Francis Beavmont and Iohn Fletcher, Gentlemen. 
+                     Never printed before, And now published by the Authours Originall Copies.</title>
+                  <imprint>
+                     <publisher>Humphrey Robinson</publisher>
+                     <pubPlace>the three Pidgeons</pubPlace>
+                     <publisher>Humphrey Moseley</publisher>
+                     <pubPlace>The Princes Armes in St. Pauls Church-yard</pubPlace> 
+                     <date>1647</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This document is a simplified "true-to-text" XML version of <hi rend="italic">The Sea
+            Voyage</hi> based on Pennsylvania State University's annotated copy of the 1647
+            Beaumont &#38; Fletcher first folio. Major textual elements and attributes have been
+            captured based on how they appear in the folio. Whenever possible, editorial
+            interventions have been minimalized or avoided entirely. This document is meant to
+            serve as a pedagogical tool by which students of Early Modern literature can learn
+            to construct edited XML versions of the play.</p>
+      </encodingDesc>
+   </teiHeader>
+  <text>
+     <front>
+        <castList>
+           <head>The Per&#383;ons repre&#383;ented in the Play.</head>
+           <castItem>
+              <role xml:id="alb">Albert</role>
+              <roleDesc>a French Pirat, in love with Aminta.</roleDesc>
+           </castItem>
+           <castItem>
+              <role xml:id="tib">Tibalt du Pont</role>
+              <roleDesc>a merry Gentleman, friend to Albert.</roleDesc>
+           </castItem>
+           <castItem>
+              <role xml:id="mast">Master of the Ship</role>
+              <roleDesc>an honest merry man.</roleDesc>
+           </castItem>
+           <castItem>
+              <role xml:id="lam">Lamure</role>
+              <roleDesc>an u&#383;uring Merchant.</roleDesc>
+           </castItem>
+           <castItem>
+              <role xml:id="fran">Franville</role>
+              <roleDesc>a vain-glorious gallant.</roleDesc>
+           </castItem>
+           <castItem>
+              <role xml:id="mor">Morillat</role>
+              <roleDesc>a &#383;hallow-brain'd Gentleman.</roleDesc>
+           </castItem>
+           <castItem>
+              <role xml:id="boat">Bort&#383;wain</role>
+              <roleDesc>an hone&#383;t man.</roleDesc>
+           </castItem>
+           <castItem>
+              <role xml:id="seb">Seba&#383;tian</role>
+              <roleDesc>a noble Gentleman of <placeName>Portugal</placeName>, Husband to
+                 Ro&#383;ellia.</roleDesc>
+           </castItem>
+           <castItem>
+              <role xml:id="nic">Nicu&#383;a</role>
+              <roleDesc>Nephew to Seba&#383;tian</roleDesc>, both ca&#383;t upon a de&#383;art
+              I&#383;land. </castItem>
+           <castItem>
+              <role xml:id="ray">Raimond</role>
+              <roleDesc>brother to Aminta.</roleDesc>
+           </castItem>
+           <castItem>
+              <role xml:id="sur">Surgeon</role>
+           </castItem>
+           <castItem>
+              <role xml:id="sails">Sailors</role>
+           </castItem>
+           <castGroup>
+              <head>Women.</head>
+              <castItem>
+                 <role xml:id="amin">Aminta</role>
+                 <roleDesc>Mi&#383;tri&#383;s to Albert, a noble French Virgin.</roleDesc>
+              </castItem>
+              <castItem>
+                 <role xml:id="ros">Ro&#383;ellia</role>
+                 <roleDesc>Governe&#383;s of the Amazonia Portugals.</roleDesc>
+              </castItem>
+              <castItem>
+                 <role xml:id="cla">Clarinda</role>
+                 <roleDesc>Daughter to Ro&#383;ellia, in love with Albert.</roleDesc>
+              </castItem>
+              <castGroup>
+                 <head>Three Ladies, Members of the Female Common-wealth.</head>
+                 <castItem>
+                    <role xml:id="hip">Hippolita</role>
+                 </castItem>
+                 <castItem>
+                    <role xml:id="cro">Crocale</role>
+                 </castItem>
+                 <castItem>
+                    <role xml:id="jul">Juletta</role>
+                 </castItem>
+              </castGroup>
+           </castGroup>
+        </castList>
+     </front>
+      <body>
+         <div xml:id="act5" type="act" n="5">
+                    <div xml:id="act5s1" type="scene" n="1">
+                        <head>
+                            <hi rend="italic">Actus quintus, Scaena prima.</hi>
+                        </head>
+                        <stage type="entrance" place="center">Enteer Ro&#383;sella, Clarinda,
+                            Crocale, Juletta, Hippolita.</stage>
+                        <sp xml:id="sp726">
+                            <speaker>Ro&#383;.</speaker>
+                            <lg>
+                                <l>I am deaf to all your intreaties: &#383;he that moves me</l>
+                                <l>For pity or compa&#383;&#383;ion to the&#383;e Pirates,</l>
+                                <l>Digs up her fathers, or her brothers Tombe,</l>
+                                <l>And &#383;purns about their a&#383;hes.</l>
+                                <l>Could&#383;t thou remember what a father thou ha&#383;t once,</l>
+                                <l>Twould &#383;teele thy heart again&#383;t fooli&#383;h pity.</l>
+                                <l>By his memory, and the remembrance of his deere em-<lb
+                                        rend="turnover"/>braces,</l>
+                                <l>I am taught, that in a Noble cau&#383;e revenge is Noble;</l>
+                                <l>And they &#383;hal fall the &#383;acrifices to appea&#383;e</l>
+                                <l>His wandering Gho&#383;t, and my incen&#383;ed fury.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp727">
+                            <speaker>Cla.</speaker>
+                            <lg>
+                                <l>The new come pri&#383;oner to?</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp728">
+                            <speaker>Ro&#383;.</speaker>
+                            <lg>
+                                <l>Him to. Yet that we may learn</l>
+                                <l>Whether they are the &#383;ame, or neere ally'd</l>
+                                <l>To tho&#383;e that forc'd me to this cruell cour&#383;e,</l>
+                                <l>Better their poore allowance, and permit 'em</l>
+                                <l>To meet together and confer,</l>
+                                <l>Within the di&#383;tance of your eare; perhaps</l>
+                                <l>They may di&#383;cover &#383;omething that may kill</l>
+                                <l>De&#383;paire in me, and be a means to &#383;ave 'em</l>
+                                <l>From certain ruine.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp729">
+                            <speaker>Cro.</speaker>
+                            <lg>
+                                <l>That &#383;hal be my charge.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp730">
+                            <speaker>Ro&#383;.</speaker>
+                            <lg>
+                                <l>Yet to prevent</l>
+                                <l>All hope of re&#383;cue: for this new come Captain</l>
+                                <l>Hath both a &#383;hip and men not far off from us,</l>
+                                <l>Though ignorant to find the onely Port,</l>
+                                <l>That can yeeld entrance to our happy I&#383;land,</l>
+                                <l>Guard the place &#383;trongly, and ere the next Sunne</l>
+                                <l>Ends his diurnall progre&#383;&#383;e, I wil be</l>
+                                <l>Happy in my revenge, or &#383;et 'em free. <stage type="exit" place="right">Exeunt.</stage></l>
+                            </lg>
+                        </sp>
+                        <stage type="entrance" place="center">Enter Crocale, Juletta,
+                            Hippolita.</stage>
+                        <stage type="business" place="right"><hi rend="roman">A</hi> Table
+                            furni&#383;ht.</stage>
+                        <sp xml:id="sp731">
+                            <speaker>Cro.</speaker>
+                            <lg>
+                                <l>So &#383;erve it plentifully,</l>
+                                <l>And lo&#383;e not time to enquire the cau&#383;e;</l>
+                                <l>There is a main de&#383;ign that hangs upon this bounty.</l>
+                                <l>See the Table furni&#383;ht with Wine too,</l>
+                                <l>That di&#383;covers &#383;ecrets which tortures cannot open:</l>
+                                <l>Open the doores too of the &#383;everall pri&#383;ons,</l>
+                                <l>And give all free entrance into this room.</l>
+                                <fw type="catch">Undi&#383;-</fw>
+                                <pb n="TSV-017"
+                                    facs="https://digital.libraries.psu.edu/digital/api/singleitem/image/emblem/4831/default.jpg"/>
+                                <fw type="pageNum">25</fw>
+                                <cb n="1"/>
+                                <l>Undi&#383;cover'd I can here marke all. <stage type="entrance"
+                                        place="right">Enter Tib. Ma&#383;t.</stage></l>
+                                <l>Here's Captain carele&#383;&#383;e, and the tough
+                                    Ship-ma&#383;ter,</l>
+                                <l>The &#383;laves are no&#383;'d like Vultures</l>
+                                <l>How wilde they look.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp732">
+                            <speaker>Tib.</speaker>
+                            <lg>
+                                <l>Ha, the my&#383;tery of this,</l>
+                                <l>Some good Hobgoblin ri&#383;e and reveale.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp733">
+                            <speaker>Ma&#383;t.</speaker>
+                            <lg>
+                                <l>I am amazed at it: nor can I &#383;ound the intent.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp734">
+                            <speaker>Tib.</speaker>
+                            <lg>
+                                <l>Is not this Bread,</l>
+                                <l>Sub&#383;tantiall bread, not painted?</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp735">
+                            <speaker>Ma&#383;t.</speaker>
+                            <lg>
+                                <l>But take heed,</l>
+                                <l>You may be poy&#383;oned.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp736">
+                            <speaker>Tib.</speaker>
+                            <lg>
+                                <l>I am &#383;ure I am fami&#383;ht;</l>
+                                <l>And as the wi&#383;e man &#383;ays,</l>
+                                <l>Gripes the guts as much as any Minerall.</l>
+                                <l>This may be Treacle &#383;ent to pre&#383;erve me</l>
+                                <l>After a long fa&#383;t: or be it Vipers &#383;pittle,</l>
+                                <l>Ile run the hazzard.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp737">
+                            <speaker>Ma&#383;t.</speaker>
+                            <lg>
+                                <l>We are pa&#383;t all feare, Ile take part with ye.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp738">
+                            <speaker>Tib.</speaker>
+                            <lg>
+                                <l>Do: and now yfaith, how d'e feel your &#383;elfe?</l>
+                                <l>I finde great ea&#383;e in't. What's here?</l>
+                                <l>Wine, and it be thy will;</l>
+                                <l>Strong lu&#383;ty Wine. Well, fooles may talke</l>
+                                <l>Of Metridate, Cordials, and Elixars.</l>
+                                <l>But from my youth this was my onely Phy&#383;ick.</l>
+                                <l>Here's a colour, what Ladies cheek,</l>
+                                <l>Though ceru&#383;s'd over, comes neere it?</l>
+                                <l>It &#383;parkles too: hangs out Diamonds.</l>
+                                <l>O my &#383;weet heart, how I will hug thee,</l>
+                                <l>Again, and again! They are poor drunkards,</l>
+                                <l>And not worth thy favours,</l>
+                                <l>That number thy moy&#383;t ki&#383;&#383;es in the&#383;e
+                                    Chri&#383;tals.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp739">
+                            <speaker>Ma&#383;t.</speaker>
+                            <lg>
+                                <l>But Moun&#383;iuer,</l>
+                                <l>Here are Suckets, and &#383;weet di&#383;hes.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp740">
+                            <speaker>Tib.</speaker>
+                            <lg>
+                                <l>Tu&#383;h, boys meat,</l>
+                                <l>I am pa&#383;t it; here's &#383;trong food fit for men:</l>
+                                <l>Nectar, old lad. Mi&#383;tris of merry hearts,</l>
+                                <l>Once more I am bold with you.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp741">
+                            <speaker>Ma&#383;t.</speaker>
+                            <lg>
+                                <l>Take heed (man)</l>
+                                <l>Too much will breed di&#383;temper.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp742">
+                            <speaker>Tib.</speaker>
+                            <lg>
+                                <l>Ha&#383;t thou liv'd at Sea</l>
+                                <l>The mo&#383;t part of thy life, where to be &#383;ober</l>
+                                <l>While we have Wine aboord, is capitall trea&#383;on;</l>
+                                <l>And do&#383;t thou preach &#383;obriety?</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp743">
+                            <speaker>Ma&#383;t.</speaker>
+                            <lg>
+                                <l>prethee forbeare,</l>
+                                <l>We may offend in it; we know not for whom</l>
+                                <l>It was provided.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp744">
+                            <speaker>Tib.</speaker>
+                            <lg>
+                                <l>I am &#383;ure for me: therefore footra,</l>
+                                <l>When I am full, let 'em hang me, I care not.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp745">
+                            <speaker>Ma&#383;t.</speaker>
+                            <lg>
+                                <l>This has been his temper ever. <stage type="entrance"
+                                        place="right">Enter Albert, <lb/>Aminta, <lb/>Raymond,
+                                        <lb/>Lamure, <lb/>Mor-<lb/>rillat, <lb/>Franvile,
+                                        <lb/>&#383;everally.</stage></l>
+                                <l>See, provoking di&#383;hes, candid Eringoes,</l>
+                                <l>And Potatoes.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp746">
+                            <speaker>Tib.</speaker>
+                            <lg>
+                                <l>Ile not touch 'em, I will drink;</l>
+                                <l>But not a bit on a march, Ile be an Eunuch rather.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp747">
+                            <speaker>Ma&#383;t.</speaker>
+                            <lg>
+                                <l>Who are the&#383;e?</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp748">
+                            <speaker>Tib.</speaker>
+                            <lg>
+                                <l>Marry, who you will;</l>
+                                <l>I keep my text here.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp749">
+                            <speaker>Alb.</speaker>
+                            <lg>
+                                <l><persName ref="#ray">Raymond</persName>!</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp750">
+                            <speaker>Raym.</speaker>
+                            <lg>
+                                <l><persName ref="#alb">Albert</persName>!</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp751">
+                            <speaker>Tib.</speaker>
+                            <lg>
+                                <l>Away, Ile be drunke alone;</l>
+                                <l>Keep off rogues, or Ile belch ye into ayre;</l>
+                                <l>Not a drop here.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp752">
+                            <speaker>Amin.</speaker>
+                            <lg>
+                                <l>Deere brother, put not in your eyes &#383;uch anger;</l>
+                                <l>Tho&#383;e looks poy&#383;on'd with fury &#383;hot at him,</l>
+                                <l>Reflect on me. O brother looke milder, or</l>
+                                <l>The Chri&#383;tall of his temperance</l>
+                                <l>Will turn 'em on your &#383;elfe.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp753">
+                            <speaker>Alb.</speaker>
+                            <lg>
+                                <l>Sir, I have &#383;ought ye long</l>
+                                <l>To finde your pardon: you have ploughed the Ocean</l>
+                                <cb n="2"/>
+                                <l>To wreak your vengeance on me, for the rape</l>
+                                <l>Of this faire virgin. Now our fortune guides us</l>
+                                <l>To meet on &#383;uch hard terms, that we need rather</l>
+                                <l>A mutuall pitty of our pre&#383;ent &#383;tate,</l>
+                                <l>Then to expo&#383;tulate of breaches pa&#383;t,</l>
+                                <l>Which cannot be made up. And though it be</l>
+                                <l>Far from your power to force me to confe&#383;&#383;e,</l>
+                                <l>That I have done ye wrong, or &#383;uch
+                                    &#383;ubmi&#383;&#383;ion</l>
+                                <l>Failing to make my peace, to vent your anger;</l>
+                                <l>You being your &#383;elfe &#383;lav'd, as I to others:</l>
+                                <l>Yet for your &#383;i&#383;ters &#383;ake, her ble&#383;&#383;ed
+                                    &#383;ake,</l>
+                                <l>In part of recompence of what &#383;he has &#383;uffered</l>
+                                <l>For my ra&#383;h folly; the contagion</l>
+                                <l>Of my black actions catching hold upon</l>
+                                <l>Her purer innocence: I crave your mercy,</l>
+                                <l>And wi&#383;h however &#383;everall motives kept us</l>
+                                <l>From being friends while we had hope to live,</l>
+                                <l>Let death which we expect, and cannot fly from,</l>
+                                <l>End all contention.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp754">
+                            <speaker>Tib.</speaker>
+                            <lg>
+                                <l>Drink upon't, 'tis a good motion;</l>
+                                <l>Ratifie it in Wine, and tis authenticall.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp755">
+                            <speaker>Raym.</speaker>
+                            <lg>
+                                <l>When I con&#383;ider</l>
+                                <l>The ground of our long difference, and look on</l>
+                                <l>Our not to be avoyded mi&#383;eries,</l>
+                                <l>It doth beget in me I know not how</l>
+                                <l>A &#383;oft religious tenderne&#383;&#383;e; which tels me,</l>
+                                <l>Though we have many faults to an&#383;wer for</l>
+                                <l>Upon our own account, our fathers crimes</l>
+                                <l>Are in us puni&#383;ht. O <persName ref="#alb">Albert</persName>,
+                                    the cour&#383;e</l>
+                                <l>They took to leave us rich was not hone&#383;t,</l>
+                                <l>Nor can that friend&#383;hip la&#383;t, which vertue joyns
+                                    not.</l>
+                                <l>When fir&#383;t they forc'd the indu&#383;trious Portugals,</l>
+                                <l>From their Plantations in the happy I&#383;lands.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp756">
+                            <speaker>Cro.</speaker>
+                            <lg>
+                                <l>This is that I watch for.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp757">
+                            <speaker>Raym.</speaker>
+                            <lg>
+                                <l>And did omit no tyrrany, which men</l>
+                                <l>Inured to &#383;poyle and mi&#383;chiefe could inflict,</l>
+                                <l>On the griev'd &#383;ufferers; when by lawle&#383;&#383;e
+                                    rapine</l>
+                                <l>They reapt the harve&#383;t, which their labours &#383;owed;</l>
+                                <l>And not content to force 'em from their dwelling,</l>
+                                <l>But layd for 'em at Sea, to ravi&#383;h from 'em</l>
+                                <l>The la&#383;t remainder of their wealth; then, then,</l>
+                                <l>After a long pur&#383;uit, each doubting other,</l>
+                                <l>As guilty of the Portugals e&#383;cape,</l>
+                                <l>They did begin to quarrell, like ill men;</l>
+                                <l>(Forgive me piety, that I call em &#383;o)</l>
+                                <l>No longer love, or corre&#383;pondence holds,</l>
+                                <l>Then it is cimented with prey or profit:</l>
+                                <l>Then did they turn tho&#383;e Swords they oft had bloodied</l>
+                                <l>With innocent gore, upon their wretched &#383;elves,</l>
+                                <l>And payd the forfeit of their cruelty</l>
+                                <l>Shown to <persName ref="#seb">Seba&#383;tian</persName>, and his
+                                    Collonie,</l>
+                                <l>By being fatalI<!--"I" used for "l"--> Enemies to each other.</l>
+                                <l>Thence grew <persName ref="#amin">Amintas</persName> rape, and my
+                                    de&#383;ire</l>
+                                <l>To be reveng'd. And now ob&#383;erve the i&#383;&#383;ue:</l>
+                                <l>As they for &#383;poyle ever forgot compa&#383;&#383;ion</l>
+                                <l>To women, (who &#383;hould be exempted</l>
+                                <l>From the extremities of lawfull war)</l>
+                                <l>We now, young able men, are faln into</l>
+                                <l>The hands of women; that, again&#383;t the &#383;oft</l>
+                                <l>Tenderne&#383;&#383;e familiar to their &#383;ex, <stage
+                                        type="entrance" place="right">Enter Crocale.</stage></l>
+                                <l>Will &#383;hew no mercy.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp758">
+                            <speaker>Cro.</speaker>
+                            <lg>
+                                <l>None, unle&#383;&#383;e you &#383;hew us</l>
+                                <l>Our long lo&#383;t husbands.</l>
+                                <l>We are tho&#383;e Potugals you talk'd of.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp759">
+                            <speaker>Raym.</speaker>
+                            <lg>
+                                <l>Stay,</l>
+                                <l>I met upon the Sea in a tall &#383;hip</l>
+                                <l>Two Portugals, fami&#383;ht almo&#383;t to death.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp760">
+                            <speaker>Tib.</speaker>
+                            <lg>
+                                <l>Our &#383;hip by this Wine.</l>
+                                <fw type="sig">Ccccc</fw>
+                                <fw type="catch">And</fw>
+                                <pb n="TSV-018"
+                                    facs="https://digital.libraries.psu.edu/digital/api/singleitem/image/emblem/4832/default.jpg"/>
+                                <fw type="pageNum">18</fw>
+                                <cb n="1"/>
+                                <l>And tho&#383;e the rogues that &#383;tole her,</l>
+                                <l>Left us to fami&#383;h in the barraine I&#383;lands.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp761">
+                            <speaker>Ray.</speaker>
+                            <lg>
+                                <l>Some &#383;uch tale they told me,</l>
+                                <l>And &#383;omething of a woman, which I find,</l>
+                                <l>To be my &#383;i&#383;ter.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp762">
+                            <speaker>Cro.</speaker>
+                            <lg>
+                                <l>Where are the&#383;e men?</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp763">
+                            <speaker>Ray.</speaker>
+                            <lg>
+                                <l>I left 'em,</l>
+                                <l>Suppo&#383;ing they had deluded me with forg'd tales,</l>
+                                <l>In the I&#383;land where they &#383;ayd</l>
+                                <l>They had liv'd many years the wretched owners</l>
+                                <l>Of a huge ma&#383;&#383;e of trea&#383;ure.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp764">
+                            <speaker>Alb.</speaker>
+                            <lg>
+                                <l>The &#383;ame men: and that the fatall muck</l>
+                                <l>We quarreld for.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp765">
+                            <speaker>Cro.</speaker>
+                            <lg>
+                                <l>They were Portugals you &#383;ay.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp766">
+                            <speaker>Ray.</speaker>
+                            <lg>
+                                <l>So they profes'd.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp767">
+                            <speaker>Cro.</speaker>
+                            <lg>
+                                <l>They may prove &#383;uch men as may &#383;ave your lives,</l>
+                                <l>And &#383;o much I am taken with faire hope,</l>
+                                <l>That I will hazard life to be re&#383;olv'd on't:</l>
+                                <l>How came you hither?</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp768">
+                            <speaker>Ray.</speaker>
+                            <lg>
+                                <l>My &#383;hip lies by the rivers mouth,</l>
+                                <l>That can convey yee to the&#383;e wretched men,</l>
+                                <l>Which you de&#383;ire to &#383;ee.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp769">
+                            <speaker>Cro.</speaker>
+                            <lg>
+                                <l>Back to your pri&#383;ons,</l>
+                                <l>And pray for the &#383;ucce&#383;&#383;e: if they be
+                                    tho&#383;e</l>
+                                <l>Which I de&#383;ire to finde, you are &#383;afe;</l>
+                                <l>If not, prepare to die to morrow:</l>
+                                <!--spacing ambiguity: possibly "tomorrow"-->
+                                <l>For the world cannot redeem ye.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp770">
+                            <speaker><hi rend="roman">A</hi>lb.</speaker>
+                            <lg>
+                                <l>How ever, we are armd</l>
+                                <l>For either fortune. <stage type="exit" place="right"
+                                        >Exit.</stage></l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp771">
+                            <speaker>Ti.</speaker>
+                            <lg>
+                                <l>What mu&#383;t become of me now</l>
+                                <l>That I am not di&#383;mis'd?</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp772">
+                            <speaker>Cro.</speaker>
+                            <lg>
+                                <l>O &#383;ir, I purpo&#383;e</l>
+                                <l>To have your company.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp773">
+                            <speaker>Ti.</speaker>
+                            <lg>
+                                <l>Take heed wicked woman,</l>
+                                <l>I am apt to mi&#383;chiefe now.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp774">
+                            <speaker>Cro.</speaker>
+                            <lg>
+                                <l>You cannot be &#383;o unkind,</l>
+                                <l>To her that gives you liberty.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp775">
+                            <speaker>Ti.</speaker>
+                            <lg>
+                                <l>No, I &#383;hall be too kind, thats the devil on't;</l>
+                                <l>I have had &#383;tore of good wine: and when I am drunk,</l>
+                                <l><name>Joane</name> is a Lady to me, and I &#383;hall</l>
+                                <l>Lay about me like a Lord: I feele &#383;trange motions:</l>
+                                <l>Avoid me temptation.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp776">
+                            <speaker>Cro.</speaker>
+                            <lg>
+                                <l>Come &#383;ir, i'le help yee in. <stage type="exit" place="right"
+                                        >Exeunt.</stage></l>
+                            </lg>
+                        </sp>
+                        <stage type="entrance" place="center">Enter Seba&#383;tian, and
+                            Nicu&#383;a.</stage>
+                        <sp xml:id="sp777">
+                            <speaker>Nicu.</speaker>
+                            <lg>
+                                <l>VVhat may that be</l>
+                                <l>That mooves upon the Lake?</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp778">
+                            <speaker>Seba.</speaker>
+                            <lg>
+                                <l>Still it drawes neerer,</l>
+                                <l>And now I plainly can de&#383;cerne it.</l>
+                                <l>Tis the French &#383;hip.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp779">
+                            <speaker>Nicu.</speaker>
+                            <lg>
+                                <l>In it a woman,</l>
+                                <l>VVho &#383;eemes to invite us to her,</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp780">
+                            <speaker>Seba.</speaker>
+                            <lg>
+                                <l>Still &#383;he cals with &#383;ignes of Love to ha&#383;ten to
+                                    her;</l>
+                                <l>So lovely hope doth &#383;till appeare:</l>
+                                <l>I feele nor age nor weakne&#383;&#383;e.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp781">
+                            <speaker>Nicu.</speaker>
+                            <lg>
+                                <l>Though it bring death,</l>
+                                <l>To us tis comfort: and de&#383;erves a meeting.</l>
+                                <l>Or els fortune tyrd with what we have &#383;uffer'd,</l>
+                                <l>And in it overcome, as it may be,</l>
+                                <l>Now &#383;ets a period to our mi&#383;ery. <stage type="exit"
+                                        place="right">Exeunt.</stage></l>
+                            </lg>
+                        </sp>
+                        <stage type="entrance" place="center">Enter &#383;everally, Raymond,
+                            <lb/>Albert, Aminta.</stage>
+                        <stage type="business" place="right">horrid <lb/>Mu&#383;icke.</stage>
+                        <sp xml:id="sp782">
+                            <speaker>Ray.</speaker>
+                            <lg>
+                                <l>What dreadfull &#383;ounds are the&#383;e?</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp783">
+                            <speaker>Amin.</speaker>
+                            <!--confirmed: faded period after speech prefix confirmed using NWU copy-->
+                            <lg>
+                                <l>Infernall Mu&#383;ick,</l>
+                                <l>Fit for a bloody Fea&#383;t.</l>
+                            </lg>
+                        </sp>
+                        <cb n="2"/>
+                        <sp xml:id="sp784">
+                            <speaker>Alb.</speaker>
+                            <lg>
+                                <l>It &#383;eemes prepar'd</l>
+                                <l>To kill our courages, e're they divor&#383;e</l>
+                                <l>Our &#383;oules and bodies.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp785">
+                            <speaker>Ray.</speaker>
+                            <lg>
+                                <l>But they that fearele&#383;&#383;e fall,</l>
+                                <l>Deprive them of their triumph.</l>
+                            </lg>
+                        </sp>
+                        <stage type="business" place="right">An alter prepar'd.</stage>
+                        <stage type="entrance" place="center">Enter Ro&#383;&#383;illia, Clarinda,
+                            Iulletta, Hippollitta, &#38;c.</stage>
+                        <sp xml:id="sp786">
+                            <speaker>Aminta</speaker>
+                            <lg>
+                                <l>See the furies,</l>
+                                <l>In their full Trym of cruelty.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp787">
+                            <speaker>Ro&#383;.</speaker>
+                            <lg>
+                                <l>Tis the la&#383;t</l>
+                                <l>Duty that I can pay to my dead Lord,</l>
+                                <l>Set out the Altar, I my &#383;elfe wilbe</l>
+                                <l>The Prie&#383;t, and boldly do tho&#383;e horrid Rites</l>
+                                <l>You &#383;hake to think on: lead the&#383;e Captaines neerer,</l>
+                                <l>For they &#383;hall have the honour to fall fir&#383;t</l>
+                                <l>To my <persName ref="#seb">Seba&#383;tians</persName> a&#383;hes:
+                                    and now wretches,</l>
+                                <l>As I am taught already that you are,</l>
+                                <l>And lately by your free confe&#383;&#383;ion,</l>
+                                <!--confirmed: faded comma following "confession" confirmed using NWU copy-->
+                                <l>French pirats, and the &#383;ons of tho&#383;e I hate,</l>
+                                <l>Even equall with the devil; here with horror,</l>
+                                <l>What tis invites me to this cruell cour&#383;e,</l>
+                                <l>And what you are to &#383;uffer; no Amazons we,</l>
+                                <l>But women of <placeName>Portugall</placeName>, that mu&#383;t
+                                    have from you</l>
+                                <l><persName ref="#seb">Seba&#383;tian</persName> and <persName
+                                        ref="#nic">Nicu&#383;a</persName>; we are they</l>
+                                <l>That groan'd beneath your fathers wrongs:</l>
+                                <l>VVe are tho&#383;e wretched women,</l>
+                                <l>Their injuries pur&#383;u'd, and overtook;</l>
+                                <l>And from the &#383;ad remembrance of our lo&#383;&#383;es</l>
+                                <l>We are taught to be cruell; when we were forc'd</l>
+                                <l>From that &#383;weet ayre we breathed in, by their rapine,</l>
+                                <l>And &#383;ought a place of being; as the Seas</l>
+                                <l>And winds con&#383;pird with their ill purpo&#383;&#383;es,</l>
+                                <l>To load us with afflictions, in a &#383;torme</l>
+                                <l>That fell upon us; the two &#383;hips that brought us,</l>
+                                <l>To &#383;eek new fortunes in an unknown world</l>
+                                <l>Were &#383;evered: the one bore all the able men,</l>
+                                <l>Our trea&#383;ure and our Jewels; in the other,</l>
+                                <l>We women were imbarq'd: and fell upon,</l>
+                                <l>After long to&#383;&#383;ing in the troubled maine,</l>
+                                <l>This plea&#383;ant I&#383;land: But in few moneths,</l>
+                                <l>The men that did conduct us hither died,</l>
+                                <l>We long before had given our husbands lo&#383;t:</l>
+                                <l>Remembring what we had &#383;uffred by the French,</l>
+                                <l>We took a &#383;olemn Oath never to admit</l>
+                                <l>The curs'd &#383;ociety of men: nece&#383;&#383;ity</l>
+                                <l>Taught us tho&#383;e arts not u&#383;uall to our &#383;ex:</l>
+                                <l>And the fertile Earth yeelding abundance to us,</l>
+                                <l>We did re&#383;olve thus &#383;hapt like Amazons</l>
+                                <l>To end our lives; but when you ariv'd here,</l>
+                                <l>And brought as pre&#383;ents to us our own Jewels;</l>
+                                <l>Tho&#383;e which were boorn in the other &#383;hip,</l>
+                                <l>How can ye hope to &#383;cape our vengeance?</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp788">
+                            <speaker>Amin.</speaker>
+                            <lg>
+                                <l>It boots not then to &#383;wear our inocence?</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp789">
+                            <speaker>Alb.</speaker>
+                            <lg>
+                                <l>Or that we never forc'd it from the owners?</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp790">
+                            <speaker>Ray.</speaker>
+                            <lg>
+                                <l>Or that there are a remnant of that wrack,</l>
+                                <l>And not far off?</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp791">
+                            <speaker>Ro&#383;.</speaker>
+                            <lg>
+                                <l>All you affirme, I know,</l>
+                                <l>Is but to win time; therefore prepare your throats,</l>
+                                <l>The world &#383;hall not redeem ye: and that your cries</l>
+                                <l>May find no entrance to our eares,</l>
+                                <l>To moove pitty in any: bid lowd Mu&#383;ick &#383;ound</l>
+                                <l>Their fatall Knels: if ye have prayers u&#383;e 'em quickly,</l>
+                                <l>To any power will own yea; but ha! <stage type="entrance"
+                                        place="right">Enter Crocale, <lb/>Seba&#383;tian,
+                                        <lb/>Nicu&#383;a, <lb/>Tibalt.</stage></l>
+                                <l>Who are the&#383;e? what &#383;pectacles of misfortun?</l>
+                                <l>Why are their looks</l>
+                                <l>So full of Joy and wonder?</l>
+                            </lg>
+                        </sp>
+                        <fw type="catch">
+                            <hi rend="italic">Cro.</hi>
+                        </fw>
+                        <pb n="TSV-019"
+                            facs="https://digital.libraries.psu.edu/digital/api/singleitem/image/emblem/4833/default.jpg"/>
+                        <fw type="pageNum">19</fw>
+                        <cb n="1"/>
+                        <sp xml:id="sp792">
+                            <speaker>Cro.</speaker>
+                            <lg>
+                                <l>Oh! lay by</l>
+                                <l>The&#383;e in&#383;truments of death, and welcome</l>
+                                <l>To your armes what you dur&#383;t never hope to imbrace:</l>
+                                <l>This is <persName ref="#seb">Seba&#383;tian</persName>, this
+                                        <persName ref="#nic">Nicu&#383;a</persName> Maddam:</l>
+                                <l>Pre&#383;erv'd by miracle: look up deer &#383;ir,</l>
+                                <l>And know your own <persName ref="#ros"
+                                        >Ro&#383;&#383;ellia</persName><hi rend="italic">:</hi> be
+                                    not lo&#383;t</l>
+                                <l>In wonder and amazment; or if nature</l>
+                                <l>Can by in&#383;tinct in&#383;truct you what it is,</l>
+                                <l>To be ble&#383;&#383;ed with the name of Father,</l>
+                                <l>Freely injoy it in this faire Virgin.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp793">
+                            <speaker>Seba.</speaker>
+                            <lg>
+                                <l>Though my mi&#383;eries,</l>
+                                <l>And many years of wants, I have indur'd,</l>
+                                <l>May well deprave me of the memory</l>
+                                <l>Of all joyes pa&#383;t; yet looking on this building,</l>
+                                <l>This ruind building of a heavenly forme</l>
+                                <l>In my <persName ref="#ros">Ro&#383;&#383;ella</persName>; I
+                                    mu&#383;t remember, I am <persName ref="#seb"
+                                        >Seba&#383;tian</persName>.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp794">
+                            <speaker>Ro&#383;.</speaker>
+                            <lg>
+                                <l>O my joyes!</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp795">
+                            <speaker>Seba.</speaker>
+                            <lg>
+                                <l>And here,</l>
+                                <l>I &#383;ee a perfect modell of thy &#383;elfe,</l>
+                                <l>As thou wert when thy choyce fir&#383;t made thee mine:</l>
+                                <l>The&#383;e cheecks and fronts though wrinkled now with <lb
+                                        rend="turnunder"/>time</l>
+                                <l>Which art cannot re&#383;tore<hi rend="italic">:</hi> had equall
+                                    purene&#383;&#383;e,</l>
+                                <l>Of naturall white and red, and as much ravi&#383;hing:</l>
+                                <l>Which by fayre order and &#383;ucce&#383;&#383;ion,</l>
+                                <l>I &#383;ee de&#383;cend on her: and may thy vertues</l>
+                                <l>Winde into her forme, and make her a perfect dower:</l>
+                                <l>No part of thy &#383;weet goodne&#383;&#383;e wanting to her.</l>
+                                <l>I will not now <persName ref="#ros"
+                                        >Ro&#383;&#383;ellia</persName> aske thy fortunes,</l>
+                                <l>Nor trouble thee with hearing mine;</l>
+                                <l>Tho&#383;e &#383;hall hereafter &#383;erve to make glad
+                                    howers</l>
+                                <cb n="2"/>
+                                <l>In their relation: All pa&#383;t wrongs forgot;</l>
+                                <l>I am glad to &#383;ee you Gentlemen; but most,</l>
+                                <l>That it is in my power to &#383;ave your Lives;</l>
+                                <l>You &#383;av'd ours when we were neer &#383;tarv'd at Sea,</l>
+                                <l>And I de&#383;paire not, for if &#383;he be mine?</l>
+                                <l><persName ref="#ros">Ro&#383;sellia</persName> can deny <persName
+                                        ref="#seb">Seba&#383;tian</persName> nothing.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp796">
+                            <speaker>Ro&#383;.</speaker>
+                            <lg>
+                                <l>She do's give up her &#383;elfe,</l>
+                                <l>Her power and joyes, and all, to you,</l>
+                                <l>To be di&#383;charged of 'em as to burthen&#383;ome;</l>
+                                <l>Wellcome in any &#383;hape.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp797">
+                            <speaker>Saba&#383;t.</speaker>
+                            <lg>
+                                <l>Sir in your looks,</l>
+                                <l>I read your &#383;ute of my <persName ref="#cla"
+                                        >Clarinda</persName>: &#383;he is yours:</l>
+                                <l>And Lady if it be in me to confirme</l>
+                                <l>Your hopes in this brave Gentleman,</l>
+                                <l>Pre&#383;ume I am your &#383;ervant.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp798">
+                            <speaker><hi rend="roman">A</hi>lb.</speaker>
+                            <lg>
+                                <l>We thanke you &#383;ir.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp799">
+                            <speaker>Amin.</speaker>
+                            <lg>
+                                <l>O Happy houre!</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp800">
+                            <speaker>Alb.</speaker>
+                            <lg>
+                                <l>O my deer <persName ref="#amin"><hi rend="roman"
+                                        >A</hi>minta</persName>;</l>
+                                <l>Now all our feares are ended.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp801">
+                            <speaker>Tib.</speaker>
+                            <lg>
+                                <l>Here I fix: &#383;he's mettle,</l>
+                                <l>Steele to the back: and will cut my leaden dagger,</l>
+                                <l>If not u&#383;'d with di&#383;cretion.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp802">
+                            <speaker>Cro.</speaker>
+                            <lg>
+                                <l>You are &#383;till no changling.</l>
+                            </lg>
+                        </sp>
+                        <sp xml:id="sp803">
+                            <speaker>Saba&#383;t.</speaker>
+                            <lg>
+                                <l>Nay,</l>
+                                <l>All look cheerfully, for none &#383;halbe</l>
+                                <l>Denyd their lawfull wi&#383;hes; when a while</l>
+                                <l>We have here refre&#383;ht our &#383;elves; wee'l returne</l>
+                                <l>To our &#383;everall homes; and well that voyage ends,</l>
+                                <l>That makes of deady enemies faythfull friends.</l>
+                            </lg>
+                        </sp>
+                        <stage type="exit" place="right">Exeunt</stage>
+                    </div>
+                </div>
+      </body>
+  </text>
+</TEI>
