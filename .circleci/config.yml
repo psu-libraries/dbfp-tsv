@@ -1,0 +1,111 @@
+version: 2.1
+
+orbs:
+  docker: circleci/docker@1.3.0
+
+jobs:
+  release_image:
+    docker:
+      - image: harbor.k8s.libraries.psu.edu/library/ci-utils:$CI_UTILS_IMG_TAG
+    environment:
+      REGISTRY_HOST: harbor.k8s.libraries.psu.edu
+      DOCKER_USERNAME: 'robot$circleci'
+      GITHUB_USER: 'psu-stewardship-bot'
+      CONFIG_REPO: git@github.com:psu-libraries/dbfp-config.git
+    steps:
+      - add_ssh_keys
+      - checkout
+      - run:
+          name: "Release"
+          command: |
+            export REGISTRY_REPO="library/$CIRCLE_PROJECT_REPONAME"
+            /usr/local/bin/tag-image
+            ssh-keyscan github.com > ~/.ssh/known_hosts
+            git clone $CONFIG_REPO
+            cd dbfp-config
+            /usr/local/bin/pr-release clusters/prod/manifests/$CIRCLE_PROJECT_REPONAME/prod.yaml
+
+  build-and-push:
+    parameters:
+      version:
+        type: string
+    executor: docker/docker
+    environment:
+      REGISTRY_HOST: harbor.k8s.libraries.psu.edu
+      DOCKER_LOGIN: 'robot$circleci'
+    steps:
+    - setup_remote_docker
+    - checkout
+    - docker/check:
+        registry: $REGISTRY_HOST
+    - docker/build:
+        image: "library/$CIRCLE_PROJECT_REPONAME"
+        registry: $REGISTRY_HOST
+        tag: << parameters.version >>
+    - docker/push:
+        registry: $REGISTRY_HOST
+        image: "library/$CIRCLE_PROJECT_REPONAME"
+        tag: << parameters.version >>
+  deploy:
+    docker:
+      - image: harbor.k8s.libraries.psu.edu/library/ci-utils:$CI_UTILS_IMG_TAG
+    environment:
+      CONFIG_REPO: git@github.com:psu-libraries/dbfp-config.git
+    parameters:
+      config_env:
+        type: string
+    steps:
+      - add_ssh_keys
+      - checkout
+      - run:
+          name: "Updating Config Repo"
+          command: |
+            export CONFIG_ENV=<< parameters.config_env >>
+            ssh-keyscan github.com > ~/.ssh/known_hosts
+            git clone $CONFIG_REPO
+            cd dbfp-config
+            ./bin/generate_app
+
+workflows:
+  dbfp_tsv_jobs:
+    jobs:
+      - release_image:
+          context:
+            - dbfp
+          name: "release image"
+          filters:
+            tags:
+              only:
+                - /^v\d+.\d+.\d+.*/
+            branches:
+              ignore:
+                  - /.*/
+      - build-and-push:
+          context:
+            - dbfp
+          version: "$CIRCLE_SHA1"
+          filters:
+            branches:
+              only:
+                - main
+                - /preview\/.*/
+      - deploy:
+          context:
+            - dbfp
+          config_env: qa
+          requires:
+            - build-and-push
+          filters:
+            branches:
+              only:
+                - main
+      - deploy:
+          context:
+            - dbfp
+          config_env: dev
+          requires:
+            - build-and-push
+          filters:
+            branches:
+              only:
+                - /preview\/.*/
