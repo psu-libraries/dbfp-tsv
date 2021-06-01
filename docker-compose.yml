@@ -1,0 +1,13 @@
+version: '3.2'
+
+services:
+
+  dbfp:
+    build:
+      context: .
+      target: dev
+    ports:
+      - 8080:8080
+    volumes:
+      - ./src:/app-dev/src
+    restart: always
