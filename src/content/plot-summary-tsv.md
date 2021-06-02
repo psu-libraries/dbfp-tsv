@@ -27,7 +27,7 @@ order: 14
 <p><span>Clarinda discovers Aminta and Albert embracing and bids the other women bind Aminta to a tree. Raymond suddenly arrives and recognizes his sister Aminta, but his failure to take arms against women leads to his capture too. </span><br/></p>
 <h2 id="header-86176e36-b7ef-aa41-fd08-c208dfbd3a46"><span>Act 5, Scene 1</span><br/></h2>
 <p><span>Rosella instructs the other women to eavesdrop on the Frenchmen to confirm the details of their guilt and whether Raymond is in league with them.  </span><br/></p>
-<h2 id="header-31814fa7-cf53-4310-62bf-869f67e4c7bb"><br/><span>Act 5, Scene 2</span><br/></h2>
+<h2 id="header-31814fa7-cf53-4310-62bf-869f67e4c7bb"><span>Act 5, Scene 2</span><br/></h2>
 <p><span>The women set out a feast of food and drink to lure the Frenchmen into revealing their pasts while Crocale eavesdrops. Tibalt quickly falls to drinking copious amounts of wine. Raymond is reunited with Aminta and Albert, and Albert seeks forgiveness from Raymond for his abduction of Aminta. Crocale overhears these partial histories and bursts onto the scene when she's heard enough to suspect that the men Raymond says he encountered may be her long-lost Portuguese kinsmen. Last on stage, a very drunk Tibalt flirts with Crocale. </span><br/></p>
 <h2 id="header-f445df3f-3ae4-b0a0-4bba-77c457766d58"><span>Act 5, Scene 3</span><br/></h2>
 <p><span>Sebastian and Nicusa spy an approaching ship helmed by Crocale coming to bring them to the fertile island. </span><br/></p>
