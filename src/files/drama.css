@@ -774,6 +774,7 @@ tei-l {
   display: block;
   width: 90%;
   padding-left: 6em;
+  scroll-margin-top: 40px;
 }
 tei-l[data-lineno]:before {
   content: attr(data-lineno);
