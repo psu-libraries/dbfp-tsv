@@ -775,6 +775,7 @@ tei-l {
   width: 90%;
   padding-left: 6em;
   scroll-margin-top: 40px;
+  text-indent: -40px;
 }
 tei-l[data-lineno]:before {
   content: attr(data-lineno);
@@ -784,9 +785,13 @@ tei-l[data-lineno]:before {
 tei-l:hover {
   background-color: #dedede;
 }
+tei-l a {
+  text-indent: 0;
+}
 tei-l paper-icon-button {
   visibility: collapse;
   margin-top: -0.6em;
+  text-indent: 0;
   /* right-side line link
   position: absolute;
   right: 9em; */
