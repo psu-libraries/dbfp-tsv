@@ -1086,7 +1086,7 @@ tei-musicNotation:before {
 }
 /* n */
 tei-name {
-  /* Empty Rule Set */
+  font-weight: 900;
 }
 tei-nameLink {
   /* Empty Rule Set */
@@ -1662,6 +1662,7 @@ tei-stage {
   margin-bottom: 0em;
   padding-top: 0;
   padding-bottom: 0;
+  text-indent: 0;
   font-style: italic;
 }
 tei-stage:not([place]){
