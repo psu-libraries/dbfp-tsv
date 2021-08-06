@@ -1,5 +1,5 @@
 ---
-title: The Sea Voyage Act 5 - Base Text
+title: The Sea Voyage Act 5 - Folio Base Text
 key: tsv-bt-act05
 parent: tsv-bt
 order: 50
