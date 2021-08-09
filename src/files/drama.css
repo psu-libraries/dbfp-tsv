@@ -1220,11 +1220,8 @@ tei-pb {
   font-size: 11pt;
 }
 tei-pb {
-  /* this needs to be updated */
-  --paper-icon-button: {
-    height: 50px;
-    width: 50px;
-}
+  --simple-icon-width: 50px;
+  --simple-icon-height: 50px;
 }
 /*
 tei-pb:before {
