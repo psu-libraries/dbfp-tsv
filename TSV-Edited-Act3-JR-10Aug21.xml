@@ -1,0 +1,2009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Sea Voyage</title>
+                <author>John Fletcher and Philip Massinger</author>
+                <respStmt>
+                    <resp>Editor in Chief</resp>
+                    <name xml:id="cmlb">Claire M. L. Bourne</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Project Manager</resp>
+                    <name xml:id="hf">Heather Froehlich</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding Consultant</resp>
+                    <name xml:id="jr">John Russell</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Graduate Assistant</resp>
+                    <name xml:id="dl" when="2019-08-26">David LeBlanc</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Annotator(s)</resp>
+                    <name xml:id="formerOwner">Former Owner - Author of Handwritten
+                        Annotations</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Published by the Open Publishing Unit of The Pennsylvania State University
+                    Libraries.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Francis Beaumont</author>
+                        <author>John Fletcher</author>
+                        <title>Comedies and Tragedies Written by Francis Beavmont and Iohn Fletcher,
+                            Gentlemen. Never printed before, And now published by the Authours
+                            Originall Copies.</title>
+                        <imprint>
+                            <publisher>Humphrey Robinson</publisher>
+                            <pubPlace>the three Pidgeons</pubPlace>
+                            <publisher>Humphrey Moseley</publisher>
+                            <pubPlace>The Princes Armes in St. Pauls Church-yard</pubPlace>
+                            <date>1647</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p></p>
+        </encodingDesc>
+    </teiHeader>
+  <text>
+      <front>
+          <head>This cast list has been adapted from the 1679 folio edition of Beaumont and
+              Fletcher's <hi rend="italic">Fifty Comedies and Tragedies</hi>. Spelling has been
+              regularized based on how names appear in the dialogue, and new descriptions have
+              been supplied.</head>
+          <castList>
+              <castGroup>
+                  <head>MEN</head>
+                  <castItem>
+                      <role xml:id="alb">Albert</role>
+                      <roleDesc>French pirate; Aminta's kidnapper</roleDesc>
+                  </castItem>
+                  <castItem>
+                      <role xml:id="mast">Master of the Ship (Shipmaster)</role>
+                      <roleDesc>French pirate</roleDesc>
+                  </castItem>
+                  <castItem>
+                      <role xml:id="boat">Boatswain</role>
+                      <roleDesc>ship's officer in charge of equipment and the crew</roleDesc>
+                  </castItem>
+                  <castItem>
+                      <role xml:id="sur">Surgeon</role>
+                      <roleDesc>French; member of the crew</roleDesc>
+                  </castItem>
+                  <castItem>
+                      <role xml:id="seb">Sebastian</role>
+                      <roleDesc>Portuguese; stranded nobleman</roleDesc>
+                  </castItem>
+                  <castItem>
+                      <role xml:id="nic">Nicusa</role>
+                      <roleDesc>Portuguese; stranded nobleman</roleDesc>
+                  </castItem>
+                  <castItem>
+                      <role xml:id="ray">Raymond</role>
+                      <roleDesc>French; Aminta's brother</roleDesc>
+                  </castItem>
+                  <castGroup xml:id="sails">
+                      <head>Sailors</head>
+                      <castItem>
+                          <role xml:id="sail1">Sailor 1</role>
+                      </castItem>
+                      <castItem>
+                          <role xml:id="sail2">Sailor 2</role>
+                      </castItem>
+                  </castGroup>
+                  <castGroup xml:id="gents">
+                      <head>Gentlemen</head>
+                      <castItem>
+                          <role xml:id="tib">Tibalt du-Pont</role>
+                          <roleDesc>first mate; French pirate</roleDesc>
+                      </castItem>
+                      <castItem>
+                          <role xml:id="lam">Lamure</role>
+                          <roleDesc>French Lord looking to buy land and lordship in a new country; banished from his country</roleDesc>
+                      </castItem>
+                      <castItem>
+                          <role xml:id="fran">Franville</role>
+                          <roleDesc>French lord</roleDesc>
+                      </castItem>
+                      <castItem>
+                          <role xml:id="mor">Morillat</role>
+                          <roleDesc>French lord</roleDesc>
+                      </castItem>
+                  </castGroup>
+              </castGroup>
+              <castGroup>
+                  <head>WOMEN</head>
+                  <castItem>
+                      <role xml:id="amin">Aminta</role>
+                      <roleDesc>a woman aboard the ship; under the protection of Albert</roleDesc>
+                  </castItem>
+                  <castItem>
+                      <role xml:id="ros">Rosella</role>
+                      <roleDesc>leader of the female commonwealth; a firm protector of the
+                          commonwealth</roleDesc>
+                  </castItem>
+                  <castItem>
+                      <role xml:id="cla">Clarinda</role>
+                      <roleDesc>daughter of Rosella; raised by only women (aka, the
+                          commonwealth)</roleDesc>
+                  </castItem>
+                  <castItem>
+                      <role xml:id="hip">Hippolita</role>
+                      <roleDesc>member of Rosella's commonwealth</roleDesc>
+                  </castItem>
+                  <castItem>
+                      <role xml:id="cro">Crocale</role>
+                      <roleDesc>member of Rosella's commonwealth</roleDesc>
+                  </castItem>
+                  <castItem>
+                      <role xml:id="jul">Juletta</role>
+                      <roleDesc>member of Rosella's commonwealth</roleDesc>
+                  </castItem>
+              </castGroup>
+          </castList>
+      </front>
+      <body>
+         <div xml:id="TSV-act3" type="act" n="3">
+                    <div xml:id="TSV-act3s1" type="scene" n="1">
+                        <head>
+                            <hi rend="italic">Act 3, Scene 1</hi>
+                        </head>
+                        <stage type="entrance" place="center" who="#lam #fran #mor">Enter 
+                            <persName ref="#lam">Lamure</persName>, 
+                            <persName ref="#fran">Franville</persName>, and 
+                            <persName ref="#mor">Morillat</persName>.</stage>
+                        <sp who="#lam" xml:id="TSV-sp308">
+                            <speaker>Lamure</speaker>
+                            <lg>
+                                <l>Oh what a tempest have I in my <seg resp="#student" ana="#food">stomach</seg>!</l>
+                                <l>How my <seg resp="#student" ana="#food">empty guts</seg> cry out!
+                                    My <seg resp="#dl" ana="#object">wounds</seg> ache;</l>
+                                <l>Would they but bleed again that I might get</l>
+                                <l>Something to <seg resp="#student" ana="#food">quench my thirst</seg>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#fran" xml:id="TSV-sp309">
+                            <speaker>Franville</speaker>
+                            <lg>
+                                <l>Oh, <seg resp="#student" ana="#name"><persName ref="#lam">Lamure</persName></seg>, the happiness my dogs had</l>
+                                <l>When I kept house <seg resp="#student" ana="#place">at home</seg>!
+                                    They had a <seg resp="#student" ana="#place">storehouse</seg>,</l>
+                                <l>A <seg resp="#student" ana="#place">storehouse</seg> of most <seg resp="#student" ana="#relig">blessed</seg>
+                                    <seg resp="#student" ana="#food">bones and crusts</seg>,</l>
+                                <l><seg resp="#student" ana="#food">Happy crusts</seg>! Oh! How <seg resp="#student" ana="#food">sharp hunger</seg> pinches
+                                    me!</l>
+                            </lg>
+                        </sp>
+                        <stage type="exit" place="right" who="#fran">Exit <persName ref="#fran">Franville</persName>.</stage>
+                        <sp who="#mor" xml:id="TSV-sp310">
+                            <speaker>Morillat</speaker>
+                            <lg>
+                                <l>Oh, my <seg resp="#student" ana="#food">importunate<note resp="#student" type="gloss">
+                                    <term>importunate</term>: persistently troublesome, urgent</note> belly</seg>, I
+                                    have nothing</l>
+                                <l>To <seg resp="#student" ana="#food">satisfy</seg> thee. I have sought</l>
+                                <l>As far as my weak legs would carry me</l>
+                                <l>Yet can find nothing, neither <seg resp="#student" ana="#food">meat nor water</seg>,</l>
+                                <l>Nor anything that's <seg resp="#student" ana="#food">nourishing</seg>.</l>
+                                <l>My <seg resp="#student" ana="#food">belly's</seg> grown together
+                                    like an empty satchel.</l>
+                            </lg>
+                        </sp>
+                        <stage resp="#student #dl" type="entrance" place="center" who="#fran">Enter
+                                <persName ref="#fran">Franville</persName> holding 
+                                <seg resp="#student #dl" ana="food object">rocks, mud, and other debris</seg>.</stage>
+                        <sp who="#lam" xml:id="TSV-sp311">
+                            <speaker>Lamure</speaker>
+                            <lg>
+                                <l>How now, what news?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#mor" xml:id="TSV-sp312">
+                            <speaker>Morillat</speaker>
+                            <lg>
+                                <l rend="center">Hast any <seg resp="#student" ana="#food">meat</seg> yet?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#fran" xml:id="TSV-sp313">
+                            <speaker>Franville</speaker>
+                            <lg>
+                                <l rend="indent">Not a bit that I can see.</l>
+                                <l>Here be <seg resp="#student" ana="place object">goodly quarries</seg><note resp="#dl" type="gloss">
+                                    <term>quarries</term>: reserves of stone</note>, but they be cruel hard</l>
+                                <l>To <seg resp="#student" ana="#food">gnaw</seg>. I ha' got some
+                                        <seg resp="#student" ana="#food">mud</seg>—we'll <seg resp="#student" ana="#food">eat</seg> it with <seg resp="#student" ana="#object">spoons</seg>—</l>
+                                <l>Very <seg resp="#student" ana="#food">good thick mud</seg>, but it
+                                    stinks <seg resp="#student" ana="#relig">damnably</seg>.</l>
+                                <l>There's old rotten trunks of trees, too,</l>
+                                <l>But not a leaf nor blossom in all the <seg resp="#student" ana="#place">island</seg>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#lam" xml:id="TSV-sp314">
+                            <speaker>Lamure</speaker>
+                            <lg>
+                                <l>How it looks—!</l>
+                            </lg>
+                        </sp>
+                        <sp who="#mor" xml:id="TSV-sp315">
+                            <speaker>Morillat</speaker>
+                            <lg>
+                                <l>It stinks too.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#lam" xml:id="TSV-sp316">
+                            <speaker>Lamure</speaker>
+                            <lg>
+                                <l>It may be poison—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#fran" xml:id="TSV-sp317">
+                            <speaker>Franville</speaker>
+                            <lg>
+                                <l rend="indent">Let it be anything</l>
+                                <l>So I can <seg resp="#student" ana="#food">get it down</seg>. Why,
+                                        <seg resp="#student" ana="#name">man</seg>,</l>
+                                <l>Poison's a <seg resp="#student" ana="#food">princely
+                                        dish</seg>.<note resp="#student" type="context">
+                                        <term>Poison's a princely dish</term>: A possible
+                                        version of the idiom: "one man's poison is another man's
+                                        meat," essentially meaning "people have different tastes" or
+                                        "value is relative." The idiom was used by Beaumont and
+                                        Fletcher's contemporary Thomas Middleton in his 1604 work
+                                        <title>Plato's Cap</title> ("That old moth-eaten
+                                        proverb... One man's meat, is another man's poison"), though
+                                        also by Beaumont himself in <title>Love's Cure</title>,
+                                        which was also published for the first time in the 1647
+                                        folio: "What's one man's poison, Signor, is another's meat
+                                        or drink." In a literal way, the palates of the shipwrecked
+                                        nobles must shift from meat to mud ("poison"). At the same
+                                        time, it may suggest that societal rules/morality are also
+                                        relative: one man's good behavior (meat) is another one's
+                                        bad (poison) and vice versa. But in the context of the
+                                        shipwreck, "poison" suggests a kind of moral suspension: the
+                                        behavior that was once deemed bad in society is no longer
+                                        considered bad on the island.</note></l>
+                            </lg>
+                        </sp>
+                        <sp who="#mor" xml:id="TSV-sp318">
+                            <speaker>Morillat</speaker>
+                            <lg>
+                                <l rend="indent">Hast thou no <seg resp="#student" ana="#food">biscuit</seg>?</l>
+                                <l>No <seg resp="#student" ana="#food">crumbs</seg> left in thy 
+                                    <seg resp="#student" ana="#object">pocket</seg>? Here's my 
+                                    <seg resp="#student" ana="#object">doublet</seg><note resp="#student" type="gloss">
+                                    <term>doublet</term>: close-fitting jacket worn primarily by men</note>:</l>
+                                <l>Give me but <seg resp="#student" ana="#food">three small crumbs</seg>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#fran" xml:id="TSV-sp319">
+                            <speaker>Franville</speaker>
+                            <lg>
+                                <l rend="indent">Not for three kingdoms,</l>
+                                <l>If I were master of 'em. Oh, <seg resp="#student" ana="#name">
+                                    <persName ref="#lam">Lamure</persName></seg>,</l>
+                                <l>But one <seg resp="#student" ana="#food">poor joint of mutton</seg><note resp="#student" type="gloss">
+                                    <term>joint of mutton</term>: portion of meat from an adult sheep,
+                                            often considered less palatable than other meats</note>
+                                    —we have scorned<note resp="#student" type="gloss">
+                                 <term>scorned</term>: acted contemptuously</note>, <seg resp="#student" ana="#name">man</seg>—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#lam" xml:id="TSV-sp320">
+                            <speaker>Lamure</speaker>
+                            <lg>
+                                <l>Thou speakest of <seg resp="#dl" ana="#relig">paradise</seg>—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#fran" xml:id="TSV-sp321">
+                            <speaker>Franville</speaker>
+                            <lg>
+                                <l rend="indent">Or but the <seg resp="#student" ana="#food">snuffs of those healths</seg><note resp="#student" type="gloss">
+                                    <term>snuffs of those healths</term>: dregs of drinks</note>
+                                   </l>
+                                <l>We have lewdly<note resp="#student" type="gloss">
+                                    <term>lewdly</term>: ignorantly, foolishly</note> at midnight flung away!</l>
+                            </lg>
+                        </sp>
+                        <sp who="#mor" xml:id="TSV-sp322">
+                            <speaker>Morillat</speaker>
+                            <lg>
+                                <l>Ah! But to <seg resp="#student" ana="#food">lick the glasses</seg>!</l>
+                            </lg>
+                        </sp>
+                        <stage type="entrance" place="center" who="#sur">Enter <persName ref="#sur">Surgeon</persName>.</stage>
+                        <sp who="#fran" xml:id="TSV-sp323">
+                            <speaker>Franville</speaker>
+                            <lg>
+                                <l>Here comes the <seg resp="#student" ana="#name"><persName ref="#sur">Surgeon</persName></seg>. What</l>
+                                <l>Hast thou discovered? Smile, smile and comfort us.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#sur" xml:id="TSV-sp324">
+                            <speaker>Surgeon</speaker>
+                            <lg>
+                                <l>I am expiring;</l>
+                                <l>Smile, they that can. I can find nothing, <seg resp="#student" ana="#name"><name ref="#gents">gentlemen</name></seg>;</l>
+                                <l>Here's nothing can be <seg resp="#student" ana="#food">meat</seg> without a <seg resp="#student" ana="#relig">miracle</seg>.</l>
+                                <l>Oh, that I had my boxes<note resp="#student" type="gloss">
+                                    <term>boxes</term>: surgical cupping glasses, or possibly lidded cases for ointments</note> and <seg resp="#student" ana="#food">lints</seg><note resp="#student" type="gloss">
+                                    <term>lints</term>: soft materials used for dressing wounds</note> now,</l>
+                                <l>My stupes<note resp="#student" type="gloss">
+                                    <term>stupes</term>: medicinal pieces of cloths used on wounds</note>, my tents<note resp="#student" type="gloss">
+                                    <term>tents</term>: rolls of soft, absorbent material, which were often
+                                        medicated and used to stop wounds from bleeding</note>, and
+                                        those <seg resp="#student" ana="#food">sweet helps of nature</seg>;</l>
+                                <l>What <seg resp="#student" ana="#food">dainty dishes</seg> could I
+                                    make of 'em.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#mor" xml:id="TSV-sp325">
+                            <speaker>Morillat</speaker>
+                            <lg>
+                                <l>Hast near<note resp="#student" type="gloss">
+                                    <term>Hast near</term>: Do you have nearby</note> an 
+                                    <seg resp="#student" ana="#food">old suppository</seg><note resp="#student #dl" type="gloss">
+                                    <term>suppository</term>: medicine administered through a bodily orifice, usually the rectum</note>—?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#sur" xml:id="TSV-sp326">
+                            <speaker>Surgeon</speaker>
+                            <lg>
+                                <l rend="indent">Oh, would I had, <seg resp="#student" ana="#name">sir</seg>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#lam" xml:id="TSV-sp327">
+                            <speaker>Lamure</speaker>
+                            <lg>
+                                <l>Or but the <seg resp="#student" ana="#food">paper where such a cordial</seg><note resp="#dl" type="gloss">
+                                     <term>cordial</term>: comforting or reviving medicine or beverage</note>, </l>
+                                <l><seg resp="#student" ana="#food">Potion, or pills</seg> hath been entombed—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#fran" xml:id="TSV-sp328">
+                            <speaker>Franville</speaker>
+                            <lg>
+                                <l>Or the <seg resp="#student" ana="#relig">blessed bladder</seg><note resp="#student" type="gloss">
+                                    <term>bladder</term>: prepared bladder of an animal, inflated and used as a receptacle for substances like medicine</note>
+                                    where a <seg resp="#student" ana="#food">cooling clyster</seg><note resp="#student" type="gloss">
+                                    <term>cooling clyster</term>: plant-based medicine used for soothing fevers</note>—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#mor" xml:id="TSV-sp329">
+                            <speaker>Morillat</speaker>
+                            <lg>
+                                <l>Hast thou no <seg resp="#student" ana="#food"> cerecloths</seg><note resp="#student" type="gloss"><term>cerecloths</term>: surgical plasters</note> left?</l>
+                                <l>Nor any <seg resp="#student" ana="#food">old poultice</seg><note resp="#student" type="gloss"><term>poultice</term>: substance applied to the skin as part of a bandage</note>?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#fran" xml:id="TSV-sp330">
+                            <speaker>Franville</speaker>
+                            <lg>
+                                <l>We care not to what it hath been ministered<note resp="#dl" type="gloss"><term>ministered</term>: applied</note>—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#sur" xml:id="TSV-sp331">
+                            <speaker>Surgeon</speaker>
+                            <lg>
+                                <l>Sure I have none of these <seg resp="#student" ana="#food">dainties</seg><note resp="#student" type="gloss"><term>dainties</term>: delicacies</note>, <seg resp="#student" ana="#name"><name ref="#gents">gentlemen</name></seg>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#fran" xml:id="TSV-sp332">
+                            <speaker>Franville</speaker>
+                            <lg>
+                                <l>Where's the <seg resp="#student" ana="#food">great wen</seg><note resp="#student" type="gloss">
+                                    <term>wen</term>: wart, cyst, tumor, or other protuberance of the body</note></l>
+                                <l>Thou cut'st from <seg resp="#student" ana="#name">
+                                    <name>Hugh</name> the sailor's</seg> shoulder?</l>
+                                <l>That would serve now for a most <seg resp="#student" ana="#food">princely banquet</seg>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#sur" xml:id="TSV-sp333">
+                            <speaker>Surgeon</speaker>
+                            <lg>
+                                <l>Ay, if we had it, <seg resp="#student" ana="#name">
+                                    <name ref="#gents">gentlemen</name></seg>.</l>
+                                <l>I flung it <seg resp="#student" ana="#place">overboard</seg>, slave that I was—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#lam" xml:id="TSV-sp334">
+                            <speaker>Lamure</speaker>
+                            <lg>
+                                <l>A most <seg resp="#student" ana="#name">unprovident villain</seg>!</l>
+                            </lg>
+                        </sp>
+                        <sp who="#sur" xml:id="TSV-sp335">
+                            <speaker>Surgeon</speaker>
+                            <lg>
+                                <l>If I had anything that were but supple now,</l>
+                                <l>I could make <seg resp="#student" ana="#food">salads of your shoes</seg>, <seg resp="#student" ana="#name">
+                                    <name ref="#gents">gentlemen</name></seg>,</l>
+                                <l>And rare ones; anything <seg resp="#student" ana="#food">unctuous</seg><note resp="#student" type="gloss">
+                                    <term>unctuous</term>: meaty, greasy</note>!</l>
+                            </lg>
+                        </sp>
+                        <sp who="#mor" xml:id="TSV-sp336">
+                            <speaker>Morillat</speaker>
+                            <lg>
+                                <l>Ay, and then we might <seg resp="#student" ana="#food">fry the soles i'th' sun</seg>;</l>
+                                <l>The <seg resp="#student" ana="#food">soles</seg> would make a <seg resp="#student" ana="#food">second dish</seg>—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#lam" xml:id="TSV-sp337">
+                            <speaker>Lamure</speaker>
+                            <lg>
+                                <l>Or <seg resp="#student" ana="#food">souse<note resp="#dl" type="gloss">
+                                    <term>souse</term>: brine, pickle</note> 'em in the saltwater</seg>;</l>
+                                <l>An <seg resp="#student" ana="#food">inner sole well soused</seg><note resp="#dl" type="gloss">
+                                    <term>soused</term>: pickled</note>—</l>
+                            </lg>
+                        </sp>
+                        <stage type="entrance" place="center" who="#amin">Enter <persName
+                                ref="#amin">Aminta</persName>.</stage>
+                        <sp who="#fran" xml:id="TSV-sp338">
+                            <speaker>Franville</speaker>
+                            <lg>
+                                <l rend="indent">Here comes the woman.</l>
+                                <l>It may be she has <seg resp="#student" ana="#food">meat</seg> and may <seg resp="#student" ana="#food">relieve</seg> us.</l>
+                                <l>Let's withdraw, and mark<note resp="#student" type="gloss">
+                                    <term>mark</term>: keep watch</note>, and then be ready;</l>
+                                <l>She'll hide her <seg resp="#student" ana="#food">store<note resp="#dl" type="gloss">
+                                    <term>store</term>: collection of goods, in this case, food</note></seg>, else, and so cozen<note resp="#student" type="gloss">
+                                            <term>cozen</term>: deceive or dupe</note> us.</l>
+                            </lg>
+                        </sp>
+                        <pb n="TSV-009"
+                            facs="https://digital.libraries.psu.edu/digital/api/singleitem/image/emblem/4823/default.jpg"/>
+                        <sp who="#amin" xml:id="TSV-sp339">
+                            <speaker>Aminta</speaker>
+                            <lg>
+                                <l>How weary and how <seg resp="#student" ana="#food">hungry</seg> am I;</l>
+                                <l>How feeble and how faint is all my body.</l>
+                                <l>Mine eyes, like spent<note resp="#student" type="gloss">
+                                    <term>spent</term>: used up, worn out</note> lamps
+                                    glowing out, grow heavy;</l>
+                                <l>My sight <seg resp="#student" ana="#relig">forsaking</seg> me, and
+                                    all my <seg resp="#student" ana="#relig">spirits</seg>,</l>
+                                <l>As if they heard my <seg resp="#student" ana="#relig">passing bell<note resp="#dl" type="gloss">
+                                     <term>passing bell</term>: proverbially, death knell</note>
+                                </seg> go for me,</l>
+                                <l>Pull in their powers and give me up to <seg resp="#student" ana="#relig">destiny</seg>.</l>
+                                <l>Oh! For a <seg resp="#student" ana="#food">little water</seg>, a
+                                     <seg resp="#student" ana="#food">little, little meat</seg>,</l>
+                                <l>A little to <seg resp="#student" ana="#food">relieve</seg> me ere<note resp="#dl" type="gloss">
+                                    <term>ere</term>: before</note> I perish.</l>
+                                <l>I had <seg resp="#student" ana="#food">whole floods of tears</seg>
+                                    awhile that <seg resp="#student" ana="#food">nourished</seg>
+                                    me,</l>
+                                <l>But they are all <seg resp="#student" ana="#food">consumed</seg>
+                                    for thee, <seg resp="#student" ana="#name">dear <persName ref="#alb">Albert</persName></seg>;</l>
+                                <l>For thee they are spent<note resp="#student" type="gloss">
+                                    <term>spent</term>: used up, worn out</note>, for thou art dead;</l>
+                                <l><seg resp="#student" ana="#relig">Merciless fate</seg> hath <seg resp="#student" ana="#food">swallowed</seg> thee.</l>
+                                <l>Oh, I grow heavy; sleep is a salve<note resp="#student" type="gloss">
+                                    <term>salve</term>: healing ointment for wounds or sores</note> for misery.</l>
+                                <l><seg resp="#student" ana="#relig">Heaven</seg>, look on me and
+                                    either take my life</l>
+                                <l>Or make me once more happy.</l>
+                            </lg>
+                        </sp>
+                        <stage resp="#student" type="business" place="center" who="#amin">
+                            <persName ref="#amin">Aminta</persName> falls asleep.</stage>
+                        <sp who="#lam" xml:id="TSV-sp340">
+                            <speaker>Lamure</speaker>
+                            <lg>
+                                <l rend="indent">She's fast asleep already!</l>
+                                <l>Why should she have this <seg resp="#student" ana="#relig">blessing</seg> and we wake still,</l>
+                                <l>Wake to our wants<note resp="#dl" type="gloss">
+                                    <term>wants</term>: shortages</note>?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#mor" xml:id="TSV-sp341">
+                            <speaker>Morillat</speaker>
+                            <lg>
+                                <l rend="indent">This thing hath been our overthrow,</l>
+                                <l>And all these biting mischiefs that fall on us</l>
+                                <l>Are come through her means.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#fran" xml:id="TSV-sp342">
+                            <speaker>Franville</speaker>
+                            <lg>
+                                <l>True we were bound—ye all know—</l>
+                                <l>For happy places and most <seg resp="#student" ana="#place">fertile islands</seg></l>
+                                <l>Where we had constant promises of all things.</l>
+                                <l>She turned the captain's mind</l>
+                                <l>And must have him go in search, I know not of who,</l>
+                                <l>Nor to what end—of such a fool, her brother,</l>
+                                <l>And such a coxcomb<note resp="#student" type="gloss">
+                                    <term>coxcomb</term>: a foolish person, or a vain
+                                        man</note>, her kinsman<note resp="#student" type="textual">
+                                        <term>such a coxcomb, her kinsman</term>: "coxcomb"
+                                        primarily refers to a rooster's crest, or a "cock's comb."
+                                        Given that jester hats resemble roosters' crests, and
+                                        jesters are fools, the word "coxcomb" evolved to describe
+                                        not only the jester's cap but fools themselves. The word
+                                        "coxcomb" can also describe a vain, pretentious, and foppish
+                                        person, perhaps because roosters are viewed as prideful. In
+                                        other words, someone described as a coxcomb pretends to be
+                                        stylish and educated. As jesters are the noble's personal
+                                        comedians and storytellers, Franville's use takes on
+                                        additional meaning. The insult could imply that Aminta's
+                                        relative is pseudo-nobility who amuses other nobles with
+                                        attempts at legitimacy. Given that the men believe it is
+                                        okay for superiors eat their inferiors, Franville's
+                                        disqualification of Aminta's family may also justify his
+                                        turn to cannibalism (<bibl><title>OED</title></bibl>).</note>—</l> 
+                                <l>And we must <seg resp="#student" ana="#place">put in</seg><note resp="#dl" type="gloss">
+                                    <term>put in</term>: make harbor</note> everywhere;</l>
+                                <l>She has put us in now, <seg resp="#student" ana="#relig">i'faith</seg>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#lam" xml:id="TSV-sp343">
+                            <speaker>Lamure</speaker>
+                            <lg>
+                                <l>Why should we <seg resp="#student" ana="#food">consume</seg><note resp="#dl" type="gloss">
+                                    <term>consume</term>: waste away</note> thus and <seg resp="#student" ana="#food">starve</seg>—</l>
+                                <l>Have nothing to <seg resp="#student" ana="#food">relieve</seg> us—</l>
+                                <l>And she live there that bred all our miseries,</l>
+                                <l><seg resp="#student" ana="#food">Unroasted or unsod</seg><note resp="#student" type="gloss">
+                                    <term>unsod</term>: unboiled, uncooked</note>?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#mor" xml:id="TSV-sp344">
+                            <speaker>Morillat</speaker>
+                            <lg>
+                                <l rend="indent">I have read in stories—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#lam" xml:id="TSV-sp345">
+                            <speaker>Lamure</speaker>
+                            <lg>
+                                <l>Of such <seg resp="#student" ana="#food">restoring meats</seg></l>
+                                <l>We have examples,</l>
+                                <l>Thousand examples and allowed for excellent<note resp="#student" type="context">
+                                    <term>Thousand examples ... excellent</term>:
+                                        Discourse on cannibalism in the early modern period became
+                                        more prevalent following European contact with real and
+                                        imagined cannibals in North and South America. Cannibalism
+                                        in the Americas was largely reviled by Europeans. However,
+                                        during the period this play was written there was also a
+                                        medicinal cannibalistic practices thriving throughout Europe.
+                                        The medicinal discourse between Lamure, Morillat, Franville,
+                                        and the Surgeon earlier in the play are relevant to this
+                                        discussion in that they consider eating a "wen" that was
+                                        pulled from one of the sailor's shoulders during the voyage.
+                                        Prior to this, the group primarily discusses tools of
+                                        medicine; the brief mention of "cordials," "potions," and
+                                        "pills" takes on a different meaning due to many medications
+                                        being made from human parts, with some of the most common
+                                        sources being blood and bone
+                                    (<ref target="#rs2013">Sugg</ref>).</note>:</l>
+                                <l>Women that have <seg resp="#student" ana="#food">eat</seg> their
+                                    children,</l>
+                                <l>Men their slaves—nay their brothers—but these are nothing!</l>
+                                <l>Husbands <seg resp="#student" ana="#food">devoured</seg> their
+                                    wives (they are their chattels<note resp="#student" type="gloss">
+                                    <term>chattels</term>: possessions, goods, often with relation to livestock</note>),</l>
+                                <l>And of a schoolmaster that, in time of <seg resp="#student" ana="#food">famine</seg>,</l>
+                                <l><seg resp="#student" ana="#food">Powdered up</seg><note resp="#student" type="gloss">
+                                    <term>Powdered up</term>: Seasoned with salt or pickled</note> all his scholars.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#mor" xml:id="TSV-sp346">
+                            <speaker>Morillat</speaker>
+                            <lg>
+                                <l rend="indent">She's young and tidy<note resp="#student" type="gloss">
+                                    <term>tidy</term>: healthy</note>.</l>
+                                <l>In my <seg resp="#student" ana="#relig">conscience</seg>, she'll
+                                        <seg resp="#student" ana="#food">eat delicately</seg></l>
+                                <l>Just like <seg resp="#student" ana="#food">young pork</seg>; a
+                                        <seg resp="#student" ana="#food">little lean</seg>.</l>
+                                <l>Your opinion, <seg resp="#student" ana="#name">
+                                    <persName ref="#sur">Surgeon</persName></seg>?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#sur" xml:id="TSV-sp347">
+                            <speaker>Surgeon</speaker>
+                            <lg>
+                                <l>I think she may be made <seg resp="#student" ana="#food">good meat</seg>.</l>
+                                <l>But look, we shall want<note resp="#dl" type="gloss">
+                                    <term>want</term>: lack</note>
+                                    <seg resp="#student" ana="#food">salt</seg>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#fran" xml:id="TSV-sp348">
+                            <speaker>Franville</speaker>
+                            <lg>
+                                <l>Tush<note resp="#student" type="gloss">
+                                    <term>Tush</term>: contemptuous, impatient exclamation</note>, she needs <seg resp="#student" ana="#food">no powdering<note resp="#student" type="gloss">
+                                    <term>powdering</term>: salt seasoning</note>
+                                    </seg>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#sur" xml:id="TSV-sp349">
+                            <speaker>Surgeon</speaker>
+                            <lg>
+                                <l rend="indent">I grant ye;</l>
+                                <l>But to <seg resp="#student" ana="#food">suck out the humorous
+                                            parts</seg><note resp="#student" type="context">
+                                            <term>suck out the humorous parts</term>: In pre-modern physiology,
+                                            the humors were four different fluids in the body; when
+                                            imbalanced, one's body and mood risked falling out of
+                                            health and displaying the symptoms related to the
+                                            type of imbalance. The word "humorous" is also used to
+                                            mean moody or capricious. Being a doctor (and thus
+                                            knowledgeable of the humors), the Surgeon wishes to
+                                            remove them from Aminta's body before the men eat her.
+                                            Yet the act of removing her humors is telling. In one
+                                            way, he expresses concern for his health by emptying the
+                                            humors: if he were to eat Aminta's humors, he could
+                                            contract an imbalance—whether an excess or a deficit—of
+                                            his own humors. At the same time, Aminta is female and
+                                            so stereotyped in early modern drama as capricious and
+                                            changeable. This could suggest the Surgeon fears he
+                                            could contract her emotionality over his "balanced" male
+                                            rationality if he were to eat her. This line could also
+                                            be read, more simply, as an indication of the Surgeon's
+                                            desire to eat the humorous (i.e. "juicy") parts of her
+                                            body.</note>— by all means</l>
+                                <l>Let's kill her in a chase, she'll <seg resp="#student" ana="#food">eat the sweeter</seg>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#lam" xml:id="TSV-sp350">
+                            <speaker>Lamure</speaker>
+                            <lg>
+                                <l>Let's kill her any way, and kill her quickly</l>
+                                <l>That we might be <seg resp="#student" ana="#food">at our meat</seg>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#sur" xml:id="TSV-sp351">
+                            <speaker>Surgeon</speaker>
+                            <lg>
+                                <l rend="indent">How if the captain—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#mor" xml:id="TSV-sp352">
+                            <speaker>Morillat</speaker>
+                            <lg>
+                                <l>Talk not of him! He's dead, and the rest <seg resp="#student" ana="#food">famished</seg>.</l>
+                                <l>Wake her, <seg resp="#student" ana="#relig"><persName ref="#sur">Surgeon</persName></seg>, and cut her throat;</l>
+                                <l>And then divide her, every man his <seg resp="#student" ana="#food">share</seg>—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#fran" xml:id="TSV-sp353">
+                            <speaker>Franville</speaker>
+                            <lg>
+                                <l>She wakes herself.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#amin" xml:id="TSV-sp354">
+                            <speaker>Aminta</speaker>
+                            <lg>
+                                <l rend="indent">
+                                    <seg resp="#student" ana="#relig">Holy and good things</seg> keep me!</l>
+                                <l>What cruel dreams have I had. Who are these?</l>
+                                <l>Oh, they are <seg resp="#student" ana="#name">my friends</seg>.
+                                    For <seg resp="#student" ana="#relig">heaven's sake</seg>, 
+                                    <seg resp="#student" ana="#name"><name ref="#gents">gentlemen</name></seg>,</l>
+                                <l>Give me some <seg resp="#student" ana="#food">food</seg> to save
+                                    my life, if ye have aught<note resp="#dl" type="gloss">
+                                        <term>aught</term>: anything</note> to spare;</l>
+                                <l>A little to <seg resp="#student" ana="#food">relieve</seg> me. I
+                                    may <seg resp="#student" ana="#relig">bless</seg> ye,</l>
+                                <l>For weak and wretched, ready to perish,</l>
+                                <l>Even now I die.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#mor" xml:id="TSV-sp355">
+                            <speaker>Morillat</speaker>
+                            <lg>
+                                <l rend="indent">You'll save a labor, then.</l>
+                                <l>You bred these miseries and you shall pay for't.</l>
+                                <l>We have no <seg resp="#student" ana="#food">meat</seg>, nor where to have we know not,</l>
+                                <l>Nor how to pull ourselves from these afflictions.</l>
+                                <l>We are starved, too, <seg resp="#student" ana="#food">famished</seg>; all our hopes deluded<note resp="#student" type="gloss">
+                                    <term>deluded</term>: deceived</note>.</l>
+                                <l>Yet ere<note resp="#dl" type="gloss">
+                                    <term>ere</term>: before</note> we die thus, we'll have one <seg resp="#student" ana="#food">dainty meal</seg>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#amin" xml:id="TSV-sp356">
+                            <speaker>Aminta</speaker>
+                            <lg>
+                                <l>Shall I be with ye, <seg resp="#student" ana="#name"><name ref="#gents">gentlemen</name></seg>?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#lam" xml:id="TSV-sp357">
+                            <speaker>Lamure</speaker>
+                            <lg>
+                                <l>Yes, marry<note resp="#student #dl" type="gloss">
+                                    <term>marry</term>: expression of surprise used to emphasize what follows</note>, shall ye; in our <seg resp="#student" ana="#food">bellies</seg>, <seg resp="#student" ana="#name">lady</seg>.</l>
+                                <l>We love you well—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#amin" xml:id="TSV-sp358">
+                            <speaker>Aminta</speaker>
+                            <lg>
+                                <l rend="center">What said you, <seg resp="#student" ana="#name">sir</seg>?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#lam" xml:id="TSV-sp359">
+                            <speaker>Lamure</speaker>
+                            <lg>
+                                <l rend="indent">Marry<note resp="#student #dl" type="gloss">
+                                    <term>Marry</term>: expression of surprise used to emphasize what follows</note>, we'll <seg resp="#student" ana="#food">eat</seg> <seg resp="#student" ana="#name">your ladyship</seg>—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#fran" xml:id="TSV-sp360">
+                            <speaker>Franville</speaker>
+                            <lg>
+                                <l>You that have buried us in this <seg resp="#student" ana="#place">base</seg><note resp="#student #dl" type="gloss">
+                                        <term>base</term>: of low quality or worth</note> island;</l>
+                                <l>We'll <seg resp="#student" ana="#food">bury ye</seg> in a more <seg resp="#student #dl" ana="#food">noble<note resp="#student" type="gloss">
+                                         <term>noble</term>: fine, splendid</note> monuments</seg>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#sur" xml:id="TSV-sp361">
+                            <speaker>Surgeon</speaker>
+                            <lg>
+                                <l>Will ye say your <seg resp="#student" ana="#relig">prayers</seg> that I may perform, <seg resp="#student" ana="#name">lady</seg>?</l>
+                                <l>We are <seg resp="#student" ana="#food">wonderous sharp-set</seg><note resp="#student" type="gloss">
+                                    <term>sharp-set</term>: acutely hungry</note>. Come, <seg resp="#student" ana="#name">
+                                    <name ref="#gents">gentlemen</name></seg>,</l>
+                                <l>Who are for the <seg resp="#student" ana="#food">hinder</seg><note resp="#student #dl" type="gloss">
+                                    <term>hinder</term>: rear</note> parts?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#mor #fran" xml:id="TSV-sp362">
+                            <speaker>Morillat and Franville</speaker><stage place="center" resp="#cmlb" who="#mor #fran">Together</stage>
+                            <lg>
+                                <l>I—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#lam" xml:id="TSV-sp363">
+                            <speaker>Lamure</speaker>
+                            <lg>
+                                <l rend="center">And I!</l>
+                            </lg>
+                        </sp>
+                        <sp who="#sur" xml:id="TSV-sp364">
+                            <speaker>Surgeon</speaker>
+                            <lg>
+                                <l rend="indent">Be patient;</l>
+                                <l>They will not fall to every man's <seg resp="#student" ana="#food">share</seg>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#amin" xml:id="TSV-sp365">
+                            <speaker>Aminta</speaker>
+                            <lg>
+                                <l rend="indent">Oh hear me,</l>
+                                <l>Hear me, ye <seg resp="#student" ana="#name">barbarous men</seg>!</l>
+                            </lg>
+                        </sp>
+                        <sp who="#mor" xml:id="TSV-sp366">
+                            <speaker>Morillat</speaker>
+                            <lg>
+                                <l rend="indent">Be short and pithy<note resp="#student" type="gloss">
+                                    <term>pithy</term>: full of concentrated meaning</note>,</l>
+                                <l>Our <seg resp="#student" ana="#food">stomachs</seg> cannot stay<note resp="#dl" type="gloss">
+                                    <term>stay</term>: abide</note> a <seg resp="#student" ana="#food">long discourse</seg>—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#sur" xml:id="TSV-sp367">
+                            <speaker>Surgeon</speaker>
+                            <lg>
+                                <l>And be not fearful,</l>
+                                <l>For I'll kill ye daintily—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#amin" xml:id="TSV-sp368">
+                            <speaker>Aminta</speaker>
+                            <lg>
+                                <l rend="indent">Are ye not <seg resp="#student" ana="#relig">Christians</seg>?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#lam" xml:id="TSV-sp369">
+                            <speaker>Lamure</speaker>
+                            <lg>
+                                <l>Why, do not <seg resp="#student" ana="#relig">Christians</seg> <seg resp="#student" ana="#food">eat</seg> women?</l>
+                            </lg>
+                        </sp>
+                        <stage type="entrance" place="center" who="#tib #mast #sails">Enter
+                                <persName ref="#tib">Tibalt</persName>, 
+                                <persName ref="#mast">Master</persName>, and 
+                                <persName ref="#sails">Sailors</persName>.
+                        </stage>
+                        <sp who="#amin" xml:id="TSV-sp370">
+                            <speaker>Aminta</speaker>
+                            <lg>
+                                <l><seg resp="#student" ana="#food">Eat</seg> one another? 'Tis most <seg resp="#student" ana="#relig">impious</seg>
+                                    <note resp="#student #dl" type="gloss"><term>impious</term>: not pitiful, devoted, or faithful</note>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#sur" xml:id="TSV-sp371">
+                            <speaker>Surgeon</speaker>
+                            <lg>
+                                <l>Come, come—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#amin" xml:id="TSV-sp372">
+                            <speaker>Aminta</speaker>
+                            <lg>
+                                <l>Oh! Help! Help! Help!</l>
+                            </lg>
+                        </sp>
+                        <sp who="#tib" xml:id="TSV-sp373">
+                            <speaker>Tibalt</speaker>
+                            <lg>
+                                <l>The lady's voice! Stand off, <seg resp="#student" ana="#name">slaves</seg>!</l>
+                                <l>What do you intend, <seg resp="#student" ana="#name">villains</seg>?</l>
+                                <l>I have strength enough left me, if you abuse this <seg resp="#student" ana="#relig">soul</seg>,</l>
+                                <l>To—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#mast" xml:id="TSV-sp374">
+                            <speaker>Master</speaker>
+                            <lg>
+                                <l>They would have ravished her, upon my life!</l>
+                                <l>Speak, how was it, <seg resp="#student" ana="#name">lady</seg>?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#amin" xml:id="TSV-sp375">
+                            <speaker>Aminta</speaker>
+                            <lg>
+                                <l rend="indent"><seg resp="#student" ana="#relig">Forgive</seg> 'em,
+                                    'twas their <seg resp="#student" ana="#food">hungers</seg>—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#tib" xml:id="TSV-sp376">
+                            <speaker>Tibalt</speaker>
+                            <lg>
+                                <l>Ha, their <seg resp="#student" ana="#food">hungers</seg>!</l>
+                            </lg>
+                        </sp>
+                        <sp who="#mast" xml:id="TSV-sp377">
+                            <speaker>Master</speaker>
+                            <lg>
+                                <l rend="indent">They would have <seg resp="#student" ana="#food">eaten</seg> her.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#tib" xml:id="TSV-sp378">
+                            <speaker>Tibalt</speaker>
+                            <lg>
+                                <l>Oh, damned <seg resp="#student" ana="#name">villains</seg>! Speak, is it true?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#sur" xml:id="TSV-sp379">
+                            <speaker>Surgeon</speaker>
+                            <lg>
+                                <l>I <seg resp="#student" ana="#relig">confess</seg> an <seg resp="#student" ana="#food">appetite</seg>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#tib" xml:id="TSV-sp380">
+                            <speaker>Tibalt</speaker>
+                            <lg>
+                                <l>An <seg resp="#student" ana="#food">appetite</seg>? I'll fit ye
+                                    for an <seg resp="#student" ana="#food">appetite</seg>!</l>
+                                <l>Are ye so <seg resp="#student" ana="#food">sharp-set<note resp="#student" type="textual">
+                                    <term>sharp-set</term>: The use of "sharp-set" in this passage is layered. 
+                                            As an adjective, it describes a strong hunger (<bibl><title>OED</title></bibl>). 
+                                            However, it is also a word used
+                                            to describe hawks, hounds, and other hunting animals and
+                                            their eagerness for predatory behavior. That said, this
+                                            use of "sharp-set" figures the shipwrecked nobles as
+                                            savage beasts. Yet another definition of "sharp-set" is
+                                            "having a craving for sexual indulgence," which also
+                                            promotes the connection between food and sexual craving
+                                            that appears throughout the passage. For example, with
+                                            the first use of sharp-set, the men argue over who gets
+                                            to eat her buttocks, and with the second use, Tibalt
+                                            asks if the men are so hungry that Aminta's "flesh" must
+                                            "serve" them, here again evoking sexual indulgence. As
+                                            Aminta is the only woman on the barren island, it is
+                                            worth noting that the cannibalism directed towards
+                                            her—i.e. to consume her—is meant to be read as a sexual
+                                            metaphor.</note>
+                                </seg> that her <seg resp="#student" ana="#food">flesh must serve</seg> you?</l>
+                                <l>Murder's a main<note resp="#dl" type="gloss">
+                                    <term>main</term>: powerful</note> good service with 
+                                    <seg resp="#student" ana="name relig">your worships</seg>.</l>
+                                <l>Since ye would be such <seg resp="#student" ana="#relig">devils</seg>,</l>
+                                <l>Why did you not begin with one another handsomely<note resp="#dl" type="gloss">
+                                    <term>handsomely</term>: fittingly; also, liberally</note></l>
+                                <l>And spare the woman to <seg resp="#student" ana="#food">beget more
+                                        food</seg> on<note resp="#student #dl" type="gloss">
+                                        <term>beget more food on</term>: i.e. Aminta may produce children which will serve as further food</note>?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#amin" xml:id="TSV-sp381">
+                            <speaker>Aminta</speaker>
+                            <lg>
+                                <l><seg resp="#student" ana="#name">Good sir</seg>—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#tib" xml:id="TSV-sp382">
+                            <speaker>Tibalt</speaker>
+                            <lg>
+                                <l rend="indent">You shall grow mummy<note resp="#student" type="gloss">
+                                    <term>mummy</term>: beaten to a pulpy substance</note>, 
+                                    <seg resp="#student" ana="#name">rascals</seg>!</l>
+                                <l>I'll make you fall to your brawns<note resp="#student" type="gloss">
+                                    <term>brawns</term>: fleshy or muscular parts of the body</note> and your buttocks</l>
+                                <l>And <seg resp="#dl" ana="#food">worry</seg><note resp="#dl" type="gloss">
+                                    <term>worry</term>: choke with a mouthful of food</note>
+                                    one another like keen bandogs<note resp="#student" type="gloss">
+                                    <term>bandogs</term>: ferocious dogs chained or tied up to guard a house</note>!</l>
+                            </lg>
+                        </sp>
+                        <sp who="#amin" xml:id="TSV-sp383">
+                            <speaker>Aminta</speaker>
+                            <lg>
+                                <l><seg resp="#student" ana="#name">Good sir</seg>, be <seg resp="#student" ana="#relig">merciful</seg>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#tib" xml:id="TSV-sp384">
+                            <speaker>Tibalt</speaker>
+                            <lg>
+                                <l>You shall know what 'tis to be <seg resp="#student" ana="#food #relig">damned cannibals</seg>!</l>
+                            </lg>
+                        </sp>
+                        <stage resp="#dl" type="entrance" place="center" who="#alb">Enter 
+                            <persName ref="#alb">Albert</persName> with <seg resp="#dl" ana="#object #food">food</seg>.</stage>
+                        <sp who="#amin" xml:id="TSV-sp385">
+                            <speaker>Aminta</speaker>
+                            <lg>
+                                <l>Oh, <seg resp="#dl" ana="#name">my best friend</seg>!</l>
+                            </lg>
+                        </sp>
+                        <sp who="#alb" xml:id="TSV-sp386">
+                            <speaker>Albert</speaker>
+                            <lg>
+                                <l rend="indent">Alas, <seg resp="#dl" ana="#name">poor heart</seg>!
+                                    Here,</l>
+                                <l>Here's some <seg resp="#student" ana="#food">meat and sovereign drink</seg><note resp="#student" type="gloss">
+                                     <term>sovereign drink</term>: efficacious or potent remedy</note>
+                                     to <seg resp="#student" ana="#food">ease</seg> you.</l>
+                                <l>Sit down, <seg resp="#dl" ana="#name">gentle sweet</seg>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#amin" xml:id="TSV-sp387">
+                            <speaker>Aminta</speaker>
+                            <lg>
+                                <l rend="indent">I am <seg resp="#student" ana="#relig">blessed</seg>
+                                    to see you.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#tib" xml:id="TSV-sp388">
+                            <speaker>Tibalt</speaker>
+                            <lg>
+                                <l>Stir not within forty foot of this <seg resp="#student" ana="#food">food</seg>!</l>
+                                <l>If you do, <seg resp="#dl" ana="#name">dogs</seg>—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#sur #lam #mor #fran" xml:id="TSV-sp389">
+                            <speaker>All</speaker>
+                            <lg>
+                                <l rend="indent">Oh, <seg resp="#student" ana="#name">captain!
+                                        Captain! Captain</seg>!</l>
+                            </lg>
+                        </sp>
+                        <sp who="#alb" xml:id="TSV-sp390">
+                            <speaker>Albert</speaker>
+                            <lg>
+                                <l>Ye shall have <seg resp="#student" ana="#food">meat</seg>, all of you—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#tib" xml:id="TSV-sp391">
+                            <speaker>Tibalt</speaker>
+                            <lg>
+                                <l><seg resp="#student" ana="#name">Captain</seg>, hear me first. Hark!</l>
+                                <l>'Tis so inhumane I would not ha' the air corrupted with it—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#alb" xml:id="TSV-sp392">
+                            <speaker>Albert</speaker>
+                            <lg>
+                                <l>Oh, <seg resp="#dl" ana="#name">barbarous men</seg>! Sit down, <seg resp="#student" ana="#name"><persName ref="#tib">du-Pont</persName></seg>,</l>
+                                <l><seg resp="#student" ana="#name">Good <persName ref="#mast">Master</persName></seg>, and <seg resp="#dl" ana="#name">honest <persName ref="#sails">sailors</persName></seg>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#tib" xml:id="TSV-sp393">
+                            <speaker>Tibalt</speaker>
+                            <lg>
+                                <l rend="indent">But stand you off</l>
+                                <l>And wait upon<note resp="#dl" type="gloss">
+                                    <term>wait upon</term>: serve</note> our charity—I'll wait on<note resp="#dl" type="gloss">
+                                    <term>wait on</term>: serve; presumably a threat of violence</note> you, else—</l>
+                                <l>And touch nothing but what's flung at thee, as if you were dogs;</l>
+                                <pb n="TSV-010"
+                                    facs="https://digital.libraries.psu.edu/digital/api/singleitem/image/emblem/4824/default.jpg"/>
+                                <l>If you do, I'll cut your fingers. <seg resp="#dl" ana="#name">Friends</seg>,</l>
+                                <l>I'll spoil your <seg resp="#student" ana="#food">carving</seg>.</l>
+                            </lg>
+                        </sp>
+                        <stage resp="#student" type="business" place="center" who="#amin #gents #sails">
+                            <persName ref="#amin">Aminta</persName> gives <seg resp="#dl" ana="object food">food</seg> to <name ref="#gents">gentlemen</name> and <persName ref="#sails">Sailors</persName>.</stage>
+                        <sp who="#amin" xml:id="TSV-sp394">
+                            <speaker>Aminta</speaker>
+                            <lg>
+                                <l rend="indent"><seg resp="#student" ana="name object">There, wretches, there</seg>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#tib" xml:id="TSV-sp395">
+                            <speaker>Tibalt</speaker>
+                            <lg>
+                                <l><seg resp="#student" ana="#name">Eat your meat</seg> handsomely<note resp="#dl" type="gloss">
+                                   <term>handsomely</term>: fittingly; also, liberally</note> now,</l>
+                                <l>And give <seg resp="#student" ana="#relig">heaven</seg> thanks.</l>
+                            </lg>
+                        </sp>
+                        <stage resp="#student" type="business" place="center" who="#alb">
+                            <persName ref="#alb">Albert</persName> distributes <seg resp="#dl" ana="object food">food</seg>.</stage>
+                        <sp who="#alb" xml:id="TSV-sp396">
+                            <speaker>Albert</speaker>
+                            <lg>
+                                <l>There's more <seg resp="#student" ana="#name">bread</seg>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#tib" xml:id="TSV-sp397">
+                            <speaker>Tibalt</speaker>
+                            <lg>
+                                <l>See, they snarl like dogs.</l>
+                                <l><seg resp="#student" ana="#food">Eat</seg> quietly, you <seg resp="#dl" ana="#name">rascals</seg>, <seg resp="#student" ana="#food">eat</seg> quietly.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#alb" xml:id="TSV-sp398">
+                            <speaker>Albert</speaker>
+                            <lg>
+                                <l rend="indent">There is <seg resp="#student" ana="#food">drink</seg>, too.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#tib" xml:id="TSV-sp399">
+                            <speaker>Tibalt</speaker>
+                            <lg>
+                                <l>Come, come, I'll fill you each your <seg resp="#student" ana="#object">cups</seg>,</l>
+                                <l>Ye shall not <seg resp="#student" ana="#food">surfeit</seg><note resp="#student #dl" type="gloss">
+                                    <term>surfeit</term>: suffer from over indulgence in food or drink</note>.</l>
+                            </lg>
+                        </sp>
+                        <stage resp="#student" type="business" place="center" who="#tib"><persName ref="#tib">Tibalt</persName> distributes <seg resp="#dl" ana="object food">drink</seg>.
+                        </stage>
+                        <sp who="#amin" xml:id="TSV-sp400">
+                            <speaker>Aminta</speaker>
+                            <lg>
+                                <l rend="indent">And what have you discovered?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#alb" xml:id="TSV-sp401">
+                            <speaker>Albert</speaker>
+                            <lg>
+                                <l><seg resp="#dl" ana="#name">Sweet</seg>, a <seg resp="#student" ana="#place">paradise</seg>,</l>
+                                <l>A <seg resp="#student" ana="#place">paradise</seg> inhabited with <seg resp="#student" ana="#relig">angels</seg></l>
+                                <l>Such as you are; their pities make 'em <seg resp="#student" ana="#relig">angels</seg>.</l>
+                                <l>They gave me these <seg resp="#student" ana="food object">viands</seg><note resp="#student" type="gloss">
+                                    <term>viands</term>: provisions</note> and supplied me</l>
+                                <l>With these <seg resp="#student" ana="food object">precious drinks</seg>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#amin" xml:id="TSV-sp402">
+                            <speaker>Aminta</speaker>
+                            <lg>
+                                <l>Shall we not see 'em?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#alb" xml:id="TSV-sp403">
+                            <speaker>Albert</speaker>
+                            <lg>
+                                <l rend="indent">Yes, they will see you</l>
+                                <l>Out of their charities. Having heard our story</l>
+                                <l>They will come and comfort us. Come presently.</l>
+                                <l>We shall no more know wants<note resp="#dl" type="gloss">
+                                    <term>wants</term>: shortages</note> nor miseries.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#amin" xml:id="TSV-sp404">
+                            <speaker>Aminta</speaker>
+                            <lg>
+                                <l>Are they all women?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#alb" xml:id="TSV-sp405">
+                            <speaker>Albert</speaker>
+                            <lg>
+                                <l rend="center">All, and all in love with us—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#amin" xml:id="TSV-sp406">
+                            <speaker>Aminta</speaker>
+                            <lg>
+                                <l rend="indent">How!</l>
+                            </lg>
+                        </sp>
+                        <sp who="#alb" xml:id="TSV-sp407">
+                            <speaker>Albert</speaker>
+                            <lg>
+                                <l>Do not mistake: in love with our misfortunes;</l>
+                                <l>They will cherish and <seg resp="#student" ana="#food">relieve</seg> our men.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#tib" xml:id="TSV-sp408">
+                            <speaker>Tibalt</speaker>
+                            <lg>
+                                <l>Do you shrug now</l>
+                                <l>And pull up your noses? You smell comfort.</l>
+                                <l>See, they stretch out their legs like dottrels<note resp="#student #dl" type="gloss">
+                                    <term>dottrels</term>: fools</note>,</l>
+                                <l>Each like a new <seg resp="#student" ana="#relig"><name>Saint Denis</name></seg><note resp="#student #dl" type="gloss">
+                                    <term>Saint Denis</term>: martyred third-century French saint who 
+                                        is said to have carried his head for several miles after he 
+                                        was beheaded. Tibalt implies the sailors only attend to their 
+                                        bodily needs and desires (<ref target="#cmlb2020">Bourne</ref>)</note>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#alb" xml:id="TSV-sp409">
+                            <speaker>Albert</speaker>
+                            <lg>
+                                <l rend="indent"><seg resp="#dl" ana="#name">Dear mistress</seg>,</l>
+                                <l>When you would name me and the women hear,</l>
+                                <l>Call me your brother, you I'll call my sister,</l>
+                                <l>And pray observe this all—</l>
+                                <l>Why do you change color, <seg resp="#dl" ana="#name">sweet</seg>?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#amin" xml:id="TSV-sp410">
+                            <speaker>Aminta</speaker>
+                            <lg>
+                                <l><seg resp="#student" ana="#food">Eating too much meat</seg>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#alb" xml:id="TSV-sp411">
+                            <speaker>Albert</speaker>
+                            <lg>
+                                <l rend="indent"><seg resp="#student" ana="#food">Sauced</seg> with jealousy.</l>
+                                <l>Fie, fie<note resp="#student #dl" type="gloss">
+                                    <term>Fie, fie</term>: exclamation inciting shame, usually said to children</note>, <seg resp="#student" ana="name relig">dear saint</seg>, <seg resp="#student" ana="#relig">i'faith</seg> ye are too blame.</l>
+                                <l>Are ye not here? Here, fixed in my heart?</l>
+                            </lg>
+                        </sp>
+                        <stage type="entrance" place="right" who="#ros #cla #cro #hip #jul">Enter
+                                <persName ref="#ros">Rosella</persName>, 
+                                <persName ref="#cla">Clarinda</persName>, 
+                                <persName ref="#cro">Crocale</persName>,
+                                <persName ref="#hip">Hippolita</persName>, and 
+                                <persName ref="#jul">Juletta</persName>.</stage>
+                        <sp who="#tib #sur #lam #mor #fran #mast #sails" xml:id="TSV-sp412">
+                            <speaker>All</speaker>
+                            <lg>
+                                <l>Hark, hark!</l>
+                            </lg>
+                        </sp>
+                        <sp who="#alb" xml:id="TSV-sp413">
+                            <speaker>Albert</speaker>
+                            <lg>
+                                <l rend="indent">They are come. Stand ready, and look nobly<note resp="#student" type="gloss">
+                                    <term>nobly</term>: splendidly, magnificently</note>,</l>
+                                <l>And with all <seg resp="#student" ana="#relig">humble reverence</seg> receive 'em.</l>
+                                <l>Our lives depend upon their gentle pities</l>
+                                <l>And death waits on their anger.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#mor" xml:id="TSV-sp414">
+                            <speaker>Morillat</speaker>
+                            <lg>
+                                <l rend="indent">Sure they are fairies.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#tib" xml:id="TSV-sp415">
+                            <speaker>Tibalt</speaker>
+                            <lg>
+                                <l>Be they <seg resp="#student" ana="#relig">devils, devils</seg> of flesh and blood,</l>
+                                <l>After so long a <seg resp="#student" ana="#relig">Lent</seg><note resp="#student #dl" type="gloss">
+                                    <term>Lent</term>: referring to the Christian time of abstinence and repentance</note> and tedious voyage</l>
+                                <l>To me they are <seg resp="#student" ana="#relig">angels</seg>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#fran" xml:id="TSV-sp416">
+                            <speaker>Franville</speaker>
+                            <lg>
+                                <l>Oh for some <seg resp="#student" ana="#food">eryngoes</seg><note resp="#student" type="gloss">
+                                    <term>eryngoes</term>: aphroditic plants</note>!</l>
+                            </lg>
+                        </sp>
+                        <sp who="#lam" xml:id="TSV-sp417">
+                            <speaker>Lamure</speaker>
+                            <lg>
+                                <l rend="indent"><seg resp="#student" ana="#food">Potatoes</seg> or <seg resp="#student" ana="#food">cantharides</seg><note resp="#student" type="gloss">
+                                       <term>cantharides</term>: dried beetles used as aphrodisiac</note>—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#tib" xml:id="TSV-sp418">
+                            <speaker>Tibalt</speaker>
+                            <lg>
+                                <l>Peace, you <seg resp="#dl" ana="#name">rogues</seg> that buy abilities<note resp="#dl" type="gloss">
+                                       <term>buy abilities</term>: buy medicines thought to enhance
+                                        sexual performance</note> of your 'pothecaries.</l>
+                                <l>Had I but took the <seg resp="#student" ana="#food">diet of green cheese</seg></l>
+                                <l><seg resp="#student" ana="#food">And onions</seg> for a month, I could do wonders.<note resp="#dl" type="gloss">
+                                        <term>Had I ... wonders</term>: presumably this diet was thought to improve one's sexual performance</note></l>
+                            </lg>
+                        </sp>
+                        <sp who="#ros" xml:id="TSV-sp419">
+                            <speaker>Rosella</speaker>
+                            <lg>
+                                <l>Are these the jewels you run mad for?</l>
+                                <l>What can you see in one of these</l>
+                                <l>To whom you would vouchsafe<note resp="#dl" type="gloss">
+                                    <term>vouchsafe</term>: acknowledge or bestow in some favorable manner</note> a gentle touch?</l>
+                                <l>Can nothing persuade you</l>
+                                <l>To love yourselves and place your happiness</l>
+                                <l>In cold and <seg resp="#student" ana="#relig">chaste</seg> embraces of each other?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#jul" xml:id="TSV-sp420">
+                            <speaker>Juletta</speaker>
+                            <lg>
+                                <l>This is from the purpose.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#hip" xml:id="TSV-sp421">
+                            <speaker>Hippolita</speaker>
+                            <lg>
+                                <l>We had your grant<note resp="#dl" type="gloss">
+                                    <term>grant</term>: consent</note> to have them as they were.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#cla" xml:id="TSV-sp422">
+                            <speaker>Clarinda</speaker>
+                            <stage resp="#student" type="business" place="right" who="#cla">Aside.</stage>
+                            <lg>
+                                <l>'Tis a beauteous creature,</l>
+                                <l>And to myself I do appear deformed</l>
+                                <l>When I consider her. And yet she is</l>
+                                <l>The stranger's sister. Why then should I fear?</l>
+                                <l>She cannot prove my rival.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#ros" xml:id="TSV-sp423">
+                            <speaker>Rosella</speaker>
+                            <lg>
+                                <l rend="indent">When you <seg resp="#dl" ana="#relig">repent</seg></l>
+                                <l>That you refused my counsel, may it add</l>
+                                <l>To your afflictions that you were forewarned</l>
+                                <l>Yet leapt into the gulf of your misfortunes.</l>
+                                <l>But have your wishes.</l>
+                            </lg>
+                        </sp>
+                        <stage resp="#student" type="business" place="center" who="#ros">
+                            <persName ref="#ros">Rosella</persName> moves towards men.</stage>
+                        <sp who="#mast" xml:id="TSV-sp424">
+                            <speaker>Master</speaker>
+                            <lg>
+                                <l rend="indent">Now she makes to us.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#amin" xml:id="TSV-sp425">
+                            <speaker>Aminta</speaker>
+                            <lg>
+                                <l>I am instructed. But take heed, <seg resp="#student" ana="#food"><persName ref="#alb">Albert</persName></seg>,</l>
+                                <l>You prove not false<note resp="#student" type="gloss">
+                                    <term>false</term>: deceitful</note>—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#alb" xml:id="TSV-sp426">
+                            <speaker>Albert</speaker>
+                            <lg>
+                                <l rend="indent">Ye are your own assurance,</l>
+                                <l>And so acquainted with your own perfections</l>
+                                <l>That weak doubts cannot reach you. Therefore, fear not.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#ros" xml:id="TSV-sp427">
+                            <speaker>Rosella</speaker>
+                            <lg>
+                                <l>That you are poor and miserable men</l>
+                                <l>My eyes inform me; that without our <seg resp="#student" ana="#food">succors</seg><note resp="#student" type="gloss">
+                                    <term>succors</term>: aids, assistances</note></l>
+                                <l>Hope cannot flatter you to dream of safety.</l>
+                                <l>The present plight you are in can resolve<note resp="#dl" type="gloss">
+                                    <term>resolve</term>: alter so as to form a concord</note> you</l>
+                                <l>That <seg resp="#student" ana="#relig">to be merciful is to draw near</seg></l>
+                                <l><seg resp="#student" ana="#relig">The heavenly essence</seg>. Whether you will be</l>
+                                <l>Thankful, I do not question, nor demand</l>
+                                <l>What <seg resp="#dl" ana="#place">country</seg> bred you—what names, what manners—</l>
+                                <l>To us it is sufficient we <seg resp="#student" ana="#food">relieve</seg></l>
+                                <l>Such as have shapes of men. And I command you,</l>
+                                <l>As we are not ambitious to know</l>
+                                <l>Farther of you, that on pain of death</l>
+                                <l>You presume not to enquire what we are</l>
+                                <l>Or <seg resp="#dl" ana="#place">whence<note resp="#dl" type="gloss">
+                                    <term>whence</term>: from where</note> derived</seg>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#alb" xml:id="TSV-sp428">
+                            <speaker>Albert</speaker>
+                            <lg>
+                                <l rend="indent">In all things we obey you,</l>
+                                <l>And thankfully we ever shall <seg resp="#dl" ana="#relig">confess</seg></l>
+                                <l>Ourselves your creatures<note resp="#student" type="textual">
+                                    <term>Ourselves your creatures</term>: In this passage,
+                                        Albert pledges the men's subservience to Rosella and appears
+                                        to reverse the patriarchal assumptions of early modern
+                                        social relations. "Creatures," in this sense, likely refers
+                                        to someone "who owes his fortune or position, and remains
+                                        subservient to, a patron," and who also is "ready to do
+                                        another's bidding" (<bibl><title>OED</title></bibl>). According to Albert,
+                                        then, the Frenchmen are not only willing to subjugate
+                                        themselves to these women, but also are willing to do their
+                                        bidding (sexually or otherwise). What makes this passage
+                                        especially interesting is how quickly its effects are
+                                        reversed; just ten lines later, Rosella cedes power back to
+                                        the men. These quick-shifting dynamics are likely related to
+                                        the comedic genre of the play, as the playwrights keep
+                                        switching back and forth between giving their French
+                                        protagonists patriarchal power and taking it away from
+                                        them.</note>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#ros" xml:id="TSV-sp429">
+                            <speaker>Rosella</speaker>
+                            <lg>
+                                <l rend="indent">You speak as becomes you.</l>
+                                <l>First, then, and willingly, deliver up</l>
+                                <l>Those <seg resp="#student" ana="#object">weapons</seg> we could force from you.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#alb" xml:id="TSV-sp430">
+                            <speaker>Albert</speaker>
+                            <lg>
+                                <l><seg resp="#student" ana="#object">We lay 'em down</seg></l>
+                                <l>Most gladly at your feet.</l>
+                            </lg>
+                        </sp>
+                        <stage resp="#student #dl" type="business" place="center" who="#alb #gents #mast #sails #sur">Frenchmen <seg resp="#dl" ana="#object">disarm</seg>.</stage>
+                        <sp who="#tib" xml:id="TSV-sp431">
+                            <speaker>Tibalt</speaker>
+                            <lg>
+                                <l>I have had many a combat with a tall wench,</l>
+                                <l>But never was disarmed before.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#ros" xml:id="TSV-sp432">
+                            <speaker>Rosella</speaker>
+                            <lg>
+                                <l rend="indent">And now hear comfort:</l>
+                                <l>Your wants<note resp="#dl" type="gloss">
+                                    <term>wants</term>: shortages</note> shall be supplied, and though it be</l>
+                                <l>A debt women may challenge to be sued to—</l>
+                                <l>Especially from such they may command—</l>
+                                <l>We give up to you that power, and therefore,</l>
+                                <l>Freely each make his choice.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#fran" xml:id="TSV-sp433">
+                            <speaker>Franville</speaker>
+                            <lg>
+                                <l rend="indent">Then here I fix—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#mor" xml:id="TSV-sp434">
+                            <speaker>Morillat</speaker>
+                            <lg>
+                                <l>Nay, she is mine; I eyed her first—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#lam" xml:id="TSV-sp435">
+                            <speaker>Lamure</speaker>
+                            <lg>
+                                <l rend="indent">This mine—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#tib" xml:id="TSV-sp436">
+                            <speaker>Tibalt</speaker>
+                            <lg>
+                                <l>Stay<note resp="#student" type="gloss"><term>Stay</term>: Stop, halt</note>, <seg resp="#dl" ana="#name">good rascals</seg>.</l>
+                                <l>You are too forward<note resp="#student #dl" type="gloss">
+                                        <term>forward</term>: eager; also, immodest</note>,
+                                        <seg resp="#dl" ana="#name">sir gallant</seg><note resp="#student #dl" type="gloss">
+                                        <term>gallant</term>: man of fashion</note>;</l>
+                                <l>You are not giving order to a tailor</l>
+                                <l>For the fashion of a new suit.</l>
+                                <l>Nor are you in your warehouse, <seg resp="#dl" ana="#name">master merchant</seg>.</l>
+                                <l>Stand back and give your betters leave—your betters—</l>
+                                <l>And grumble not; if ye do, as I love <seg resp="#student" ana="#name">meat</seg></l>
+                                <l>I will so swinge<note resp="#student" type="gloss">
+                                    <term>swinge</term>: beat, flog, or whip</note> the salt itch<note resp="#dl" type="gloss">
+                                        <term>salt itch</term>: sexual desire</note> out on<note resp="#dl" type="gloss">
+                                        <term>on</term>: of</note> you.</l>
+                                <l><seg resp="#student" ana="#name">Captain</seg>, <seg resp="#student" ana="#name"><persName ref="#mast">Master</persName></seg>, and the rest of us</l>
+                                <l>That are brothers and good fellows, we have been</l>
+                                <l>Too late by the ears<note resp="#dl" type="gloss">
+                                    <term>by the ears</term>: gathered to fight</note> and yet smart<note resp="#dl" type="gloss">
+                                    <term>smart</term>: feel pain</note> for our follies.</l>
+                                <l>To end therefore all future emulation<note resp="#student" type="gloss">
+                                    <term>emulation</term>: ambitious rivalry for power or honor</note>, if you please,</l>
+                                <l>Trust to my election; you shall say</l>
+                                <l>I am not partial to myself, I doubt not,</l>
+                                <l>Give content<note resp="#student" type="gloss"><term>content</term>: satisfaction</note> to all.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#alb #mast #lam #mor #fran #sur #sails" xml:id="TSV-sp437">
+                            <speaker>All</speaker>
+                            <lg>
+                                <l rend="indent">Agreed, agreed.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#tib" xml:id="TSV-sp438">
+                            <speaker>Tibalt</speaker>
+                            <lg>
+                                <l>Then but observe how learnèd and discreetly</l>
+                                <l>I will proceed and, as a skillful doctor</l>
+                                <l>In all the quirks belongs to the game,</l>
+                                <l>Read over your complexions. For you, <seg resp="#student" ana="#name">captain</seg>,</l>
+                                <l>Being first in place and therefore first to be served,</l>
+                                <l>I give my judgment thus: for your aspect<note resp="#dl" type="gloss">
+                                    <term>aspect</term>: outward appearance, particularly the face</note></l>
+                                <l>Y'are much inclined to melancholy, and that tells me</l>
+                                <l>The sullen <name>Saturn</name> had predominance</l>
+                                <l>At your nativity—a malignant<note resp="#student" type="gloss">
+                                    <term>malignant</term>: damaging or harmful</note> planet,</l>
+                                <pb n="TSV-011"
+                                    facs="https://digital.libraries.psu.edu/digital/api/singleitem/image/emblem/4825/default.jpg"/>
+                                <l>And if not qualified by a sweet conjunction</l>
+                                <l>Of a soft and ruddy wench born under <name>Venus</name><note resp="#student" type="gloss">
+                                    <term>Venus</term>: Roman goddess of beauty and love, here referring also to the planet</note>,</l>
+                                <l>It may prove fatal—therefore, to your arms</l>
+                                <l>I give this rose-cheeked virgin.<note resp="#student" type="context">
+                                    <term>For you ... rose-cheeked virgin</term>:
+                                        As Tibalt explains how he selected a partner for Albert, he
+                                        refers to astrology, saying that Albert was born under
+                                        Saturn, "a malignant planet," which caused him to be prone
+                                        to melancholy. In the early modern period, the medical
+                                        belief in the humoral system still persisted. This meant
+                                        that there were four bodily "humors": phlegm, yellow bile,
+                                        blood, and black bile, that could cause various issues if
+                                        these fluids were unbalanced. Melancholy was the term for an
+                                        excess of black bile. The humoral system often was used in
+                                        conjunction with theories about the planets (namely, the
+                                        moon, Mars, Venus, Jupiter, and Saturn). In this case,
+                                        Tibalt selects Clarinda because he claims that she is a
+                                        "soft, ruddy wench born under Venus." This, according to
+                                        Tibalt should restore Albert's balance and counteract his
+                                        melancholic tendencies. Melancholy was also blamed for
+                                        hallucinations, sudden outbursts, and other signs of
+                                        madness.</note></l>
+                            </lg>
+                        </sp>
+                        <sp who="#cla" xml:id="TSV-sp439">
+                            <speaker>Clarinda</speaker>
+                            <lg>
+                                <l rend="indent">To my wish!</l>
+                                <l>'Til now I never was happy.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#amin" xml:id="TSV-sp440">
+                            <speaker>Aminta</speaker>
+                            <lg>
+                                <l rend="indent">Nor I accursed!</l>
+                            </lg>
+                        </sp>
+                        <sp who="#tib" xml:id="TSV-sp441">
+                            <speaker>Tibalt</speaker>
+                            <lg>
+                                <l><seg resp="#student" ana="#name"><persName ref="#mast">Master</persName></seg>, you are old</l>
+                                <l>Yet love the game—that I perceive, too—</l>
+                                <l>And if not well spurred up<note resp="#student" type="gloss">
+                                    <term>spurred up</term>: ready to ride, used as sexual innuendo</note> you may prove rusty.</l>
+                                <l>Therefore, to help ye here's a Bradamanta<note resp="#student" type="gloss">
+                                    <term>Bradamanta</term>: fictional female warrior and expert in combat</note></l>
+                                <l>Or I am cozened<note resp="#student" type="gloss"><term>cozened</term>: deceived or duped</note> in my calculation.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#cro" xml:id="TSV-sp442">
+                            <speaker>Crocale</speaker>
+                            <lg>
+                                <l>A poor old man allotted to my share—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#tib" xml:id="TSV-sp443">
+                            <speaker>Tibalt</speaker>
+                            <lg>
+                                <l>Thou wouldst have two—</l>
+                                <l>Nay, I think twenty—but fear not, <seg resp="#dl" ana="#name">wench</seg>:</l>
+                                <l>Though he be old he's tough. Look on's making,</l>
+                                <l>He'll not fail, I warrant thee—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#ros" xml:id="TSV-sp444">
+                            <speaker>Rosella</speaker>
+                            <lg>
+                                <l rend="indent">A merry fellow,</l>
+                                <l>And were not man a creature I detest</l>
+                                <l>I could endure his company—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#tib" xml:id="TSV-sp445">
+                            <speaker>Tibalt</speaker>
+                            <lg>
+                                <l>Here's a fair herd of does before me.</l>
+                                <l>And now for a barren one,</l>
+                                <l>For though I like the sport, I do not love</l>
+                                <l>To father children. Like the Grand Signor<note type="gloss">
+                                    <term>Grand Signor</term>: Ottoman Sultan</note>,</l>
+                                <l>Thus I walk in my seraglio<note resp="#student" type="gloss">
+                                    <term>seraglio</term>: the part of a Muslim palace where wives and concubines live</note></l>
+                                <l>And view 'em as I pass, then draw I forth</l>
+                                <l>My <seg resp="#student" ana="#object">handkerchief</seg> and, having made my choice,</l>
+                                <l>I thus bestow it—</l>
+                            </lg>
+                        </sp>
+                        <stage resp="#student" type="business" place="center" who="#tib #ros"><persName ref="#tib">Tibalt</persName> gives <seg resp="#dl" ana="#object">handkerchief</seg> to <persName ref="#ros">Rosella</persName>.</stage>
+                        <sp who="#ros" xml:id="TSV-sp446">
+                            <speaker>Rosella</speaker>
+                            <lg>
+                                <l rend="indent">On me?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#tib" xml:id="TSV-sp447">
+                            <speaker>Tibalt</speaker>
+                            <lg>
+                                <l>On you. Now my choice is made,</l>
+                                <l>To it, you <seg resp="#student" ana="#name">hungry rascals</seg>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#alb" xml:id="TSV-sp448">
+                            <speaker>Albert</speaker>
+                            <lg>
+                                <l rend="indent">Excellent.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#amin" xml:id="TSV-sp449">
+                            <speaker>Aminta</speaker>
+                            <lg>
+                                <l>As I love goodness,</l>
+                                <l>It makes me smile i'th' height of all my fears.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#cla" xml:id="TSV-sp450">
+                            <speaker>Clarinda</speaker>
+                            <lg>
+                                <l>What a strong contention you may behold</l>
+                                <l>Between my mother's mirth and anger.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#tib" xml:id="TSV-sp451">
+                            <speaker>Tibalt</speaker>
+                            <lg>
+                                <l>Nay, no coyness. Be mistress of your word:</l>
+                                <l>I must and will enjoy you.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#ros" xml:id="TSV-sp452">
+                            <speaker>Rosella</speaker>
+                            <lg>
+                                <l>Be advised, <seg resp="#dl" ana="#name">fool</seg>: alas, I am old.</l>
+                                <l>How canst thou hope content<note resp="#student" type="gloss">
+                                    <term>content</term>: satisfaction</note> from one that's fifty?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#tib" xml:id="TSV-sp453">
+                            <speaker>Tibalt</speaker>
+                            <lg>
+                                <l>Never talk on't.</l>
+                                <l>I have known good ones at threescore<note resp="#student" type="gloss">
+                                    <term>threescore</term>: sixty</note> and upwards.</l>
+                                <l>Besides, the weather's hot, and men</l>
+                                <l>That have experience fear fevers;</l>
+                                <l>A <seg resp="#student" ana="#food">temperate diet</seg> is the only physic<note resp="#student" type="gloss"><term>physic</term>: curative</note>.</l>
+                                <l>Your <seg resp="#student" ana="#food">juleps</seg><note resp="#dl" type="gloss">
+                                    <term>juleps</term>: sweet drinks made with syrup or sugar</note> nor <seg resp="#student" ana="#food">guajacum</seg><note resp="#dl" type="gloss">
+                                     <term>guajacum</term>: drug prepared from the resin of a tree of the West Indies</note>, <seg resp="#student" ana="#food">prunellos</seg><note resp="#dl" type="gloss">
+                                     <term>prunellos</term>: plums; also, liqueurs derived from the fruit of the blackthorn</note>,</l>
+                                <l><seg resp="#student" ana="#food">Camphor<note resp="#dl" type="gloss">
+                                    <term>Camphor</term>: a bitter pharmaceutical substance used as an antaphrodisiac</note> pills</seg>, nor <seg resp="#student" ana="#food">gourd water</seg>
+                                    <note type="gloss"><term>gourd water</term>: rain water collected in a hollowed-out gourd (<ref target="#cmlb2020">Bourne</ref>).</note>,</l>
+                                <l>Come not near your old woman.</l>
+                                <l><seg resp="#student" ana="#food">Youthful stomachs</seg> are still <seg resp="#student" ana="#food">craving</seg></l>
+                                <l>Though there be nothing left to <seg resp="#student" ana="#food">stop their mouths</seg> with.</l>
+                                <l>And believe me, I am no frequent giver of those bounties<note resp="#dl" type="gloss">
+                                    <term>I am no frequent ... bounties</term>: i.e. I do not often engage in sexual activity</note>—</l>
+                                <l>Laugh on, laugh on, <seg resp="#dl" ana="#name">good <name ref="#gents">gentlemen</name></seg>, do.</l>
+                                <l>I shall make holiday and sleep when you</l>
+                                <l>Dig in the mines 'til your hearts ache.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#ros" xml:id="TSV-sp454">
+                            <speaker>Rosella</speaker>
+                            <lg>
+                                <l>A mad fellow.</l>
+                                <l>Well, <seg resp="#dl" ana="#name">sir</seg>, I'll give you hearing, and as I like</l>
+                                <l>Your wooing and discourse—but I must tell ye, <seg resp="#dl" ana="#name">sir</seg>,</l>
+                                <l>That rich widows look for great sums in present<note resp="#dl" type="gloss">
+                                    <term>rich widows ... present</term>: i.e. rich widows expect large sums of money as gifts</note></l>
+                                <l>Or assurances of ample jointers<note resp="#student" type="gloss" >
+                                    <term>jointers</term>: joint possessors of property or an estate</note>. </l>
+                            </lg>
+                        </sp>
+                        <sp who="#tib" xml:id="TSV-sp455">
+                            <speaker>Tibalt</speaker>
+                            <lg>
+                                <l rend="indent">That to me is easy,</l>
+                                <l>For instantly I'll do it: hear, <seg resp="#dl" ana="#name">comrades</seg>!</l>
+                            </lg>
+                        </sp>
+                        <sp who="#alb" xml:id="TSV-sp456">
+                            <speaker>Albert</speaker>
+                            <lg>
+                                <l>What say'st thou, <seg resp="#student" ana="#name"><persName ref="#tib">Tibalt</persName></seg>?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#tib" xml:id="TSV-sp457">
+                            <speaker>Tibalt</speaker>
+                            <lg>
+                                <l>Why, that to woo a wench with empty hands</l>
+                                <l>Is no good heraldry<note resp="#dl" type="gloss">
+                                    <term>heraldry</term>: show of honor and noble birth</note>. Therefore, let's to the <seg resp="#student" ana="#object">gold</seg></l>
+                                <l>And share it equally; 'twill speak for us</l>
+                                <l>More than a thousand compliments or cringes<note resp="#student" type="gloss">
+                                    <term>cringes</term>: bows, deferential acts</note>,</l>
+                                <l>Ditties stolen from <name>Patrick</name><note resp="#student" type="gloss">
+                                    <term>Patrick</term>: likely misspelling of Petrarch, Italian Renassiance author of famous love sonnets</note>, or discourse from <name>Ovid</name>
+                                    <note resp="#dl" type="gloss"><term>Ovid</term>: ancient Roman poet of great renown</note>.</l>
+                                <l>Besides, 'twill beget us respect,</l>
+                                <l>And if ever <seg resp="#dl" ana="#relig">Fortune</seg> friend us with a bark<note resp="#dl" type="gloss">
+                                    <term>bark</term>: wooden ship</note>,</l>
+                                <l>Largely supply us with all provision.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#alb" xml:id="TSV-sp458">
+                            <speaker>Albert</speaker>
+                            <lg>
+                                <l>Well advised; defer it not.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#tib" xml:id="TSV-sp459">
+                            <speaker>Tibalt</speaker>
+                            <lg>
+                                <l>Are ye all contented?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#alb #mast #lam #mor #fran #sur #sails" xml:id="TSV-sp460">
+                            <speaker>All</speaker>
+                            <lg>
+                                <l rend="center">We are!</l>
+                            </lg>
+                        </sp>
+                        <sp who="#tib" xml:id="TSV-sp461">
+                            <speaker>Tibalt</speaker>
+                            <lg>
+                                <l rend="indent">Let's away then.</l>
+                                <l>Straight we'll return</l>
+                                <l>And you shall see our <seg resp="#student" ana="#object">riches</seg>.</l>
+                            </lg>
+                        </sp>
+                        <stage resp="#dl" type="exit" place="right" who="#alb #gents #mast #sur #sails">Exit Frenchmen.</stage>
+                        <sp who="#ros" xml:id="TSV-sp462">
+                            <speaker>Rosella</speaker>
+                            <lg>
+                                <l>Since I know<note resp="#dl" type="gloss">
+                                    <term>Since I know</term>: Since I have known</note> what wonder and amazement was,</l>
+                                <l>I ne'er was so transported<note resp="#dl" type="gloss">
+                                    <term>transported</term>: carried away by excitement</note>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#cla" xml:id="TSV-sp463">
+                            <speaker>Clarinda</speaker>
+                            <lg>
+                                <l rend="indent">Why weep ye, <seg resp="#student" ana="#name">gentle maid</seg>?</l>
+                                <l>There is no danger here to such as you.</l>
+                                <l>Banish fear, for with us I dare promise</l>
+                                <l>You shall meet all courteous entertainment.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#cro" xml:id="TSV-sp464">
+                            <speaker>Crocale</speaker>
+                            <lg>
+                                <l>We esteem<note resp="#student" type="gloss">
+                                    <term>esteem</term>: regard as valuable</note> ourselves most happy in you—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#hip" xml:id="TSV-sp465">
+                            <speaker>Hippolita</speaker>
+                            <lg>
+                                <l>And <seg resp="#student" ana="#name">bless fortune</seg> that brought you hither.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#cla" xml:id="TSV-sp466">
+                            <speaker>Clarinda</speaker>
+                            <lg>
+                                <l>Hark in your ear:</l>
+                                <l>I love you as a friend already.</l>
+                                <l>Ere<note resp="#dl" type="gloss">
+                                    <term>Ere</term>: Before</note> long you shall call me by a nearer name.<note resp="#student #dl" type="gloss">
+                                    <term>Ere long ... nearer name</term>: i.e. Soon you will call me your sister-in-law</note></l>
+                                <l>I wish your brother well; I know you apprehend me.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#amin" xml:id="TSV-sp467">
+                            <speaker>Aminta</speaker>
+                            <lg>
+                                <l>(Ay, to my grief, I do.)</l>
+                                <l>Alas, <seg resp="#student" ana="#name">good ladies</seg>, there is nothing left me</l>
+                                <l>But thanks to pay ye with.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#cla" xml:id="TSV-sp468">
+                            <speaker>Clarinda</speaker>
+                            <lg>
+                                <l rend="indent">That's more</l>
+                                <l>Than yet you stand engaged for.</l>
+                            </lg>
+                        </sp>
+                        <stage resp="#student" type="entrance" place="center" who="#alb #gents #mast #sur #sails">Enter <persName ref="#alb">Albert</persName>, 
+                            <persName ref="#tib">Tibalt</persName>, and the rest with <seg resp="#student" ana="#object">treasure</seg>.
+                        </stage>
+                        <sp who="#ros" xml:id="TSV-sp469">
+                            <speaker>Rosella</speaker>
+                            <lg>
+                                <l rend="indent">So soon returned!</l>
+                            </lg>
+                        </sp>
+                        <sp who="#alb" xml:id="TSV-sp470">
+                            <speaker>Albert</speaker>
+                            <lg>
+                                <l>Here: see the <seg resp="#student" ana="object relig">idol of the lapidary</seg>.<note resp="#student" type="gloss">
+                                    <term>lapidary</term>: an individual who is skilled in the work surrounding gems and precious stones</note>
+                                    <note resp="#student" type="textual">
+                                    <term>idol of lapidary</term>: The phrase "idol of lapidary" begins a series of descriptions of the treasure by
+                                        the Frenchmen that seemingly elevates its value to a mythical quality through associations with a diverse variety
+                                        of individuals—slaves, merchants, royalty, sailors—who would go to immense lengths to possess it. "Idol of lapidary" also
+                                        implies that the treasure is a divine object of worship, perhaps even beyond one's love of God. While these
+                                        descriptions aim to impress Rosella, in a larger sense they function to afford the men themselves material value
+                                        alongside their sexual value to the women. It is therefore of utmost importance to the Frenchmen to upsell the value of
+                                        the treasure. Furthermore, in a narrative with characters like Lamure, Franville, and Morillat, whose identities are
+                                        strongly rooted in their material wealth (as first seen in Act 1, Scene 1 during the storm), perhaps these
+                                        people-related descriptions of value mirror their own views on persona and reflect a genuine desire for such treasure to
+                                        re-establish their identities.</note></l>
+                            </lg>
+                        </sp>
+                        <sp who="#tib" xml:id="TSV-sp471">
+                            <speaker>Tibalt</speaker>
+                            <lg>
+                                <l>These <seg resp="#student" ana="#object">pearls</seg> for which the slavish negro</l>
+                                <l>Dives to the bottom of the sea—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#lam" xml:id="TSV-sp472">
+                            <speaker>Lamure</speaker>
+                            <lg>
+                                <l>To get which the industrious merchant</l>
+                                <l>Touches at either pole<note resp="#dl" type="gloss">
+                                    <term>Touches at either pole</term>: Traverses the globe</note>—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#fran" xml:id="TSV-sp473">
+                            <speaker>Franville</speaker>
+                            <lg>
+                                <l rend="indent">The never-sailing purchase</l>
+                                <l>Of lordships and of honors—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#mor" xml:id="TSV-sp474">
+                            <speaker>Morillat</speaker>
+                            <lg>
+                                <l rend="indent">The world's mistress</l>
+                                <l>That can give everything to the possessors—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#mast" xml:id="TSV-sp475">
+                            <speaker>Master</speaker>
+                            <lg>
+                                <l>For which the sailors scorn<note resp="#student" type="gloss">
+                                    <term>scorn</term>: defy</note> tempestuous winds</l>
+                                <l>And spit defiance in the <seg resp="#student" ana="#place">sea</seg>—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#tib" xml:id="TSV-sp476">
+                            <speaker>Tibalt</speaker>
+                            <lg>
+                                <l>Speak, <seg resp="#student" ana="#name">lady</seg>: look we not lovely now?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#ros" xml:id="TSV-sp477">
+                            <speaker>Rosella</speaker>
+                            <lg>
+                                <l>Yes, yes—oh, my <seg resp="#student" ana="#relig">stars</seg><note resp="#student" type="textual">
+                                    <term>oh, my stars</term>: Rosella's call of gratitude to the stars 
+                                    for bringing her an opportunity for revenge subtly contrasts Albert's earlier
+                                    pleas to a Christian heaven. While both reference some type of higher force intertwined with the Christian beliefs of
+                                    the time, Rosella references a naturalistic force that, in a larger sense, emphasizes the women's eschewing of societal
+                                    and religious conventions in their isolated environment. The women are previously characterized alongside the Greek
+                                    goddess Artemis as independent, chaste hunters and with Artemis' associations with the moon. Here, the women appeal
+                                    to a Greek, polytheistic religion that places belief in the power of celestial bodies like the moon and the stars. This
+                                    association also perhaps alludes to the idea of women constantly changing and being influenced by nature. Taken
+                                    together with the men's references to conventional Christian ideas of God and heaven, a rhetorical battle is created not
+                                    only between spiritual worldviews, but also between genders.</note>,</l>
+                                <l>Be now <seg resp="#student" ana="#relig">forever blessed</seg> that have brought</l>
+                                <l>To my revenge these robbers! Take your <seg resp="#student" ana="#object">arrows</seg></l>
+                                <l>And nail these monsters to the earth.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#alb" xml:id="TSV-sp478">
+                            <speaker>Albert</speaker>
+                            <lg>
+                                <l>What mean ye, <seg resp="#student" ana="#name">lady</seg>?</l>
+                                <l>In what have we offended?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#ros" xml:id="TSV-sp479">
+                            <speaker>Rosella</speaker>
+                            <lg>
+                                <l rend="indent">Oh, <seg resp="#student" ana="#name">my daughter</seg></l>
+                                <l>And <seg resp="#student" ana="#name">you companions</seg> with me in all <seg resp="#dl" ana="#relig">fortunes</seg>!</l>
+                                <l>Look on these <seg resp="#student" ana="#object">caskets and these jewels</seg>.</l>
+                                <l>These were our own when first we put to <seg resp="#student" ana="#place">sea</seg></l>
+                                <l>With <seg resp="#student" ana="#name">good <persName ref="#seb">Sebastian</persName></seg>, and these the pirates</l>
+                                <l>That, not alone deprived him of his <seg resp="#student" ana="#object">treasure</seg>,</l>
+                                <l>But also took his life.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#cro" xml:id="TSV-sp480">
+                            <speaker>Crocale</speaker>
+                            <lg>
+                                <l rend="indent"><seg resp="#student" ana="#object">Part of my present<note resp="#dl" type="gloss">
+                                     <term>Part of my present</term>: i.e. Part of what was presented to me by the French men</note></seg></l>
+                                <l><seg resp="#student" ana="#object">I well remember was mine own</seg>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#hip" xml:id="TSV-sp481">
+                            <speaker>Hippolita</speaker>
+                            <lg>
+                                <l><seg resp="#student" ana="#object">And these were mine</seg>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#jul" xml:id="TSV-sp482">
+                            <speaker>Juletta</speaker>
+                            <lg>
+                                <l rend="indent">Sure, I have worn this <seg resp="#student" ana="#name">jewel</seg>.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#ros" xml:id="TSV-sp483">
+                            <speaker>Rosella</speaker>
+                            <lg>
+                                <l>Wherefore do ye stay<note resp="#dl" type="gloss"><term>stay</term>: delay</note>, then,</l>
+                                <l>And not perform my command?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#alb" xml:id="TSV-sp484">
+                            <speaker>Albert</speaker>
+                            <lg>
+                                <l rend="indent">Oh, <seg resp="#student" ana="#relig">heaven</seg>!</l>
+                                <l>What <seg resp="#student" ana="#relig">cruel fate</seg> pursues us?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#tib" xml:id="TSV-sp485">
+                            <speaker>Tibalt</speaker>
+                            <lg>
+                                <l rend="indent">I am well enough served</l>
+                                <l>That must be offering jointures<note resp="#student" type="textual">
+                                    <term>jointures</term>: The original definition of
+                                        "jointure" is rooted in marriage conventions, referring to
+                                        an arrangement between a husband and wife to hold a property
+                                        jointly so that the property may be settled on the wife if
+                                        she is widowed. It also has been used an equivalent term to
+                                        a dowry. Tibalt's use of "jointures," then, might allude to
+                                        the societal and patriarchal need to establish order through
+                                        marital and legal conventions, particularly as this usage
+                                        occurs in the face of a woman's (Rosella's) anger. However,
+                                        the suggested convention of "jointure" is one of the few of
+                                        its time that gave women potential independence over their
+                                        estate, and so it may also be rhetorically appropriate that
+                                        Tibalt offers a share of further wealth to Rosella who is
+                                        presumed to be widowed (<ref target="#hjh1950">Habakkuk, 15</ref>). It is
+                                        also possible that jointure's associations with dowry
+                                        suggest that an intense situation of environment isolated
+                                        from societal norms could lead to a switch in gender roles,
+                                        such as a man freely offering dowry directly to a
+                                        woman.</note> <seg resp="#student" ana="#object">jewels,</seg></l>
+                                <l><seg resp="#student" ana="#object">And precious stones</seg> more than I brought with me.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#ros" xml:id="TSV-sp486">
+                            <speaker>Rosella</speaker>
+                            <lg>
+                                <l>Why <seg resp="#student" ana="#object">shoot</seg> ye not?</l>
+                            </lg>
+                        </sp>
+                        <sp who="#cla" xml:id="TSV-sp487">
+                            <speaker>Clarinda</speaker>
+                            <lg>
+                                <l rend="indent">Hear me, <seg resp="#student" ana="#name">dear mother</seg>,</l>
+                                <l>And when the greatest cruelty is justice,</l>
+                                <l>Do not show <seg resp="#dl" ana="#relig">mercy</seg>: death to these <seg resp="#student" ana="#food">starved</seg> wretches</l>
+                                <l>Is a reward, not punishment. Let 'em live</l>
+                                <l>To undergo the full weight of your displeasure,</l>
+                                <pb n="TSV-012"
+                                    facs="https://digital.libraries.psu.edu/digital/api/singleitem/image/emblem/4826/default.jpg"/>
+                                <l>And that they may have sense to feel the torments</l>
+                                <l>They have deserved, allow 'em some <seg resp="#student" ana="#food">small pittance<note resp="#student #dl" type="gloss">
+                                   <term>pittance</term>: very small offering of something, in this case, nourishment</note></seg></l>
+                                <l>To linger out their tortures.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#ros" xml:id="TSV-sp488">
+                            <speaker>Rosella</speaker>
+                            <lg>
+                                <l rend="indent">'Tis well counselled,</l>
+                                <l>And we'll follow it.</l>
+                            </lg>
+                        </sp>
+                        <sp who="#alb #gents #mast #sur #sails" xml:id="TSV-sp489">
+                            <speaker>All</speaker>
+                            <lg>
+                                <l rend="center">Hear us speak—</l>
+                            </lg>
+                        </sp>
+                        <sp who="#ros" xml:id="TSV-sp490">
+                            <speaker>Rosella</speaker>
+                            <lg>
+                                <l rend="indent">Peace, <seg resp="#student" ana="#name">dogs</seg>!</l>
+                                <l><seg resp="#student" ana="#object">Bind</seg> 'em fast. When fury hath given way to reason 
+                                    <stage resp="#student" type="business" place="right" who="#alb #gents #mast #sur #sails #cla #cro #hip #jul">The women tie up the men with <seg resp="#dl" ana="#object">ropes</seg>.</stage></l>
+                                <l>I will determine of their sufferings</l>
+                                <l>Which shall be horrid. Vengeance, though slow-paced,</l>
+                                <l>At length o'ertakes the guilty, and the <seg resp="#student" ana="#relig">wrath</seg></l>
+                                <l><seg resp="#student" ana="#relig">Of the incensed powers</seg> will fall most sure</l>
+                                <l>On wicked men when they are most secure.</l>
+                            </lg>
+                        </sp>
+                        <stage type="exit" place="right" who="#alb #gents #mast #sur #sails #cla #cro #hip #jul">Exeunt.</stage>
+                    </div>
+                </div>
+      </body>
+      <back>
+          <head>WORKS CITED</head>
+          <listBibl>
+              <bibl xml:id="cja2015">Adams, Carol J. <title>The Sexual Politics of Meat</title>. (<publisher>Bloomsbury Publishing</publisher>, <date>2015</date>).</bibl>
+              <bibl xml:id="rb2013">Banerjee, Rita. "Gold, Land, and Labor: Ideologies of Colonization and Rewriting 'The Tempest' in 1622." <title>Studies in Philology</title>, vol. 110, no. 2 (<date>2013</date>): pp. 291–317.</bibl>
+              <bibl xml:id="cmlb2020">Bourne, Claire M. L., ed. <author>Fletcher, John</author>, and <author>Philip Massinger</author>, 'The Sea Voyage,' in. <title>The Routledge Anthology of Early Modern Drama</title>, gen ed. edited by Claire M. L. Bourne and Jeremy Lopez, (Routledge, <date>2020</date>).</bibl>
+              <bibl xml:id="dom1972">de Oliveira Marques, António, Henrique R. <title>History of Portugal</title> (Columbia University Press, <date>1972</date>).</bibl>
+              <bibl xml:id="acd1999">Dessen, Alan C., and Leslie Thomson. <title>A Dictionary of Stage Directions in English Drama, 1580-1642</title>. (Cambridge University Press, <date>1999</date>).</bibl>
+              <bibl xml:id="af2014">Foreman, Amanda. "The Amazon Women: Is there any truth behind the myth." <title>Smithsonian Magazine</title> (<date>April 2014</date>). Available online: https://www.smithsonianmag.com/history/amazon-women-there-any-truth-behind-myth-180950188/.</bibl>
+              <bibl xml:id="hjh1950">Habakkuk, H. J. "Marriage Settlements in the Eighteenth Century." <title>Transactions of the Royal Historical Society</title> 32 (<date>1950</date>): 15–30.</bibl>
+              <bibl xml:id="mpj2007">Jackson, MacDonald P. “The Revenger’s Tragedy (1607) in Taylor, Gary, and John Lavagnino. <title>Thomas Middleton and Early Modern Textual Culture: A Companion to The Collected Works</title>, eds Taylor, Gary, and John Lavagnino. (Oxford, <date>2007</date>), 548-61.</bibl>
+              <bibl xml:id="cj2001">Jowitt, Claire. "'Her flesh must serve you': Gender, Commerce and the New World in Fletcher's and Massinger's The Sea Voyage and Massinger's The City Madam." <title>Parergon</title> 18.3 (<date>2001</date>): p. 93-117.</bibl>
+              <bibl xml:id="ril2003">Lublin, Robert I. <title>Costuming the Shakespearean Stage: Visual Codes of Representation in Early Modern Theatre and Culture</title>. PhD dissertation. The Ohio State University, <date>2003</date>.</bibl>
+              <bibl xml:id="dm2013">McInnis, David. Mind-Travelling and Voyage Drama in Early Modern England. (Palgrave Macmillan, <date>2013</date>).</bibl>
+              <bibl xml:id="gpm2019">Moore, Gaywyn Patricia, and Andrea Bernadette. "English Women, Romance, and Global Travel in Thomas Heywood's <title>The Fair Maid of the West, Part 1</title>," in <title>Travel and Travail: Early Modern Women, English Drama, and the Wider World</title>, edited by Patricia Akhimie and Andrea Bernadette (University of Nebraska Press, <date>2019</date>), p. 313-30.</bibl>
+              <bibl xml:id="mgsn2006">Narayanan, M. G. S. <title>Calicut: The City of Truth</title>. (Calicut University Publications, <date>2006</date>).</bibl>
+              <bibl xml:id="job2015">O'Brien, Jane. "Shakespeare's Evolving Attitudes towards Women." BBC News, <date>27 April, 2015</date>. Available online: www.bbc.com/news/magazine-32379759.</bibl>
+              <bibl xml:id="jms">Schecter, John M. "Adufe." <title>Grove Music Online</title>. Available online: https://www.oxfordmusiconline.com/grovemusic/view/10.1093/gmo/9781561592630.001.0001/omo-9781561592630-e-4002232233.</bibl>
+              <bibl xml:id="ls2019">Squadrilli, Luciana. "What Is Bottarga?" <title>Great Italian Chefs</title>, <date>23 Nov. 2019</date>. Available on line: https://www.greatitalianchefs.com/features/what-is-bottarga.</bibl>
+              <bibl xml:id="sg1928">Strabo. <title>Geography</title>. Book 11, Chapter 5, Section 1 (Loeb Classical Library, <date>1928</date>). Available online: http://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/11E*.html.</bibl>
+              <bibl xml:id="rs2013">Sugg, Richard. "Medicinal Cannibalism in Early Modern Literature and Culture." Literature Compass 10.11 (<date>2013</date>): 825-835.</bibl>
+              <bibl xml:id="hss2014">Syme, Holger Schott. <title>Theatre and Testimony in Shakespeare's England: A Culture of Mediation</title>. (Cambridge University Press, <date>2014</date>).</bibl>
+              <bibl xml:id="hss2015">Syme, Holger Schott. "The Theatre of Shakespeare's Time." <title>The Norton Shakespeare</title>, 3rd ed., edited by Stephen Greenblatt, et al (W. W. Norton, <date>2015</date>), 93-118.</bibl>
+              <bibl xml:id="lt1999">Thomson, Leslie. "The Meaning of 'Thunder and Lightning': Stage Directions and Audience Expectations." <title>Early Theatre</title> 2 (<date>1999</date>): 11-24.</bibl>
+              <bibl xml:id="gw1994">Williams, Gordon. <title>A Dictionary of Sexual Language and Imagery in Shakespearean and Stuart Literature</title>. (The Athlone Press, <date>1994</date>).</bibl>
+          </listBibl>
+          <interpGrp>
+              <interp xml:id="food">Words or phrases related to food/drink or eating/drinking.</interp>
+              <interp xml:id="object">Words or phrases that refer to objects present on stage.</interp>
+              <interp xml:id="place">Words or phrases related to places, including specific geographic locations, that characters are, have been, or imagine going.</interp>
+              <interp xml:id="relig">Words or phrases related to religion or spiritual practices.</interp>
+              <interp xml:id="name">Words or phrases that are names or represent people.</interp>
+          </interpGrp>
+      </back>
+  </text>
+</TEI>
