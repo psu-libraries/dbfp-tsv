@@ -247,51 +247,33 @@
                         <stage resp="#student #dl" type="entrance" place="center" who="#cro #jul #hip">
                             Enter <persName ref="#cro">Crocale</persName>,
                                 <persName ref="#jul">Juletta</persName>, and <persName ref="#hip">Hippolita</persName>, with a 
-                            <seg resp="#dl" ana="object food">table, food, and wine</seg>.<note resp="#student" type="context">In
-                                early modern drama, a table itself as a prop could be considered an
-                                extravagant display considering set design tended to be
-                                minimalistic. Money spent by theater companies was
-                                invested more in costumes than sets. As a result, plays during the
-                                period had remarkably spare stages, requiring the audience to rely
-                                heavily on their imagination to furnish the setting. Seeing a table
-                                furnished with lots of props would likely stand out to the audience,
-                                and suggests that the table will be the center of gravity for the
-                                scene. In other words, the action will revolve around the table,
-                                directly and indirectly.</note>
-                        </stage>
+                            <seg resp="#dl" ana="object food">table, food, and wine</seg>.</stage><note resp="#student" type="context">In
+                                early modern drama, a table itself as a prop could be considered an extravagant display considering set design tended to be
+                                minimalistic. Money spent by theater companies was invested more in costumes than sets. As a result, plays during the
+                                period had remarkably spare stages, requiring the audience to rely heavily on their imagination to furnish the setting. Seeing a table
+                                furnished with lots of props would likely stand out to the audience, and suggests that the table will be the center of gravity for the
+                                scene. In other words, the action will revolve around the table, directly and indirectly.</note>
                         <sp who="#cro" xml:id="TSV-sp731">
                             <speaker>Crocale</speaker>
                             <lg>
                                 <l>So <seg resp="#dl" ana="object food">serve it plentifully</seg>,</l>
                                 <l>And lose not time to enquire the cause;</l>
                                 <l>There is a main<note resp="#dl" type="gloss">
-                                    <term>main</term>: powerful</note> design<note resp="#dl" type="gloss">
-                                            <term>design</term>: plot</note> that hangs<note resp="#dl" type="gloss">
+                                    <term>main</term>: powerful</note> design<note resp="#dl" type="gloss"><term>design</term>: plot</note> that hangs<note resp="#dl" type="gloss">
                                                 <term>hangs</term>: depends</note>
-                                    upon this <seg resp="#dl" ana="#food">bounty<note resp="#dl" type="gloss">
-                                        <term>bounty</term>: i.e. the food and wine</note></seg>.</l>
-                                <l>See the <seg resp="#student" ana="object food">table
-                                            furnished<note resp="#student" type="gloss">
-                                                <term>furnished</term>: provided</note> with
-                                        wine</seg>, too;</l>
+                                    upon this <seg resp="#dl" ana="#food">bounty</seg><note resp="#dl" type="gloss">
+                                        <term>bounty</term>: i.e. the food and wine</note>.</l>
+                                <l>See the <seg resp="#student" ana="object food">table furnished<note resp="#student" type="gloss"><term>furnished</term>: provided</note> with wine</seg>, too;</l>
                                 <l>That discovers secrets which tortures cannot open<note resp="#student #dl" type="gloss">
                                     <term>open</term>: reveal</note>.</l>
                                 <l>Open the doors, too, of the <seg resp="#student" ana="#place">several prisons</seg>,</l>
                                 <l>And give all free entrance into this <seg resp="#student" ana="#place">room</seg>.</l>
-                                <fw type="catch">Undi&#383;-</fw>
                                 <pb n="TSV-017"
                                     facs="https://digital.libraries.psu.edu/digital/api/singleitem/image/emblem/4831/default.jpg"/>
-                                <fw type="pageNum">25</fw>
-                                <cb n="1"/>
-                                <l><seg resp="#student #dl" ana="object place">Undiscovered</seg>, I
-                                    can here mark<note resp="#student" type="gloss">
-                                        <term>mark</term>: watch</note> all.</l>
-                                <stage resp="#student" type="exit" place="right" who="#jul #hip">Exit 
-                                    <persName ref="#jul">Juletta</persName> and <persName ref="#hip">Hippolita</persName>.</stage>
+                                <l><seg resp="#student #dl" ana="object place">Undiscovered</seg>, I can here mark<note resp="#student" type="gloss"><term>mark</term>: watch</note> all.</l>
+                                <stage resp="#student" type="exit" place="right" who="#jul #hip">Exit <persName ref="#jul">Juletta</persName> and <persName ref="#hip">Hippolita</persName>.</stage>
                                 <stage resp="#student #dl" type="business" place="center" who="#cro">
-                                    <persName ref="#cro">Crocale</persName>
-                                    <seg resp="#dl" ana="#place">steps to the side</seg>.</stage>
-                                <note resp="#student" type="context">In the original text, no stage
+                                    <persName ref="#cro">Crocale</persName><seg resp="#dl" ana="#place">steps to the side</seg>.</stage><note resp="#student" type="context">In the original text, no stage
                                     directions are provided to indicate Crocale is hiding or has
                                     stepped aside. Additionally, no stage directions specify that
                                     Hippolita and Juletta exit. Rather, these actions must simply be
@@ -305,15 +287,9 @@
                                     important aspect of this stage direction is possibly not that
                                     Crocale is visible to the audience, but that the audience
                                     actually knows she is hiding.</note>
-                                <stage type="entrance" place="center" who="#tib #mast">Enter
-                                        <persName ref="#tib">Tibalt</persName> and <persName ref="#mast">Master</persName>.</stage>
-                                <l>Here's <seg ana="#name">
-                                    <name ref="#tib">Captain Careless</name>
-                                </seg>, and the <seg resp="#student" ana="#name">tough 
-                                    <persName ref="#mast">shipmaster</persName>
-                                </seg>.</l>
-                                <l>The slaves are nosed like vultures<note resp="#student #dl #cmlb" type="gloss">
-                                    <term>nosed like vultures</term>: i.e. scavenging</note>;</l>
+                                <stage type="entrance" place="center" who="#tib #mast">Enter <persName ref="#tib">Tibalt</persName> and <persName ref="#mast">Master</persName>.</stage>
+                                <l>Here's <seg ana="#name"><name ref="#tib">Captain Careless</name></seg>, and the <seg resp="#student" ana="#name">tough <persName ref="#mast">shipmaster</persName></seg>.</l>
+                                <l>The slaves are nosed like vultures<note resp="#student #dl #cmlb" type="gloss"><term>nosed like vultures</term>: i.e. scavenging</note>;</l>
                                 <l>How wild they look—</l>
                             </lg>
                         </sp>
@@ -339,7 +315,7 @@
                             <speaker>Tibalt</speaker>
                             <lg>
                                 <l>Is not this <seg resp="#student" ana="object food">bread—</seg></l>
-                                <l><seg resp="#student" ana="object food">substantial bread</seg>—not painted?</l>
+                                <l><seg resp="#student" ana="object food">Substantial bread</seg>—not painted?</l>
                             </lg>
                         </sp>
                         <sp who="#mast" xml:id="TSV-sp735">
@@ -377,55 +353,32 @@
                         <sp who="#tib" xml:id="TSV-sp738">
                             <speaker>Tibalt</speaker>
                             <lg>
-                                <l>Do. And now <seg resp="#dl" ana="#relig">i'faith</seg>, how d'ye
-                                    feel yourself? <stage resp="#student #dl" type="business"
-                                        place="right" who="#tib #mast"><persName ref="#tib"
-                                            >Tibalt</persName> and <persName ref="#mast">Master</persName>,
-                                            <seg resp="#dl" ana="object food"
-                                    >eating</seg>.</stage></l>
-                                <l>I find <seg resp="#dl" ana="object food">great ease in't</seg>.
-                                    What's here?</l>
-                                <l><seg resp="#student" ana="object food">Wine</seg>, and it be thy
-                                    will,</l>
-                                <l><seg resp="#student" ana="object food">Strong lusty<note
-                                            resp="#student #dl" type="gloss"><term>lusty</term>:
-                                            pleasing, invigorating</note> wine</seg>. Well, fools
-                                    may talk</l>
-                                <l>Of <seg resp="#student" ana="#food">mithridate<note
-                                            resp="#student" type="gloss"><term>mithridate</term>:
-                                            mixture considered to be a comprehensive
-                                        remedy</note></seg>, <seg resp="#student" ana="#food"
-                                            >cordials<note resp="#dl" type="gloss"
-                                                ><term>cordials</term>: comforting or reviving
-                                            medicines or beverages</note></seg>, and <seg
-                                        resp="#student" ana="#food">elixirs<note resp="#student"
-                                            type="gloss"><term>elixirs</term>: liquid remedies for
-                                            diseases</note></seg>,</l>
-                                <l>But from my youth <seg resp="#student" ana="object food"
-                                        >this</seg> was my only <seg resp="#dl" ana="#food"
-                                            >physic<note resp="#student" type="gloss"
-                                                ><term>physic</term>: curative</note></seg>.</l>
+                                <l>Do. And now <seg resp="#dl" ana="#relig">i'faith</seg>, how d'ye feel yourself? 
+                                    <stage resp="#student #dl" type="business" place="right" who="#tib #mast">
+                                        <persName ref="#tib">Tibalt</persName> and <persName ref="#mast">Master</persName>, <seg resp="#dl" ana="object food">eating</seg>.</stage></l>
+                                <l>I find <seg resp="#dl" ana="object food">great ease in't</seg>. What's here?</l>
+                                <l><seg resp="#student" ana="object food">Wine</seg>, and it be thy will,</l>
+                                <l><seg resp="#student" ana="object food">Strong lusty<note resp="#student #dl" type="gloss">
+                                    <term>lusty</term>: pleasing, invigorating</note> wine</seg>. Well, fools may talk</l>
+                                <l>Of <seg resp="#student" ana="#food">mithridate</seg>
+                                    <note resp="#student" type="gloss">
+                                        <term>mithridate</term>: mixture considered to be a comprehensive remedy</note>, <seg resp="#student" ana="#food">cordials</seg>
+                                    <note resp="#dl" type="gloss">
+                                        <term>cordials</term>: comforting or reviving medicines or beverages</note>, and <seg resp="#student" ana="#food">elixirs</seg>
+                                    <note resp="#student" type="gloss">
+                                        <term>elixirs</term>: liquid remedies for diseases</note>,</l>
+                                <l>But from my youth <seg resp="#student" ana="object food">this</seg> was my only <seg resp="#dl" ana="#food">physic</seg>
+                                    <note resp="#student" type="gloss"><term>physic</term>: curative</note>.</l>
                                 <l>Here's a color; what lady's cheek,</l>
-                                <l>Though cerused<note resp="#student #dl" type="gloss"
-                                            ><term>cerused over</term>: painted over, often in
-                                        reference to medicinal ointments or cosmetics</note> over,
-                                    comes near <seg resp="#student" ana="object food">it</seg>?</l>
-                                <l><seg resp="#student" ana="object food">It</seg> sparkles too,
-                                    hangs out diamonds—</l>
-                                <l>Oh, <seg resp="#student #dl" ana="object food name">my
-                                        sweetheart</seg>, how I will <seg resp="#dl"
-                                        ana="object food">hug thee</seg></l>
-                                <l>Again, and again! They are <seg resp="#student" ana="#food">poor
-                                        drunkards</seg>,</l>
-                                <l>And not worth <seg resp="#student" ana="object food">thy</seg>
-                                    favors,</l>
-                                <l>That number <seg resp="#student" ana="object food">thy moist
-                                            kisses<note resp="#student #dl" type="gloss"><term>thy
-                                                moist kisses</term>: sips of wine</note></seg> in
-                                    these <seg resp="#student" ana="#object">crystals</seg>. <stage
-                                        resp="#student #dl" type="business" place="right" who="#tib"
-                                            ><persName ref="#tib">Tibalt</persName>
-                                        <seg resp="#dl" ana="object food">drinks</seg>.</stage></l>
+                                <l>Though cerused<note resp="#student #dl" type="gloss">
+                                    <term>cerused over</term>: painted over, often in reference to medicinal ointments or cosmetics</note> over, comes near <seg resp="#student" ana="object food">it</seg>?</l>
+                                <l><seg resp="#student" ana="object food">It</seg> sparkles too, hangs out diamonds—</l>
+                                <l>Oh, <seg resp="#student #dl" ana="object food name">my sweetheart</seg>, how I will <seg resp="#dl" ana="object food">hug thee</seg></l>
+                                <l>Again, and again! They are <seg resp="#student" ana="#food">poor drunkards</seg>,</l>
+                                <l>And not worth <seg resp="#student" ana="object food">thy</seg> favors,</l>
+                                <l>That number <seg resp="#student" ana="object food">thy moist kisses</seg>
+                                    <note resp="#student #dl" type="gloss"><term>thy moist kisses</term>: sips of wine</note> in these <seg resp="#student" ana="#object">crystals</seg>. 
+                                    <stage resp="#student #dl" type="business" place="right" who="#tib"><persName ref="#tib">Tibalt</persName> <seg resp="#dl" ana="object food">drinks</seg>.</stage></l>
                             </lg>
                         </sp>
                         <sp who="#mast" xml:id="TSV-sp739">
@@ -440,24 +393,14 @@
                         <sp who="#tib" xml:id="TSV-sp740">
                             <speaker>Tibalt</speaker>
                             <lg>
-                                <l rend="indent">Tush<note resp="#student" type="gloss"
-                                            ><term>Tush</term>: contemptuous, impatient
-                                        exclamation</note>, <seg resp="#dl" ana="object food">boy's
-                                        meat</seg>,</l>
-                                <l>I am past <seg resp="#dl" ana="object food">it</seg>. Here's <seg
-                                        resp="#dl" ana="object food">strong food</seg> fit for me—
-                                        <stage resp="#dl" type="business" place="right" who="#tib"
-                                            ><persName ref="#tib">Tibalt</persName>
-                                        <seg resp="#dl" ana="object food">drinks</seg>.</stage></l>
-                                <l><seg resp="#student" ana="object food">Nectar</seg>, old lad—<seg
-                                        resp="#student" ana="object food name">Mistress of merry
-                                            hearts<note resp="#dl" type="gloss"><term>hearts</term>:
-                                            term of address often used in consideration of
-                                            bravery</note></seg>,</l>
-                                <l>Once more I am bold with <seg resp="#dl" ana="object food"
-                                        >you</seg>. <stage resp="#dl" type="business" place="right"
-                                        who="#tib"><persName ref="#tib">Tibalt</persName>
-                                        <seg resp="#dl" ana="object food">drinks</seg>.</stage></l>
+                                <l rend="indent">Tush<note resp="#student" type="gloss">
+                                    <term>Tush</term>: contemptuous, impatient exclamation</note>, <seg resp="#dl" ana="object food">boy's meat</seg>,</l>
+                                <l>I am past <seg resp="#dl" ana="object food">it</seg>. Here's <seg resp="#dl" ana="object food">strong food</seg> fit for me—
+                                        <stage resp="#dl" type="business" place="right" who="#tib"><persName ref="#tib">Tibalt</persName> <seg resp="#dl" ana="object food">drinks</seg>.</stage></l>
+                                <l><seg resp="#student" ana="object food">Nectar</seg>, old lad—<seg resp="#student" ana="object food name">mistress of merry hearts</seg>
+                                    <note resp="#dl" type="gloss"><term>hearts</term>: term of address often used in consideration of bravery</note>,</l>
+                                <l>Once more I am bold with <seg resp="#dl" ana="object food">you</seg>. <stage resp="#dl" type="business" place="right" who="#tib">
+                                    <persName ref="#tib">Tibalt</persName> <seg resp="#dl" ana="object food">drinks</seg>.</stage></l>
                             </lg>
                         </sp>
                         <sp who="#mast" xml:id="TSV-sp741">
@@ -508,33 +451,24 @@
                             <speaker>Master</speaker>
                             <lg>
                                 <l>(This has been his temper ever.)</l>
-                                <l>See, <seg resp="#student" ana="object food">provoking
-                                        dishes</seg>, <seg resp="#student" ana="object food">candied
-                                            eryngoes<note resp="#student" type="gloss"
-                                                ><term>eryngoes</term>: aphroditic
-                                        plants</note></seg>,</l>
+                                <l>See, <seg resp="#student" ana="object food">provoking dishes</seg>, <seg resp="#student" ana="object food">candied eryngoes</seg>
+                                    <note resp="#student" type="gloss">
+                                        <term>eryngoes</term>: plants with aphrodisiac properties</note>,</l>
                                 <l>And <seg resp="#student" ana="object food">potatoes</seg>—</l>
                             </lg>
                         </sp>
                         <sp who="#tib" xml:id="TSV-sp746">
                             <speaker>Tibalt</speaker>
                             <lg>
-                                <l rend="indent">I'll not <seg resp="#dl" ana="object food">touch
-                                        'em</seg>. I will <seg resp="#dl" ana="#food"
-                                    >drink</seg>,</l>
-                                <l>But not a <seg resp="#dl" ana="#food">bit on a march</seg><note
-                                        type="gloss"><term>not a bit on march</term>: not a bite to
-                                        eat from here on (<ref target="#cmlb2020">Bourne</ref>).</note>; I'll be an eunuch<note
-                                        resp="#student" type="gloss"><term>eunuch</term>: castrated
-                                        man</note>, rather.</l>
+                                <l rend="indent">I'll not <seg resp="#dl" ana="object food">touch 'em</seg>. I will <seg resp="#dl" ana="#food">drink</seg>,</l>
+                                <l>But not a <seg resp="#dl" ana="#food">bit on a march</seg><note type="gloss">
+                                    <term>not a bit on march</term>: not a bite to eat from here on (<ref target="#cmlb2020">Bourne</ref>).</note>; I'll be an eunuch<note resp="#student" type="gloss">
+                                        <term>eunuch</term>: castrated man</note>, rather.</l>
                             </lg>
                         </sp>
-                        <stage type="entrance" place="center" who="#alb #amin #ray #lam #mor #fran"
-                            >Enter <persName ref="#alb">Albert</persName>, <persName ref="#amin"
-                                >Aminta</persName>, <persName ref="#ray">Raymond</persName>,
-                                <persName ref="#lam">Lamure</persName>, <persName ref="#mor"
-                                >Morillat</persName>, and <persName ref="#fran"
-                            >Franville</persName>, severally.</stage>
+                        <stage type="entrance" place="center" who="#alb #amin #ray #lam #mor #fran">Enter <persName ref="#alb">Albert</persName>, 
+                            <persName ref="#amin">Aminta</persName>, <persName ref="#ray">Raymond</persName>,
+                                <persName ref="#lam">Lamure</persName>, <persName ref="#mor">Morillat</persName>, and <persName ref="#fran">Franville</persName>, severally.</stage>
                         <sp who="#mast" xml:id="TSV-sp747">
                             <speaker>Master</speaker>
                             <lg>
@@ -544,13 +478,9 @@
                         <sp who="#tib" xml:id="TSV-sp748">
                             <speaker>Tibalt</speaker>
                             <lg>
-                                <l>Marry<note resp="#student #dl" type="gloss"><term>Marry</term>:
-                                        expression of surprise used to emphasize what
-                                    follows</note>, who you will,</l>
-                                <l>I <seg resp="#dl" ana="#food">keep my text here</seg>— <stage
-                                        resp="#dl" type="business" place="right" who="#tib"
-                                            ><persName ref="#tib">Tibalt</persName>
-                                        <seg resp="#dl" ana="object food">drinks</seg>.</stage></l>
+                                <l>Marry<note resp="#student #dl" type="gloss"><term>Marry</term>: expression of surprise used to emphasize what follows</note>, who you will,</l>
+                                <l>I <seg resp="#dl" ana="#food">keep my text here</seg>— <stage resp="#dl" type="business" place="right" who="#tib">
+                                    <persName ref="#tib">Tibalt</persName> <seg resp="#dl" ana="object food">drinks</seg>.</stage></l>
                             </lg>
                         </sp>
                         <sp who="#alb" xml:id="TSV-sp749">
@@ -573,25 +503,19 @@
                                 <l>Away, I'll be <seg resp="#dl" ana="#name">drunk</seg> alone!</l>
                                 <l>Keep off, <seg resp="#dl" ana="#name">rogues</seg>, or I'll belch
                                     ye into air.</l>
-                                <l>Not a <seg resp="#dl" ana="#name">drop</seg> here. <stage
-                                        resp="#dl" type="business" place="right" who="#tib"
-                                            ><persName ref="#tib">Tibalt</persName>
-                                        <seg resp="#dl" ana="object food">drinks</seg>.</stage></l>
+                                <l>Not a <seg resp="#dl" ana="#name">drop</seg> here. <stage resp="#dl" type="business" place="right" who="#tib">
+                                    <persName ref="#tib">Tibalt</persName> <seg resp="#dl" ana="object food">drinks</seg>.</stage></l>
                             </lg>
                         </sp>
                         <sp who="#amin" xml:id="TSV-sp752">
                             <speaker>Aminta</speaker>
                             <lg>
-                                <l><seg resp="#student" ana="#name">Dear brother</seg>, put not in
-                                    your eyes such anger.</l>
-                                <l>Those looks <seg resp="#dl" ana="#food">poisoned</seg> with fury
-                                    shot at him</l>
-                                <l>Reflect on me. Oh, <seg resp="#dl" ana="#name">brother</seg>, look
-                                    milder, or</l>
+                                <l><seg resp="#student" ana="#name">Dear brother</seg>, put not in your eyes such anger.</l>
+                                <l>Those looks <seg resp="#dl" ana="#food">poisoned</seg> with fury shot at him</l>
+                                <l>Reflect on me. Oh, <seg resp="#dl" ana="#name">brother</seg>, look milder, or</l>
                                 <l>The crystal of his temperance</l>
                                 <l>Will turn 'em on yourself<note resp="#student #dl" type="gloss">
-                                    <term>The crystal ... on yourself</term>: Albert's
-                                        coolness and steadiness in the situation will act as a mirror 
+                                    <term>The crystal ... on yourself</term>: Albert's coolness and steadiness in the situation will act as a mirror 
                                         to reflect Raymond's anger back at him</note>. </l>
                             </lg>
                         </sp>
@@ -599,34 +523,26 @@
                             <speaker>Albert</speaker>
                             <lg>
                                 <l><seg resp="#dl" ana="#name">Sir</seg>, I have sought ye long</l>
-                                <l>To find your pardon. You have ploughed<note resp="#student #dl"
-                                        type="gloss"><term>ploughed</term>: figuratively tilled
-                                        fields, but in this case more generally earned one's
-                                        livelihood</note> the <seg resp="#student" ana="#place"
-                                        >ocean</seg></l>
-                                <cb n="2"/>
+                                <l>To find your pardon. You have ploughed<note resp="#student #dl" type="gloss">
+                                    <term>ploughed</term>: figuratively tilled fields, but in this case more generally earned one's livelihood</note> 
+                                    the <seg resp="#student" ana="#place">ocean</seg></l>
                                 <l>To wreak your vengeance on me for the rape<note resp="#dl" type="gloss">
-                                    <term>rape</term>: abduction, not always with the
-                                        intention of sexual violation</note></l>
+                                    <term>rape</term>: abduction, not always with the intention of sexual violation</note></l>
                                 <l>Of this fair virgin. Now, our <seg resp="#dl" ana="#relig">fortune</seg> guides us</l>
                                 <l>To meet on such hard terms that we need rather</l>
                                 <l>A mutual pity of our present state</l>
                                 <l>Than to expostulate of breaches past<note resp="#student #dl" type="gloss">
-                                    <term>expostulate of breaches past</term>: talk at length of former
-                                        conflicts or transgressions</note></l>
+                                    <term>expostulate of breaches past</term>: talk at length of former conflicts or transgressions</note></l>
                                 <l>Which cannot be made up. And though it be</l>
-                                <l>Far from your power to force me to <seg resp="#dl" ana="#relig"
-                                        >confess</seg></l>
+                                <l>Far from your power to force me to <seg resp="#dl" ana="#relig">confess</seg></l>
                                 <l>That I have done ye wrong, or such submission</l>
                                 <l>Failing to make my peace, to vent your anger,</l>
                                 <l>You being yourself slaved as I to others,</l>
-                                <l>Yet for your sister's sake, her <seg resp="#dl" ana="#relig"
-                                        >blessed sake</seg>,</l>
+                                <l>Yet for your sister's sake, her <seg resp="#dl" ana="#relig">blessed sake</seg>,</l>
                                 <l>In part of recompence of what she has suffered</l>
                                 <l>For my rash folly, the contagion</l>
                                 <l>Of my black actions catching hold upon</l>
-                                <l>her purer innocence, I crave your <seg resp="#dl" ana="#relig"
-                                        >mercy</seg>,</l>
+                                <l>Her purer innocence, I crave your <seg resp="#dl" ana="#relig">mercy</seg>,</l>
                                 <l>And wish however several motives kept us</l>
                                 <l>From being friends while we had hope to live,</l>
                                 <l>Let death, which we expect and cannot fly<note resp="#dl" type="gloss">
@@ -637,41 +553,30 @@
                         <sp who="#tib" xml:id="TSV-sp754">
                             <speaker>Tibalt</speaker>
                             <lg>
-                                <l><seg resp="#dl" ana="object food">Drink upon't</seg>, 'tis a good
-                                    motion; <stage resp="#dl" type="business" place="right"
-                                        who="#tib"><persName ref="#tib">Tibalt</persName>
-                                        <seg resp="#dl" ana="object food">offering
-                                        wine</seg>.</stage></l>
-                                <l><seg resp="#student" ana="object food">Ratify<note resp="#dl"
-                                            type="gloss"><term>Ratify</term>: Formally
-                                            sanction</note> it in wine</seg>, and 'tis
-                                        authentical<note resp="#dl" type="gloss"
-                                            ><term>authentical</term>: legally valid</note>. <stage
-                                        resp="#dl" type="business" place="right" who="#tib"
-                                            ><persName ref="#tib">Tibalt</persName>
-                                        <seg resp="#dl" ana="object food">drinks</seg>.</stage></l>
+                                <l><seg resp="#dl" ana="object food">Drink upon't</seg>, 'tis a good motion; 
+                                    <stage resp="#dl" type="business" place="right" who="#tib">
+                                        <persName ref="#tib">Tibalt</persName> <seg resp="#dl" ana="object food">offering wine</seg>.</stage></l>
+                                <l><seg resp="#student" ana="object food">Ratify<note resp="#dl" type="gloss">
+                                    <term>Ratify</term>: Formally sanction</note> it in wine</seg>, and 'tis authentical<note resp="#dl" type="gloss">
+                                        <term>authentical</term>: legally valid</note>. <stage resp="#dl" type="business" place="right" who="#tib">
+                                            <persName ref="#tib">Tibalt</persName> <seg resp="#dl" ana="object food">drinks</seg>.</stage></l>
                             </lg>
                         </sp>
                         <sp who="#ray" xml:id="TSV-sp755">
                             <speaker>Raymond</speaker>
                             <lg>
                                 <l>When I consider</l>
-                                <l>The ground<note resp="#dl" type="gloss"><term>ground</term>:
-                                        legal ground, reason</note> of our long difference and look
-                                    on</l>
+                                <l>The ground<note resp="#dl" type="gloss"><term>ground</term>: legal ground, reason</note> of our long difference and look on</l>
                                 <l>Our not-to-be-avoided miseries,</l>
                                 <l>It doth beget in me—I know not how—</l>
-                                <l>A <seg resp="#dl" ana="#relig">soft religious tenderness</seg>
-                                    which tells me,</l>
+                                <l>A <seg resp="#dl" ana="#relig">soft religious tenderness</seg> which tells me,</l>
                                 <l>Though we have many faults to answer for</l>
                                 <l>Upon our own account, our fathers' crimes</l>
-                                <l>Are in us punished. Oh, <seg resp="#dl" ana="#name"><persName
-                                            ref="#alb">Albert</persName></seg>, the course</l>
+                                <l>Are in us punished. Oh, <seg resp="#dl" ana="#name"><persName ref="#alb">Albert</persName></seg>, the course</l>
                                 <l>They took to leave us rich was not honest,</l>
                                 <l>Nor can that friendship last which virtue joins not.</l>
                                 <l>When first they forced the industrious Portugals</l>
-                                <l>From their <seg resp="#student" ana="#place">plantations</seg> in
-                                    the <seg resp="#student" ana="#place">happy islands</seg>—</l>
+                                <l>From their <seg resp="#student" ana="#place">plantations</seg> in the <seg resp="#student" ana="#place">happy islands</seg>—</l>
                             </lg>
                         </sp>
                         <sp who="#cro" xml:id="TSV-sp756">
@@ -703,28 +608,23 @@
                                 <l>After a long pursuit, each doubting other</l>
                                 <l>As guilty of the Portugals' escape,</l>
                                 <l>They did begin to quarrel like ill men</l>
-                                <l>(Forgive me, <seg resp="#dl" ana="#relig">piety<note
+                                <l>(Forgive me, <seg resp="#dl" ana="#relig">piety</seg><note
                                             resp="#student #dl" type="gloss"><term>piety</term>:
                                             feeling of pity, devotion, and
-                                    faithfulness</note></seg>, that I call 'em so)—</l>
+                                    faithfulness</note>, that I call 'em so)—</l>
                                 <l>No longer love or correspondence holds</l>
                                 <l>Than it is cemented with prey or profit—</l>
                                 <l>Than did they turn those swords they oft had bloodied</l>
                                 <l>With innocent gore upon their wretched selves</l>
                                 <l>And paid the forfeit of their cruelty</l>
-                                <l>Shown to <seg resp="#student" ana="#name"><persName ref="#seb"
-                                            >Sebastian</persName></seg> and his <seg resp="#dl"
-                                        ana="#place">colony</seg></l>
+                                <l>Shown to <seg resp="#student" ana="#name">
+                                    <persName ref="#seb">Sebastian</persName></seg> and his <seg resp="#dl" ana="#place">colony</seg></l>
                                 <l>By being fatal enemies to each other.</l>
-                                <l>Thence grew <seg resp="#student" ana="#name"><persName ref="#amin">Aminta's</persName></seg> 
-                                    rape<note resp="#dl" type="gloss">
-                                        <term>rape</term>: abduction, not always with the
-                                        intention of sexual violation</note>, and my desire</l>
+                                <l>Thence grew <seg resp="#student" ana="#name"><persName ref="#amin">Aminta's</persName></seg> rape<note resp="#dl" type="gloss">
+                                        <term>rape</term>: abduction, not always with the intention of sexual violation</note>, and my desire</l>
                                 <l>To be revenged. And now observe the issue:</l>
                                 <l>As they for spoil<note resp="#student #dl" type="gloss">
-                                    <term>spoil</term>: valuable goods, often referring to
-                                        those acquired through piracy or conquest</note> ever forgot
-                                    compassion</l>
+                                    <term>spoil</term>: valuable goods, often referring to those acquired through piracy or conquest</note> ever forgot compassion</l>
                                 <l>To women (who should be exempted</l>
                                 <l>From the extremities of a lawful war),</l>
                                 <l>We now, young able men, are fallen into</l>
@@ -733,9 +633,8 @@
                                 <l>Will show no <seg resp="#dl" ana="#relig">mercy</seg>.</l>
                             </lg>
                         </sp>
-                        <stage resp="#student #dl" type="business" place="center" who="#cro"
-                                ><persName ref="#cro">Crocale</persName>
-                            <seg resp="#student" ana="#place">steps forward</seg>.</stage>
+                        <stage resp="#student #dl" type="business" place="center" who="#cro">
+                            <persName ref="#cro">Crocale</persName> <seg resp="#student" ana="#place">steps forward</seg>.</stage>
                         <sp who="#cro" xml:id="TSV-sp758">
                             <speaker>Crocale</speaker>
                             <lg>
@@ -747,28 +646,19 @@
                         <sp who="#ray" xml:id="TSV-sp759">
                             <speaker>Raymond</speaker>
                             <lg>
-                                <l rend="indent">Stay<note resp="#dl" type="gloss"
-                                        ><term>Stay</term>: stop, halt</note>,</l>
-                                <l>I met upon the <seg resp="#student" ana="#place">sea</seg> in a
-                                        <seg resp="#student" ana="#place">tall ship</seg></l>
-                                <l>Two Portugals, <seg resp="#dl" ana="#food">famished</seg> almost
-                                    to death—</l>
+                                <l rend="indent">Stay<note resp="#dl" type="gloss"><term>Stay</term>: stop, halt</note>,</l>
+                                <l>I met upon the <seg resp="#student" ana="#place">sea</seg> in a <seg resp="#student" ana="#place">tall ship</seg></l>
+                                <l>Two Portugals, <seg resp="#dl" ana="#food">famished</seg> almost to death—</l>
                             </lg>
                         </sp>
                         <sp who="#tib" xml:id="TSV-sp760">
                             <speaker>Tibalt</speaker>
                             <lg>
-                                <l>Our <seg resp="#student" ana="#place">ship</seg>, by this <seg
-                                        resp="#student" ana="object food">wine</seg>!</l>
-                                <fw type="sig">Ccccc</fw>
-                                <fw type="catch">And</fw>
+                                <l>Our <seg resp="#student" ana="#place">ship</seg>, by this <seg resp="#student" ana="object food">wine</seg>!</l>
                                 <pb n="TSV-018"
                                     facs="https://digital.libraries.psu.edu/digital/api/singleitem/image/emblem/4832/default.jpg"/>
-                                <fw type="pageNum">18</fw>
-                                <cb n="1"/>
                                 <l>And those the rogues that stole her</l>
-                                <l>Left us to <seg resp="#student" ana="#food">famish</seg> in the
-                                        <seg resp="#student" ana="#place">barren islands</seg>!</l>
+                                <l>Left us to <seg resp="#student" ana="#food">famish</seg> in the <seg resp="#student" ana="#place">barren islands</seg>!</l>
                             </lg>
                         </sp>
                         <sp who="#ray" xml:id="TSV-sp761">
@@ -789,11 +679,8 @@
                             <speaker>Raymond</speaker>
                             <lg>
                                 <l rend="indent">I left 'em,</l>
-                                <l>Supposing they had deluded<note resp="#student" type="gloss"
-                                            ><term>deluded</term>: deceived</note> me with forged
-                                    tales,</l>
-                                <l>In the <seg resp="#dl" ana="#place">island</seg> where they
-                                    said</l>
+                                <l>Supposing they had deluded<note resp="#student" type="gloss"><term>deluded</term>: deceived</note> me with forged tales,</l>
+                                <l>In the <seg resp="#dl" ana="#place">island</seg> where they said</l>
                                 <l>They had lived many years the wretched owners</l>
                                 <l>Of a huge mass of treasure.</l>
                             </lg>
@@ -801,9 +688,7 @@
                         <sp who="#alb" xml:id="TSV-sp764">
                             <speaker>Albert</speaker>
                             <lg>
-                                <l>The same men, and that the fatal muck<note resp="#student"
-                                        type="gloss"><term>fatal muck</term>: referring to the
-                                        treasure</note></l>
+                                <l>The same men, and that the fatal muck<note resp="#student" type="gloss"><term>fatal muck</term>: referring to the treasure</note></l>
                                 <l>We quarreled for.</l>
                             </lg>
                         </sp>
@@ -825,16 +710,14 @@
                                 <l>They may prove such men as may save your lives,</l>
                                 <l>And so much I am taken with fair hope</l>
                                 <l>That I will hazard<note resp="#student" type="gloss">
-                                    <term>hazard</term>: run the risk</note> life to be
-                                    resolved on't.</l>
+                                    <term>hazard</term>: run the risk</note> life to be resolved on't.</l>
                                 <l>How came you <seg resp="#dl" ana="#place">hither</seg>?</l>
                             </lg>
                         </sp>
                         <sp who="#ray" xml:id="TSV-sp768">
                             <speaker>Raymond</speaker>
                             <lg>
-                                <l>My <seg resp="#dl" ana="#place">ship</seg> lies by the <seg
-                                        resp="#student" ana="#place">river's mouth</seg>,</l>
+                                <l>My <seg resp="#dl" ana="#place">ship</seg> lies by the <seg resp="#student" ana="#place">river's mouth</seg>,</l>
                                 <l>That can convey ye to these wretched men</l>
                                 <l>Which you desire to see.</l>
                             </lg>
@@ -842,10 +725,8 @@
                         <sp who="#cro" xml:id="TSV-sp769">
                             <speaker>Crocale</speaker>
                             <lg>
-                                <l rend="indent">Back to your <seg resp="#dl" ana="#place"
-                                        >prisons</seg>,</l>
-                                <l>And <seg resp="#dl" ana="#relig">pray</seg> for the success. If
-                                    they be those</l>
+                                <l rend="indent">Back to your <seg resp="#dl" ana="#place">prisons</seg>,</l>
+                                <l>And <seg resp="#dl" ana="#relig">pray</seg> for the success. If they be those</l>
                                 <l>Which I desire to find, you are safe.</l>
                                 <l>If not, prepare to die tomorrow,</l>
                                 <l>For the world cannot redeem ye.</l>
@@ -858,10 +739,7 @@
                                 <l>For either <seg resp="#dl" ana="#relig">fortune</seg>.</l>
                             </lg>
                         </sp>
-                        <stage resp="#student" type="exit" place="right"
-                            who="#mast #alb #amin #ray #lam #mor #fran">Exit all but <persName
-                                ref="#tib">Tibalt</persName> and <persName ref="#cro"
-                                >Crocale</persName>.</stage>
+                        <stage resp="#student" type="exit" place="right" who="#mast #alb #amin #ray #lam #mor #fran">Exit all but <persName ref="#tib">Tibalt</persName> and <persName ref="#cro">Crocale</persName>.</stage>
                         <sp who="#tib" xml:id="TSV-sp771">
                             <speaker>Tibalt</speaker>
                             <lg>
@@ -894,12 +772,9 @@
                             <speaker>Tibalt</speaker>
                             <lg>
                                 <l>No, I shall be too kind, that's the <seg resp="#dl" ana="#relig">devil</seg> on't.</l>
-                                <l>I have had <seg resp="#dl" ana="object food">store<note
-                                            resp="#dl" type="gloss"><term>store</term>:
-                                            collection</note> of good wine</seg>, and when I am <seg
-                                        resp="#dl" ana="#food">drunk</seg></l>
-                                <l><name>Joan</name><note resp="#student" type="gloss"
-                                            ><term>Joan</term>: generic name for any woman</note> is
+                                <l>I have had <seg resp="#dl" ana="object food">store<note resp="#dl" type="gloss">
+                                    <term>store</term>: collection</note> of good wine</seg>, and when I am <seg resp="#dl" ana="#food">drunk</seg></l>
+                                <l><name>Joan</name><note resp="#student" type="gloss"><term>Joan</term>: generic name for any woman</note> is
                                     a lady to me, and I shall</l>
                                 <l>Lay about me like a lord—I feel strange motions.</l>
                                 <l>Avoid me, <seg resp="#dl" ana="#name">temptation</seg>.</l>
@@ -908,8 +783,7 @@
                         <sp who="#cro" xml:id="TSV-sp776">
                             <speaker>Crocale</speaker>
                             <lg>
-                                <l rend="indent">Come, <seg resp="#dl" ana="#name">sir</seg>, I'll
-                                        <seg resp="#dl" ana="#place">help ye in</seg>.</l>
+                                <l rend="indent">Come, <seg resp="#dl" ana="#name">sir</seg>, I'll <seg resp="#dl" ana="#place">help ye in</seg>.</l>
                             </lg>
                         </sp>
                         <stage type="exit" place="right" who="#tib #cro">Exeunt.</stage>
@@ -918,9 +792,7 @@
                         <head>
                             <hi rend="italic">Act 5, Scene 3</hi>
                         </head>
-                        <stage type="entrance" place="center" who="#seb #nic">Enter <persName
-                                ref="#seb">Sebastian</persName> and <persName ref="#nic"
-                                >Nicusa</persName>.</stage>
+                        <stage type="entrance" place="center" who="#seb #nic">Enter <persName ref="#seb">Sebastian</persName> and <persName ref="#nic">Nicusa</persName>.</stage>
                         <sp who="#nic" xml:id="TSV-sp777">
                             <speaker>Nicusa</speaker>
                             <lg>
@@ -932,9 +804,7 @@
                             <speaker>Sebastian</speaker>
                             <lg>
                                 <l rend="indent">Still it draws nearer,</l>
-                                <l>And now I plainly can discern<note resp="#student" type="gloss"
-                                            ><term>discern</term>: perceive, recognize</note>
-                                    it:</l>
+                                <l>And now I plainly can discern<note resp="#student" type="gloss"><term>discern</term>: perceive, recognize</note> it:</l>
                                 <l>'Tis the <seg resp="#student" ana="#place">French ship</seg>.</l>
                             </lg>
                         </sp>
@@ -958,8 +828,7 @@
                             <lg>
                                 <l rend="indent">Though it bring death—</l>
                                 <l>To us 'tis comfort and deserves a meeting—</l>
-                                <l>Or else <seg resp="#dl" ana="#relig">Fortune</seg> tired with what
-                                    we have suffered</l>
+                                <l>Or else <seg resp="#dl" ana="#relig">Fortune</seg> tired with what we have suffered</l>
                                 <l>And in it, overcome, as it may be,</l>
                                 <l>Now sets a period to our misery.</l>
                             </lg>
@@ -970,36 +839,29 @@
                         <head>
                             <hi rend="italic">Act 5, Scene 4</hi>
                         </head>
-                        <stage type="entrance" place="center" who="#ray #alb #amin">Enter <persName
-                                ref="#ray">Raymond</persName>, <persName ref="#alb"
-                                >Albert</persName>, and <persName ref="#amin">Aminta</persName>,
+                        <stage type="entrance" place="center" who="#ray #alb #amin">Enter <persName ref="#ray">Raymond</persName>, <persName ref="#alb">Albert</persName>, and <persName ref="#amin">Aminta</persName>,
                             severally.</stage>
-                        <stage type="business" place="center"><seg resp="#dl" ana="#object">Horrid
-                                music plays</seg>.</stage>
+                        <stage type="business" place="center"><seg resp="#dl" ana="#object">Horrid music plays</seg>.</stage>
                         <sp who="#ray" xml:id="TSV-sp782">
                             <speaker>Raymond</speaker>
                             <lg>
-                                <l>What <seg resp="#dl" ana="#object">dreadful sounds</seg> are
-                                    these?</l>
+                                <l>What <seg resp="#dl" ana="#object">dreadful sounds</seg> are these?</l>
                             </lg>
                         </sp>
                         <sp who="#amin" xml:id="TSV-sp783">
                             <speaker>Aminta</speaker>
                             <lg>
                                 <l rend="indent">
-                                    <seg resp="#student #dl" ana="object relig">Infernal<note
-                                            resp="#dl #student" type="gloss"><term> Infernal</term>:
-                                            Hellish</note> music</seg></l>
+                                    <seg resp="#student #dl" ana="object relig">Infernal<note resp="#dl #student" type="gloss">
+                                        <term> Infernal</term>: Hellish</note> music</seg></l>
                                 <l>Fit for a <seg resp="#student" ana="#food">bloody feast</seg>.</l>
                             </lg>
                         </sp>
-                        <cb n="2"/>
                         <sp who="#alb" xml:id="TSV-sp784">
                             <speaker>Albert</speaker>
                             <lg>
                                 <l rend="indent">It seems prepared</l>
-                                <l>To kill our courages, ere<note resp="#dl" type="gloss"
-                                            ><term>ere</term>: before</note> they divorce</l>
+                                <l>To kill our courages, ere<note resp="#dl" type="gloss"><term>ere</term>: before</note> they divorce</l>
                                 <l>Our <seg resp="#dl" ana="#relig">souls</seg> and bodies.</l>
                             </lg>
                         </sp>
@@ -1011,22 +873,15 @@
                             </lg>
                         </sp>
                         <stage type="entrance" place="center" who="#ros #cla #jul #hip">Enter
-                                <persName ref="#ros">Rosella</persName>, <persName ref="#cla"
-                                >Clarinda</persName>, <persName ref="#jul">Juletta</persName>, and
+                                <persName ref="#ros">Rosella</persName>, <persName ref="#cla">Clarinda</persName>, <persName ref="#jul">Juletta</persName>, and
                                 <persName ref="#hip">Hippolita</persName>.</stage>
-                        <stage type="business" place="center">An <seg resp="#dl" ana="#object">altar
-                                is prepared</seg>.</stage>
+                        <stage type="business" place="center">An <seg resp="#dl" ana="#object">altar is prepared</seg>.</stage>
                         <sp who="#amin" xml:id="TSV-sp786">
                             <speaker>Aminta</speaker>
                             <lg>
-                                <l rend="indent">See the <seg resp="#student" ana="#relig">Furies<note resp="#student #dl" type="gloss">
-                                                <term>Furies</term>: from Greek mythology, female
-                                            deities of vengeance</note></seg></l>
-                                <l>In their <seg resp="#dl" ana="#object">full<note resp="#dl"
-                                            type="gloss"><term>full</term>: i.e. more fully
-                                            accomplished</note> trim<note resp="#dl" type="gloss"
-                                                ><term>trim</term>: dress</note> of
-                                    cruelty</seg>.</l>
+                                <l rend="indent">See the <seg resp="#student" ana="#relig">Furies</seg><note resp="#student #dl" type="gloss"><term>Furies</term>: from Greek mythology, female deities of vengeance</note></l>
+                                <l>In their <seg resp="#dl" ana="#object">full<note resp="#dl" type="gloss"><term>full</term>: i.e. more fully accomplished</note> trim<note resp="#dl" type="gloss">
+                                    <term>trim</term>: dress</note> of cruelty</seg>.</l>
                             </lg>
                         </sp>
                         <sp who="#ros" xml:id="TSV-sp787">
@@ -1034,82 +889,53 @@
                             <lg>
                                 <l rend="indent">'Tis the last</l>
                                 <l>Duty that I can pay to my dead lord.</l>
-                                <l>Set out the <seg resp="#student" ana="object relig">altar</seg>—I
-                                    myself will be</l>
-                                <l>The <seg resp="#student" ana="#relig">priest</seg>—and boldly do
-                                    those <seg resp="#student" ana="#relig">horrid rites</seg></l>
+                                <l>Set out the <seg resp="#student" ana="object relig">altar</seg>—I myself will be</l>
+                                <l>The <seg resp="#student" ana="#relig">priest</seg>—and boldly do those <seg resp="#student" ana="#relig">horrid rites</seg></l>
                                 <l>You shake to think on. Lead these captains nearer,</l>
                                 <l>For they shall have the honor to fall first</l>
-                                <l>To my <seg resp="#student" ana="#name"><persName ref="#seb"
-                                            >Sebastian's</persName></seg> ashes! And now, <seg
-                                        resp="#student" ana="#name">wretches</seg>,</l>
+                                <l>To my <seg resp="#student" ana="#name"><persName ref="#seb">Sebastian</persName>'s</seg> ashes! And now, <seg resp="#student" ana="#name">wretches</seg>,</l>
                                 <l>As I am taught already that you are,</l>
-                                <l>And lately by your <seg resp="#student" ana="#relig">free
-                                        confession</seg>,</l>
-                                <l><seg resp="#student" ana="#name">French pirates</seg>, and the
-                                        <seg resp="#dl" ana="#name">sons of those I hate</seg>,</l>
-                                <l>Even equal with the <seg resp="#student" ana="#relig">devil</seg>,
-                                    hear with horror</l>
+                                <l>And lately by your <seg resp="#student" ana="#relig">free confession</seg>,</l>
+                                <l><seg resp="#student" ana="#name">French pirates</seg>, and the <seg resp="#dl" ana="#name">sons of those I hate</seg>,</l>
+                                <l>Even equal with the <seg resp="#student" ana="#relig">devil</seg>, hear with horror</l>
                                 <l>What 'tis invites me to this cruel course</l>
-                                <l>And what you are to suffer: no <seg resp="#dl" ana="#relig"
-                                        >Amazons</seg>, we,</l>
-                                <l>But women of <placeName>Portugal</placeName>, that must have from
-                                    you</l>
-                                <l><seg resp="#student" ana="#name"><persName ref="#seb"
-                                            >Sebastian</persName></seg> and <seg resp="#student"
-                                        ana="#name"><persName ref="#nic">Nicusa</persName></seg>! We
+                                <l>And what you are to suffer: no <seg resp="#dl" ana="#relig">Amazons</seg>, we,</l>
+                                <l>But women of <placeName>Portugal</placeName>, that must have from you</l>
+                                <l><seg resp="#student" ana="#name"><persName ref="#seb">Sebastian</persName></seg> and <seg resp="#student" ana="#name"><persName ref="#nic">Nicusa</persName></seg>! We
                                     are they</l>
                                 <l>That groaned beneath your father's wrongs.</l>
                                 <l>We are those wretched women</l>
                                 <l>Their injuries pursued and overtook,</l>
                                 <l>And from the sad remembrance of our losses,</l>
                                 <l>We are taught to be cruel; when we were forced</l>
-                                <l>From that <seg resp="#dl" ana="#place">sweet air</seg> we breathed
-                                    in, by their rapine<note resp="#student" type="gloss"
-                                            ><term>rapine</term>: act of seizure by
-                                    force</note>,</l>
-                                <l>And sought a <seg resp="#student" ana="#place">place of
-                                        being</seg>, as the <seg resp="#student" ana="#place"
-                                        >seas</seg></l>
+                                <l>From that <seg resp="#dl" ana="#place">sweet air</seg> we breathed in, by their rapine<note resp="#student" type="gloss">
+                                    <term>rapine</term>: act of seizure by force</note>,</l>
+                                <l>And sought a <seg resp="#student" ana="#place">place of being</seg>, as the <seg resp="#student" ana="#place">seas</seg></l>
                                 <l>And winds conspired with their ill purposes</l>
                                 <l>To load us with afflictions in a storm</l>
-                                <l>That fell upon us, the <seg resp="#student" ana="#place">two
-                                        ships</seg> that brought us<note resp="#student" type="textual">
-                                            <term>two ships that brought us</term>: These
-                                        two ships and what was on each is yet another instance in
-                                        this play where gender roles are challenged. The treasures
-                                        and other valuable belongings of the travelers were all
-                                        aboard the men's ship, perhaps because these valuables
-                                        would have been kept safe by them. Ironically, this proved
-                                        to be quite the opposite; whereas the men landed on a
-                                        desolate island, their crew eventually killing one another
-                                        over the treasure, the women landed on the fertile island,
-                                        and island containing all that they actually needed to
-                                        survive. It was also said by Rosella that they became
-                                        self-sufficient, learning to accomplish everything necessary
-                                        for survival that they had once depended on the men for.
-                                        This suggests that they did not, in the end, need men at all
-                                        to thrive as a community, just as they did not require
-                                        jewels or other material treasures.</note></l>
-                                <l>To seek <seg resp="#dl" ana="#relig">new fortunes</seg> in an <seg
-                                        resp="#student" ana="#place">unknown world</seg>,</l>
+                                <l>That fell upon us, the <seg resp="#student" ana="#place">two ships</seg> that brought us<note resp="#student" type="textual">
+                                    <term>two ships that brought us</term>: These two ships and what was on each is yet another instance in
+                                        this play where gender roles are challenged. The treasures and other valuable belongings of the travelers were all
+                                        aboard the men's ship, perhaps because these valuables would have been kept safe by them. Ironically, this proved
+                                        to be quite the opposite; whereas the men landed on a desolate island, their crew eventually killing one another
+                                        over the treasure, the women landed on the fertile island, and island containing all that they actually needed to
+                                        survive. It was also said by Rosella that they became self-sufficient, learning to accomplish everything necessary
+                                        for survival that they had once depended on the men for. This suggests that they did not, in the end, need men at all
+                                        to thrive as a community, just as they did not require jewels or other material treasures.</note></l>
+                                <l>To seek <seg resp="#dl" ana="#relig">new fortunes</seg> in an <seg resp="#student" ana="#place">unknown world</seg>,</l>
                                 <l>Were severed. The one bore all the able men,</l>
                                 <l>Our treasure, and our jewels; in the other,</l>
                                 <l>We women were embarked, and fell upon,</l>
-                                <l>After long tossing in the <seg resp="#student" ana="#place"
-                                        >troubled main<note resp="#student" type="gloss"
-                                                ><term>troubled main</term>: main sea, open
-                                            sea</note></seg>,</l>
-                                <l>This <seg resp="#student" ana="#place">pleasant island</seg>. But
-                                    in a few months,</l>
+                                <l>After long tossing in the <seg resp="#student" ana="#place">troubled main</seg><note resp="#student" type="gloss">
+                                    <term>troubled main</term>: main sea, open sea</note>,</l>
+                                <l>This <seg resp="#student" ana="#place">pleasant island</seg>. But in a few months,</l>
                                 <l>The men that did conduct us hither died.</l>
                                 <l>We long before had given our husbands lost.</l>
                                 <l>Remembering what we had suffered by the French,</l>
                                 <l>We took a solemn oath never to admit</l>
                                 <l>The cursed society of men. Necessity</l>
                                 <l>Taught us those arts not usual to our sex,</l>
-                                <l>And, the fertile earth yielding <seg resp="#student" ana="#food"
-                                        >abundance</seg> to us,</l>
+                                <l>And, the fertile earth yielding <seg resp="#student" ana="#food">abundance</seg> to us,</l>
                                 <l>We did resolve, thus shaped like <seg resp="#dl" ana="#relig">Amazons</seg>,</l>
                                 <l>To end our lives. But when you arrived here</l>
                                 <l>And brought as presents to us our own jewels,</l>
@@ -1144,52 +970,32 @@
                                 <l>Is but to win time. Therefore, prepare your throats—</l>
                                 <l>The world shall not redeem ye—and that your cries</l>
                                 <l>May find no entrance to our ears</l>
-                                <l>To move pity in any, bid <seg resp="#student" ana="#object">loud
-                                        music</seg> sound</l>
+                                <l>To move pity in any, bid <seg resp="#student" ana="#object">loud music</seg> sound</l>
                                 <l>Their <seg resp="#dl" ana="#relig">fatal knells</seg>. If ye have
-                                        <seg resp="#student" ana="#relig">prayers</seg>, use 'em
-                                    quickly <stage type="entrance" place="right"
-                                        who="#cro #seb #nic #tib">Enter <persName ref="#cro"
-                                            >Crocale</persName>, <persName ref="#seb"
-                                            >Sebastian</persName>, <persName ref="#nic"
-                                            >Nicusa</persName>, and <persName ref="#tib"
-                                            >Tibalt</persName>.</stage></l>
-                                <l>To <seg resp="#student" ana="#relig">any power</seg> will own
-                                    ye—But ha!</l>
+                                        <seg resp="#student" ana="#relig">prayers</seg>, use 'em quickly</l>
+                                <l>To <seg resp="#student" ana="#relig">any power</seg> will own ye—But ha!
+                                <stage type="entrance" place="right" who="#cro #seb #nic #tib">Enter <persName ref="#cro">Crocale</persName>, 
+                                        <persName ref="#seb">Sebastian</persName>, <persName ref="#nic">Nicusa</persName>, and <persName ref="#tib">Tibalt</persName>.</stage></l>
                                 <l>Who are these? What spectacles of misfortune?</l>
                                 <l>Why are their looks</l>
                                 <l>So full of joy and wonder?</l>
                             </lg>
                         </sp>
-                        <fw type="catch">
-                            <hi rend="italic">Cro.</hi>
-                        </fw>
                         <pb n="TSV-019"
                             facs="https://digital.libraries.psu.edu/digital/api/singleitem/image/emblem/4833/default.jpg"/>
-                        <fw type="pageNum">19</fw>
                         <cb n="1"/>
                         <sp who="#cro" xml:id="TSV-sp792">
                             <speaker>Crocale</speaker>
                             <lg>
-                                <l rend="indent">Oh! Lay by<note resp="#dl" type="gloss"><term>Lay
-                                            by</term>: Lay aside</note></l>
-                                <l>These <seg resp="#student" ana="#object">instruments of
-                                        death</seg>, and welcome</l>
-                                <l>To your arms what you durst<note resp="#dl" type="gloss"
-                                            ><term>durst</term>: archaic past tense of dare</note>
-                                    never hope to embrace:</l>
-                                <l>This is <seg resp="#student" ana="#name"><persName ref="#seb"
-                                            >Sebastian</persName></seg>, this <seg resp="#student"
-                                        ana="#name"><persName ref="#nic">Nicusa</persName></seg>,
-                                        <seg resp="#student" ana="#name">madam</seg>,</l>
-                                <l>Preserved by <seg resp="#student" ana="#relig">miracle</seg>! Look
-                                    up, <seg resp="#dl" ana="#name">dear sir</seg>,</l>
-                                <l>And know your own <seg resp="#student" ana="#name"><persName
-                                            ref="#ros">Rosella</persName></seg>! Be not lost</l>
+                                <l rend="indent">Oh! Lay by<note resp="#dl" type="gloss"><term>Lay by</term>: Lay aside</note></l>
+                                <l>These <seg resp="#student" ana="#object">instruments of death</seg>, and welcome</l>
+                                <l>To your arms what you durst<note resp="#dl" type="gloss"><term>durst</term>: archaic past tense of dare</note> never hope to embrace:</l>
+                                <l>This is <seg resp="#student" ana="#name"><persName ref="#seb">Sebastian</persName></seg>, this <seg resp="#student" ana="#name"><persName ref="#nic">Nicusa</persName></seg>, <seg resp="#student" ana="#name">madam</seg>,</l>
+                                <l>Preserved by <seg resp="#student" ana="#relig">miracle</seg>! Look up, <seg resp="#dl" ana="#name">dear sir</seg>,</l>
+                                <l>And know your own <seg resp="#student" ana="#name"><persName ref="#ros">Rosella</persName></seg>! Be not lost</l>
                                 <l>In wonder and amazement, or if nature</l>
                                 <l>Can by instinct instruct you what it is</l>
-                                <l>To be <seg resp="#student" ana="#relig">blessed</seg> with the
-                                    name of father,</l>
+                                <l>To be <seg resp="#student" ana="#relig">blessed</seg> with the name of father,</l>
                                 <l>Freely enjoy it in this fair virgin.</l>
                             </lg>
                         </sp>
@@ -1197,17 +1003,12 @@
                             <speaker>Sebastian</speaker>
                             <lg>
                                 <l>Though my miseries</l>
-                                <l>And many years of wants<note resp="#dl" type="gloss"
-                                            ><term>wants</term>: shortages</note> I have endured</l>
+                                <l>And many years of wants<note resp="#dl" type="gloss"><term>wants</term>: shortages</note> I have endured</l>
                                 <l>May well deprive me of the memory</l>
                                 <l>Of all joys past, ye looking on this building,</l>
-                                <l>This ruined building of a <seg resp="#student" ana="#relig"
-                                        >heavenly form</seg></l>
-                                <l>In <seg resp="#student" ana="#name">my <persName ref="#ros"
-                                            >Rosella</persName></seg>, I must remember<note
-                                        resp="#student #dl" type="gloss"><term>remember</term>:
-                                        remind</note>: I am <seg resp="#student" ana="#name"
-                                            ><persName ref="#seb">Sebastian</persName></seg>.</l>
+                                <l>This ruined building of a <seg resp="#student" ana="#relig">heavenly form</seg></l>
+                                <l>In <seg resp="#student" ana="#name">my <persName ref="#ros">Rosella</persName></seg>, I must remember<note resp="#student #dl" type="gloss">
+                                    <term>remember</term>: remind</note>: I am <seg resp="#student" ana="#name"><persName ref="#seb">Sebastian</persName></seg>.</l>
                             </lg>
                         </sp>
                         <sp who="#ros" xml:id="TSV-sp794">
@@ -1222,50 +1023,32 @@
                                 <l rend="indent">And here</l>
                                 <l>I see a perfect model of thyself,</l>
                                 <l>As thou wert when thy choice first made thee mine.</l>
-                                <l>These <seg resp="#dl" ana="#object">cheeks and fronts<note
-                                            resp="#student" type="gloss"><term>fronts</term>: forehead, here used plurally</note>, though wrinkled now
-                                        with time</seg></l>
+                                <l>These <seg resp="#dl" ana="#object">cheeks and fronts</seg><note resp="#student" type="gloss">
+                                    <term>fronts</term>: forehead, here used plurally</note>, though wrinkled now with time</l>
                                 <l>Which art cannot restore, had equal pureness</l>
-                                <l>Of natural white and red, and as much ravishing<note
-                                        resp="#student" type="gloss"><term>ravishing</term>: exciting pleasure or ecstasy</note>,</l>
+                                <l>Of natural white and red, and as much ravishing<note resp="#student" type="gloss"><term>ravishing</term>: exciting pleasure or ecstasy</note>,</l>
                                 <l>Which by fair order and succession</l>
-                                <l><seg resp="#dl" ana="#object">I see descend on her</seg>. And may
-                                    thy virtues</l>
-                                <l>Wind into her form, and make her a perfect dower<note
-                                        resp="#student" type="gloss"><term>dower</term>: dowry, or
-                                        money or property given to husband at time of
-                                        marriage</note>,</l>
-                                <l>No part of thy sweet goodness wanting<note resp="#dl"
-                                        type="gloss"><term>wanting</term>: lacking</note> to her.</l>
-                                <l>I will not now, <seg resp="#student" ana="#name"><persName
-                                            ref="#ros">Rosella</persName></seg>, ask thy <seg
-                                        resp="#dl" ana="#relig">fortunes</seg>,</l>
+                                <l><seg resp="#dl" ana="#object">I see descend on her</seg>. And may thy virtues</l>
+                                <l>Wind into her form, and make her a perfect dower<note resp="#student" type="gloss"><term>dower</term>: dowry, or money or property given to husband at time of marriage</note>,</l>
+                                <l>No part of thy sweet goodness wanting<note resp="#dl" type="gloss"><term>wanting</term>: lacking</note> to her.</l>
+                                <l>I will not now, <seg resp="#student" ana="#name"><persName ref="#ros">Rosella</persName></seg>, ask thy <seg resp="#dl" ana="#relig">fortunes</seg>,</l>
                                 <l>Nor trouble thee with hearing mine;</l>
                                 <l>Those shall hereafter serve to make glad hours</l>
                                 <cb n="2"/>
                                 <l>In their relation, all past wrongs forgot.</l>
-                                <l>I am glad to see you, <seg resp="#dl" ana="#name"><name
-                                            ref="#gents">gentlemen</name></seg>, but most,</l>
+                                <l>I am glad to see you, <seg resp="#dl" ana="#name"><name ref="#gents">gentlemen</name></seg>, but most,</l>
                                 <l>That it is in my power to save your lives—</l>
-                                <l>You saved ours when we were near <seg resp="#student" ana="#food"
-                                        >starved</seg>
-                                    <seg resp="#dl" ana="#place">at sea</seg>—</l>
+                                <l>You saved ours when we were near <seg resp="#student" ana="#food">starved</seg> <seg resp="#dl" ana="#place">at sea</seg>—</l>
                                 <l>And I despair not, for if she be mine,</l>
-                                <l><seg resp="#student" ana="#name"><persName ref="#ros"
-                                            >Rosella</persName></seg> can deny <seg resp="#student"
-                                        ana="#name"><persName ref="#seb">Sebastian</persName></seg>
-                                        nothing.<note resp="#student" type="textual"><term>Rosella
-                                            ... nothing</term>: Sebastian reclaims his wife, after
-                                        also proclaiming that Clarinda will be a good wife and that
-                                        she will take on Rosella's virtues. Jane O'Brien discusses
-                                        the trajectory of a woman's life in the period: "Whether
-                                        they're mothers, ingenues or unruly woman, they are all
-                                        women discovering how to find their way in the world. And
-                                        it's a pretty tough world." In a way, Clarinda must now,
-                                        like her mother, "find [her] way in the world," but in a
-                                        form that is only granted to her by her father. So, while
-                                        she may have freedom, she may also lack it, both in this
-                                        scene and, presumably, throughout her life.</note></l>
+                                <l><seg resp="#student" ana="#name">
+                                    <persName ref="#ros">Rosella</persName></seg> can deny <seg resp="#student" ana="#name">
+                                        <persName ref="#seb">Sebastian</persName></seg> nothing<note resp="#student" type="textual">
+                                            <term>Rosella ... nothing</term>: Sebastian reclaims his wife, after
+                                        also proclaiming that Clarinda will be a good wife and that she will take on Rosella's virtues. Jane O'Brien discusses
+                                        the trajectory of a woman's life in the period: "Whether they're mothers, ingenues or unruly woman, they are all
+                                        women discovering how to find their way in the world. And it's a pretty tough world." In a way, Clarinda must now,
+                                        like her mother, "find [her] way in the world," but in a form that is only granted to her by her father. So, while
+                                        she may have freedom, she may also lack it, both in this scene and, presumably, throughout her life.</note>.</l>
                             </lg>
                         </sp>
                         <sp who="#ros" xml:id="TSV-sp796">
@@ -1279,24 +1062,18 @@
                         </sp>
                         <sp who="#seb" xml:id="TSV-sp797">
                             <speaker>Sebastian</speaker>
-                            <stage resp="#student" type="business" place="right" who="#seb #ray">To
-                                    <persName ref="#ray">Raymond</persName>.</stage>
+                            <stage resp="#student" type="business" place="right" who="#seb #ray">To <persName ref="#ray">Raymond</persName>.</stage>
                             <lg>
                                 <l><seg resp="#dl" ana="#name">Sir</seg>, in your looks</l>
-                                <l>I read your suit<note resp="#student #dl" type="gloss"
-                                            ><term>suit</term>: legal pursuit</note> of <seg
-                                        resp="#student" ana="#name">my <persName ref="#cla"
-                                            >Clarinda</persName></seg>; she is yours.</l>
-                                <l><stage resp="#cmlb" who="#amin #seb">To Aminta.</stage>And, <seg resp="#student" ana="#name">lady</seg>, if it be in me
+                                <l>I read your suit<note resp="#student #dl" type="gloss"><term>suit</term>: legal pursuit</note> of <seg resp="#student" ana="#name">my <persName ref="#cla">Clarinda</persName></seg>; she is yours.</l>
+                                <l><stage resp="#cmlb" who="#amin #seb">To <persName>Aminta</persName>.</stage> And, <seg resp="#student" ana="#name">lady</seg>, if it be in me
                                     to confirm</l>
-                                <l>Your hopes to this brave<note resp="#dl" type="gloss"
-                                            ><term>brave</term>: fine, worthy</note> gentleman,</l>
+                                <l>Your hopes to this brave<note resp="#dl" type="gloss"><term>brave</term>: fine, worthy</note> gentleman,</l>
                                 <l>Presume I am your servant.<note resp="#student" type="textual">
                                     <term>Sir ... servant</term>: The dialogue in this
                                         speech implies there will be a double wedding 
                                         (Clarinda marrying Raymond and Aminta marrying Albert), 
-                                        but no actual
-                                        marriage ceremony occurs in the play. This is somewhat
+                                        but no actual marriage ceremony occurs in the play. This is somewhat
                                         typical of seventeenth century comedies, where marriage is
                                         promised but not enacted. As a result, the play closes with
                                         a seemingly optimistic future, but one that has not yet come
@@ -1306,8 +1083,7 @@
                         <sp who="#alb" xml:id="TSV-sp798">
                             <speaker>Albert</speaker>
                             <lg>
-                                <l rend="indent">We thank you, <seg resp="#dl" ana="#name"
-                                    >sir</seg>.</l>
+                                <l rend="indent">We thank you, <seg resp="#dl" ana="#name">sir</seg>.</l>
                             </lg>
                         </sp>
                         <sp who="#amin" xml:id="TSV-sp799">
@@ -1319,20 +1095,17 @@
                         <sp who="#alb" xml:id="TSV-sp800">
                             <speaker>Albert</speaker>
                             <lg>
-                                <l rend="indent">Oh, <seg resp="#student" ana="#name">my dear
-                                            <persName ref="#amin">Aminta</persName></seg>,</l>
+                                <l rend="indent">Oh, <seg resp="#student" ana="#name">my dear <persName ref="#amin">Aminta</persName></seg>,</l>
                                 <l>Now all our fears are ended.</l>
                             </lg>
                         </sp>
                         <sp who="tib" xml:id="TSV-sp801">
                             <speaker>Tibalt</speaker>
-                            <stage resp="#dl" type="business" place="right" who="#tib #cro"
-                                    ><persName ref="#tib">Tibalt</persName>
+                            <stage resp="#dl" type="business" place="right" who="#tib #cro"><persName ref="#tib">Tibalt</persName>
                                 <seg resp="#dl" ana="#place">moving to <persName ref="#cro">Crocale</persName></seg>.</stage>
                             <lg>
                                 <l>Here I fix: she's mettle<note resp="#student" type="gloss">
-                                    <term>mettle</term>: spirited, of strong
-                                        character</note>,</l>
+                                    <term>mettle</term>: spirited, of strong character</note>,</l>
                                 <l>Steel to the back, and will cut my leaden dagger</l>
                                 <l>If not used with discretion.</l>
                             </lg>
@@ -1341,8 +1114,7 @@
                             <speaker>Crocale</speaker>
                             <lg>
                                 <l>You are still no changeling<note resp="#student #dl" type="gloss">
-                                        <term>changeling</term>: changeable or fickle
-                                    person</note>—</l>
+                                        <term>changeling</term>: changeable or fickle person</note>—</l>
                             </lg>
                         </sp>
                         <sp who="#seb" xml:id="TSV-sp803">
@@ -1350,16 +1122,12 @@
                             <lg>
                                 <l>Nay, all look cheerfully, for none shall be</l>
                                 <l>Denied their lawful wishes. When awhile</l>
-                                <l>We have here <seg resp="#student" ana="#food">refreshed</seg>
-                                    ourselves, we'll return</l>
-                                <l>To our <seg resp="#student" ana="#place">several homes</seg>, and
-                                    well that voyage ends,</l>
+                                <l>We have here <seg resp="#student" ana="#food">refreshed</seg> ourselves, we'll return</l>
+                                <l>To our <seg resp="#student" ana="#place">several homes</seg>, and well that voyage ends,</l>
                                 <l>That makes of deadly enemies faithful friends.</l>
                             </lg>
                         </sp>
-                        <stage type="exit" place="right"
-                            who="#ray #alb #amin #ros #cla #jul #hip #cro #seb #nic #tib"
-                            >Exeunt.</stage>
+                        <stage type="exit" place="right" who="#ray #alb #amin #ros #cla #jul #hip #cro #seb #nic #tib">Exeunt.</stage>
                     </div>
                 </div>
       </body>

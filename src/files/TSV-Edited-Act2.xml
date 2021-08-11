@@ -203,8 +203,7 @@
                                 <l>And leave no orifice behind. <seg resp="#student" ana="#relig">Pray</seg> give me leave</l>
                                 <l>To play the <seg resp="#dl" ana="#name">
                                     <persName ref="#sur">Surgeon</persName>
-                                    </seg> and bind 'em up,</l>
-                                <cb n="2"/>
+                                    </seg> and bind 'em up.</l>
                                 <l>The raw air rankles<note resp="#student" type="gloss">
                                     <term>rankles</term>: festers, esp. to a degree that causes pain</note> 'em.</l>
                             </lg>
@@ -252,13 +251,13 @@
                                 <l>How long I was in your power! And with what honor</l>
                                 <l>You entertained me! It being seldom seen</l>
                                 <l>That youth and heat of blood could e'er prescribe</l>
-                                <l>Laws to itself, your goodness is the <seg resp="#student" ana="#relig">Lethe<note resp="#student" type="gloss">
-                                    <term>Lethe</term>: from Greek mythology, referring to a river in Hades that causes forgetfulness</note></seg></l>
+                                <l>Laws to itself; your goodness is the <seg resp="#student" ana="#relig">Lethe</seg><note resp="#student" type="gloss">
+                                    <term>Lethe</term>: from Greek mythology, referring to a river in Hades that causes forgetfulness</note></l>
                                 <l>In which I drown your injuries, and now I live</l>
                                 <l>Truly to serve ye. How do you, <seg resp="#student" ana="#name">sir</seg>?</l>
                                 <l>Receive you the least from my service?</l>
-                                <l>If you do, I am largely recompensed.<note resp="#student" type="gloss">
-                                    <term>recompensed</term>: repaid</note></l>
+                                <l>If you do, I am largely recompensed<note resp="#student" type="gloss">
+                                    <term>recompensed</term>: repaid</note>.</l>
                             </lg>
                         </sp>
                         <sp who="#alb" xml:id="TSV-sp209">
@@ -273,7 +272,7 @@
                                 <l>Yet when I kiss these rubies<note resp="#student #dl" type="gloss">
                                     <term>rubies</term>: i.e. Aminta's lips</note> methinks</l>
                                 <l>I'm at <seg resp="#student" ana="#food">a banquet, a refreshing banquet</seg>.</l>
-                                <l>Speak <seg resp="#student" ana="name relig">my blessèd one</seg>,
+                                <l>Speak, <seg resp="#student" ana="name relig">my blessèd one</seg>,
                                     art not <seg resp="#student" ana="#food">hungry</seg>?</l>
                             </lg>
                         </sp>
@@ -286,7 +285,7 @@
                         <sp who="#alb" xml:id="TSV-sp211">
                             <speaker>Albert</speaker>
                             <lg>
-                                <l>Blush, <seg resp="#student" ana="#name">unkind Nature<note resp="student" type="textual">
+                                <l>Blush, <seg resp="#student" ana="#name">unkind Nature</seg><note resp="student" type="textual">
                                     <term>unkind Nature</term>: This phrasing suggests Albert blames
                                             Nature (here, personified) for putting him and Aminta
                                             into this harsh environment. To bolster his point, he
@@ -297,15 +296,15 @@
                                             wine, and the glutton already has enough food. Thus,
                                             Albert attempts to shame Nature into providing aid to
                                             her more deserving victims, especially Aminta (a
-                                            "virgin" who is "pin[ing] for  hunger").</note></seg>,</l>
+                                            "virgin" who is "pin[ing] for  hunger").</note>,</l>
                                 <l>If thou hast power or being to hear</l>
                                 <l>Thyself and by such innocence accused</l>
                                 <l>Must print a thousand kinds of shames upon</l>
                                 <l>Thy various face, can'st thou supply a <seg resp="#student" ana="#food">drunkard</seg>—</l>
                                 <l>And with a <seg resp="#dl" ana="#relig">prodigal hand</seg> reach
                                     choice of <seg resp="#student" ana="#food">wines</seg></l>
-                                <l>'Til he <seg resp="#dl" ana="#food">cast up<note resp="#dl" type="gloss">
-                                    <term>cast up</term>: vomit</note></seg>
+                                <l>'Til he <seg resp="#dl" ana="#food">cast up</seg><note resp="#dl" type="gloss">
+                                    <term>cast up</term>: vomit</note>
                                     thy <seg resp="#dl" ana="#relig">blessings</seg>—or a <seg resp="#student" ana="#food">glutton</seg>—</l>
                                 <l>That robs the elements to <seg resp="#student" ana="#food">sooth his palate</seg></l>
                                 <l>And only <seg resp="#student" ana="#food">eats to beget appetite,</seg></l>
@@ -327,7 +326,7 @@
                         <sp who="#amin" xml:id="TSV-sp212">
                             <speaker>Aminta</speaker>
                             <lg>
-                                <l rend="indent">Yes, it seems free hunters' music.<note resp="#student" type="context">
+                                <l rend="indent">Yes, it seems free hunters' music<note resp="#student" type="context">
                                         <term>free hunters' music</term>: Albert hears
                                         music from the neighboring island. We eventually
                                         learn that the makers of this music are Portuguese women,
@@ -350,7 +349,7 @@
                                         other fingers free to hit the instrument. This instrument
                                         was introduced into Portugal (and Spain) when the Moors of
                                         North Africa conquered the Iberian Peninsula in the 8th century.
-                                        (<ref target="#jms">Schecter</ref>)</note></l>
+                                        (<ref target="#jms">Schecter</ref>)</note>.</l>
                             </lg>
                         </sp>
                         <sp who="#alb" xml:id="TSV-sp213">
@@ -366,15 +365,12 @@
                                 <l>When we gain the top of this <seg resp="#student #dl" ana="place object">near rising hill</seg></l>
                                 <l>We shall know further.</l>
                             </lg>
-                            <stage resp="#dl" type="exit" place="right" who="#alb #amin">Exit
-                                    <persName ref="#alb">Albert</persName> and 
-                                    <persName ref="#amin">Aminta</persName></stage>
-                            <stage resp="#dl" type="entrance" place="center" who="#alb #amin">and
-                                enter <seg resp="#dl" ana="#place">above</seg>.</stage>
+                            <stage resp="#dl" type="exit entrance" place="right" who="#alb #amin">Exit <persName ref="#alb">Albert</persName> and 
+                                    <persName ref="#amin">Aminta</persName><lb/>and enter <seg resp="#dl" ana="#place">above</seg>.</stage>
                             <lg>
                                 <l rend="indent">Courteous <seg resp="#student" ana="#relig">
-                                    <name>Zephyrus</name><note resp="#student" type="gloss">
-                                    <term>Zephyrus</term>: Greek god of the west wind</note></seg></l>
+                                    <name>Zephyrus</name></seg><note resp="#student" type="gloss">
+                                    <term>Zephyrus</term>: Greek god of the west wind</note></l>
                                 <l>On his dewy wings carries perfumes to cheer us—</l>
                                 <l>The air clears too—</l>
                                 <l>And now we may discern<note resp="#student" type="gloss">
@@ -401,17 +397,15 @@
                                     <term>hazards</term>: risks of loss or harm, dangers</note></l>
                                 <l>Than perish here remediless! I feel</l>
                                 <l>New vigor in me, and a <seg resp="#student" ana="#relig">spirit</seg> that dares</l>
-                                <l>More than a man to serve <seg resp="#student" ana="#name">my fair<persName ref="#amin">Aminta</persName></seg>.</l>
+                                <l>More than a man to serve <seg resp="#student" ana="#name">my fair <persName ref="#amin">Aminta</persName></seg>.</l>
                                 <l>These arms shall be my oars with which I'll swim,</l>
                                 <l>And my zeal to save thy innocent self</l>
                                 <l>Like wings shall bear me up above the <seg resp="#dl" ana="#place">brackish waves</seg>.</l>
                             </lg>
                         </sp>
-                        <fw type="catch"><hi rend="italic">Amint.</hi> Well</fw>
+                       
                         <pb n="TSV-006"
                             facs="https://digital.libraries.psu.edu/digital/api/singleitem/image/emblem/4820/default.jpg"/>
-                        <fw type="pageNum">6</fw>
-                        <cb n="1"/>
                         <sp who="#amin" xml:id="TSV-sp216">
                             <speaker>Aminta</speaker>
                             <lg>
@@ -427,7 +421,7 @@
                                 <l>To this extreme; 'tis to supply thy wants<note resp="#dl" type="gloss">
                                     <term>wants</term>: shortages</note>. And believe me,</l>
                                 <l>Though pleasure met me in most ravishing<note resp="#student" type="gloss">
-                                    <term>ravishing</term>: exciting pleasure or ecstasy</note> forms</l>
+                                    <term>ravishing</term>: characterized by exciting pleasure or ecstasy</note> forms</l>
                                 <l>And happiness courted me to entertain her,</l>
                                 <l>I would nor <seg resp="#student" ana="#food">eat</seg> nor sleep 'til I returned</l>
                                 <l>And crowned thee with my <seg resp="#dl" ana="#relig">fortunes</seg>.</l>
@@ -516,11 +510,8 @@
                                 <l>And have among ourselves a commonwealth<note resp="#student" type="gloss">
                                     <term>commonwealth</term>: political body in which every member has a voice or vested interest</note></l>
                                 <l>Which, in ourselves begun, with us must end.<note resp="#student" type="textual">
-                                    <term>with us must end</term>: As the
-                                        commonwealth's rules forbid any contact with men 
-                                       (thus ruling out any forms of reproduction), these same
-                                        rules will lead to the ultimate demise of the women and,
-                                        with them, the commonwealth itself.</note></l>
+                                    <term>with us must end</term>: As the commonwealth's rules forbid any contact with men (thus ruling out any forms of reproduction), these same
+                                        rules will lead to the ultimate demise of the women and, with them, the commonwealth itself.</note></l>
                             </lg>
                         </sp>
                         <sp who="#jul" xml:id="TSV-sp225">
@@ -546,7 +537,7 @@
                                 <l>That, scarce remembering that she had a father,</l>
                                 <l>She never dreams of man, and should she see one</l>
                                 <l>In my opinion <note resp="#cmlb" type="gloss">a'would
-                                    <term>i.e. he would</term></note> appear a strange beast to her.</l>
+                                    <term>i.e.: he would</term></note> appear a strange beast to her.</l>
                             </lg>
                         </sp>
                         <sp who="#jul" xml:id="TSV-sp227">
@@ -579,10 +570,9 @@
                                 <l>Every hour something tells me I am forsworn,</l>
                                 <l>For I confess imagination helps me sometimes</l>
                                 <l>And that's all is left for us to <seg resp="#student" ana="#food">feed on</seg>;</l>
-                                <l>We might <seg resp="#student" ana="#food">starve</seg>, else. For
-                                    if I have any pleasure</l>
-                                <l>In this life, but when I sleep I am a <seg resp="#student" ana="#relig">pagan<note resp="#student #dl" type="gloss">
-                                    <term>pagan</term>: non-Christian, thought also at this time to be uncivilized</note></seg>;</l>
+                                <l>We might <seg resp="#student" ana="#food">starve</seg>, else. For if I have any pleasure</l>
+                                <l>In this life, but when I sleep I am a <seg resp="#student" ana="#relig">pagan</seg><note resp="#student #dl" type="gloss">
+                                    <term>pagan</term>: non-Christian, thought also at this time to be uncivilized</note>;</l>
                                 <l>Then from the courtier to the country clown,</l>
                                 <l>I have strange visions<note resp="#student" type="gloss">
                                     <term>visions</term>: i.e. in dreams</note>.</l>
@@ -600,11 +590,9 @@
                             <lg>
                                 <l>Yes, and fine visions, too,</l>
                                 <l>And visions I hope in dreams are harmless</l>
-                                <l>And not forbid by our <seg resp="#student" ana="#relig">canons<note resp="#student #dl" type="gloss">
-                                    <term>canons</term>: rules, laws, or decrees, usually ecclesiastical. 
-                                    This word choice goes hand-in-hand with the ongoing theme of faith and
-                                    religion throughout this play. Disobeying the canons not only breaks the commonwealth
-                                    law but is also figured here as a type of sin.</note></seg>.
+                                <l>And not forbid by our <seg resp="#student" ana="#relig">canons</seg><note resp="#student #dl" type="gloss">
+                                    <term>canons</term>: rules, laws, or decrees, usually ecclesiastical. This word choice goes hand-in-hand with the ongoing theme of faith and
+                                    religion throughout this play. Disobeying the canons not only breaks the commonwealth law but is also figured here as a type of sin.</note>.
                                     The last night</l>
                                 <l>(Truth, 'tis a foolish one, but I must tell it)</l>
                                 <l>As I lay in my <seg resp="#student" ana="#place">cabin</seg>
@@ -693,8 +681,7 @@
                             <speaker>Juletta</speaker>
                             <lg>
                                 <l>But stay<note resp="#dl" type="gloss">
-                                    <term>stay</term>: wait</note>, what's here cast o'th' 
-                                    <seg resp="#student" ana="#place">shore</seg>?</l>
+                                    <term>stay</term>: wait</note>, what's here cast o'th' <seg resp="#student" ana="#place">shore</seg>?</l>
                             </lg>
                         </sp>
                         <sp who="hip" xml:id="TSV-sp243">
@@ -717,16 +704,14 @@
                             <lg>
                                 <l rend="indent">Do I yet live?</l>
                                 <l>Sure it is air I breath. What place is this?</l>
-                                <l>Sure something <seg resp="#student" ana="#relig">more than human<note resp="#dl" type="gloss">
-                                        <term>more than human</term>: i.e. divine or supernatural</note></seg> keeps residence here,</l>
+                                <l>Sure something <seg resp="#student" ana="#relig">more than human</seg><note resp="#dl" type="gloss">
+                                        <term>more than human</term>: i.e. divine or supernatural</note> keeps residence here,</l>
                                 <l>For I have passed the <seg resp="#student" ana="#relig">Stygian<note resp="#student" type="gloss">
                                         <term>Stygian</term>: from Greek mythology, referring to the river Styx which divided
                                         Earth from the underworld</note> gulph</seg></l>
-                                <l>And touch upon the <seg resp="#student" ana="relig place">blessed
-                                        shore</seg>! 'Tis so:</l>
+                                <l>And touch upon the <seg resp="#student" ana="relig place">blessed shore</seg>! 'Tis so:</l>
                                 <l>This is the <seg resp="#student" ana="#relig">Elysian<note resp="#student" type="gloss">
-                                    <term>Elysian</term>: from Greek mythology, referring to Elysium, the heavenly
-                                            paradise for fallen Greek heroes</note> shade</seg>.
+                                    <term>Elysian</term>: from Greek mythology, referring to Elysium, the heavenly paradise for fallen Greek heroes</note> shade</seg>.
                                     These <seg resp="#student" ana="#relig">happy spirits</seg></l>
                                 <l>That here enjoy all pleasures—</l>
                             </lg>
@@ -796,13 +781,8 @@
                                 <l>By my life I can not hurt him.</l>
                             </lg>
                         </sp>
-                        <fw type="catch">
-                            <hi rend="italic">Cro.</hi>
-                        </fw>
                         <pb n="TSV-007"
                             facs="https://digital.libraries.psu.edu/digital/api/singleitem/image/emblem/4821/default.jpg"/>
-                        <fw type="pageNum">7</fw>
-                        <cb n="1"/>
                         <sp who="#cro" xml:id="TSV-sp251">
                             <speaker>Crocale</speaker>
                             <lg>
@@ -823,8 +803,8 @@
                         <sp who="#cla" xml:id="TSV-sp253">
                             <speaker>Clarinda</speaker>
                             <lg>
-                                <l>What new <seg resp="#student" ana="#food">game<note resp="#dl" type="gloss">
-                                    <term>game</term>: hunted animal</note></seg> have ye found here? Ha!</l>
+                                <l>What new <seg resp="#student" ana="#food">game</seg><note resp="#dl" type="gloss">
+                                    <term>game</term>: hunted animal</note> have ye found here? Ha!</l>
                                 <l>What beast is this lies wallowing in his <seg resp="#dl" ana="#object">gore</seg>?</l>
                             </lg>
                         </sp>
@@ -959,10 +939,10 @@
                                 <l>The likeness of that thing by which you are?</l>
                                 <l>Whose arrows made these <seg resp="#student" ana="#object">wounds</seg>? 
                                     Speak, or by <seg resp="#student" ana="#relig">
-                                    <name>Dian</name><note resp="#student" type="gloss">
-                                    <term>Dian</term>: i.e. Diana, Roman goddess of hunting and virginity</note></seg></l>
-                                <l>without distinction, I'll <seg resp="#dl" ana="#object">let fly<note resp="#dl" type="gloss">
-                                     <term>let fly</term>: shoot arrows</note></seg> at ye all!</l>
+                                    <name>Dian</name></seg><note resp="#student" type="gloss">
+                                    <term>Dian</term>: i.e. Diana, Roman goddess of hunting and virginity</note></l>
+                                <l>Without distinction, I'll <seg resp="#dl" ana="#object">let fly</seg><note resp="#dl" type="gloss">
+                                     <term>let fly</term>: shoot arrows</note> at ye all!</l>
                             </lg>
                         </sp>
                         <sp who="#jul" xml:id="TSV-sp272">
@@ -1055,8 +1035,7 @@
                             <lg>
                                 <l>Now he breathes—</l>
                                 <l>The air passing through the Arabian groves<note resp="student" type="context">
-                                    <term>Arabian groves</term>: Though the
-                                        phrase "Arabian groves" is vague, it could suggest the
+                                    <term>Arabian groves</term>: Though the phrase "Arabian groves" is vague, it could suggest the
                                         increased cross-pollination of horticulture between Europe
                                         and the Middle East and India. Portugal had colonized
                                         several territories (Bahrain, Sohar, Julfar, Quriyat), now
@@ -1064,25 +1043,16 @@
                                         Emirates, during the reign of the Iberian Union between
                                         1580-1640 (<ref target="#dom1972">de Oliveira Marques, 322</ref>). The
                                         Amazons are also believed to have originated in Libya and to
-                                        have migrated across Syria, Egypt, Scythia
-                                            (<ref target="#af2014">Foreman</ref>). The Arabian groves reference
+                                        have migrated across Syria, Egypt, Scythia (<ref target="#af2014">Foreman</ref>). The Arabian groves reference
                                         could refer to the coconut and palm trees that were commonly
                                         seen on the coast of Southwest India. After the conquests of
                                         Vasco Da Gama, Portugal colonized territories like Bombay
                                         and Goa by the Arabian Sea before India's major colonization
-                                        by the British in the late seventeenth century
-                                            (<ref target="#mgsn2006">Narayanan, 198</ref>). It is therefore possible
-                                        for Indian horticultural features to appear in an imagined
-                                        Portuguese aesthetic.</note></l>
-                                <l>Yields not so <seg resp="#dl" ana="#food">sweet an odor</seg>!
-                                        <seg resp="#dl" ana="#relig">Prithee</seg>,
-                                    <seg resp="#student" ana="#food">taste</seg> it,</l>
-                                <l><seg resp="#student" ana="#food">Taste</seg> it 
-                                        <seg resp="#student" ana="#name">good 
-                                        <persName ref="#cro">Crocale</persName>
-                                        </seg>, yet I envy thee so great a
+                                        by the British in the late seventeenth century (<ref target="#mgsn2006">Narayanan, 198</ref>). It is therefore possible
+                                        for Indian horticultural features to appear in an imagined Portuguese aesthetic.</note></l>
+                                <l>Yields not so <seg resp="#dl" ana="#food">sweet an odor</seg>! <seg resp="#dl" ana="#relig">Prithee</seg>, <seg resp="#student" ana="#food">taste</seg> it,</l>
+                                <l><seg resp="#student" ana="#food">Taste</seg> it, <seg resp="#student" ana="#name">good <persName ref="#cro">Crocale</persName></seg>, yet I envy thee so great a
                                         <seg resp="#student" ana="#relig">blessing</seg>.</l>
-                                <cb n="2"/>
                                 <l>'Tis not <seg resp="#student" ana="#relig">sin</seg> to touch
                                     these rubies, is it?</l>
                             </lg>
@@ -1097,7 +1067,7 @@
                             <speaker>Clarinda</speaker>
                             <lg>
                                 <l rend="indent">Or thus to <seg resp="#dl" ana="#food">live
-                                            chameleon-like<note resp="#student #dl" type="context">
+                                            chameleon-like</seg><note resp="#student #dl" type="context">
                                             <term>chameleon-like</term>: Perhaps a reference to
                                             the chameleon's ability to blend into its surroundings,
                                             i.e. Clarinda will need to render her desire for Albert
@@ -1107,7 +1077,7 @@
                                             since Clarinda has been referring to Albert's breath.
                                             See William Shakespeare's <title>The Two Gentlemen of
                                             Verona</title>, where chameleons are referenced
-                                            as both air-eaters and color-changers.</note></seg></l>
+                                            as both air-eaters and color-changers.</note></l>
                                 <l>I could resign my <seg resp="#dl" ana="#relig">essence</seg> to
                                     live ever thus.</l>
                                 <l>Oh welcome! Raise him up gently. Some soft hand</l>
@@ -1118,10 +1088,10 @@
                                     <stage resp="#student #dl" type="entrance" place="right" who="#hip">Enter 
                                         <persName ref="#hip">Hippolita</persName> with 
                                         <seg resp="#dl" ana="#object">medicine</seg>.</stage></l>
-                                <l>My <seg resp="#student" ana="#relig">pious<note resp="#student #dl" type="gloss">
-                                    <term>pious</term>: pitiful, devoted, faithful</note></seg> work. Now, if
-                                    this <seg resp="#student" ana="#object">juice<note resp="#student #dl" type="gloss">
-                                     <term>juice</term>: i.e. the medicine referenced earlier</note></seg> hath
+                                <l>My <seg resp="#student" ana="#relig">pious</seg><note resp="#student #dl" type="gloss">
+                                    <term>pious</term>: pitiful, devoted, faithful</note> work. Now, if
+                                    this <seg resp="#student" ana="#object">juice</seg><note resp="#student #dl" type="gloss">
+                                     <term>juice</term>: i.e. the medicine referenced earlier</note> hath
                                     power,</l>
                                 <l>Let it appear. His eyelids ope': prodigious<note resp="#dl" type="gloss">
                                     <term>prodigious</term>: astonishing, amazing</note>!</l>
@@ -1138,8 +1108,8 @@
                                 <l>Sure thou art <seg resp="#student" ana="#relig">more than mortal</seg>,</l>
                                 <l>And any <seg resp="#student" ana="#relig">sacrifice</seg> of thanks or duty</l>
                                 <l>In poor and wretched man to pay comes short</l>
-                                <l>Of your <seg resp="#student" ana="#relig">immortal bounty<note resp="#dl" type="gloss">
-                                    <term>bounty</term>: generosity</note></seg>. But to show</l>
+                                <l>Of your <seg resp="#student" ana="#relig">immortal bounty</seg><note resp="#dl" type="gloss">
+                                    <term>bounty</term>: generosity</note>. But to show</l>
                                 <l>I am not unthankful, thus in humility</l>
                                 <l>I kiss the happy ground you have made <seg resp="#student" ana="#relig">sacred</seg></l>
                                 <l>By bearing of your weight.</l>
@@ -1154,8 +1124,8 @@
                                 <l>One too acquainted with calamities</l>
                                 <l>And, from that, apt to pity. Charity ever</l>
                                 <l>Finds in the act reward, and needs not trumpet</l>
-                                <l>In the receiver<note resp="#student #dl" type="gloss">
-                                    <term>Charity ever ... receiver</term>: i.e. Kind acts are their own reward and do not require praise</note>.
+                                <l>In the receiver.<note resp="#student #dl" type="gloss">
+                                    <term>Charity ever ... receiver</term>: i.e. Kind acts are their own reward and do not require praise</note>
                                     Oh, forbear<note resp="#dl" type="gloss">
                                     <term>forbear</term>: abstain from</note> this duty!</l>
                                 <l>I have a hand to meet with yours</l>
@@ -1196,7 +1166,7 @@
                             <lg>
                                 <l>Yes, and every word he speaks, a <seg resp="#student #dl"
                                         ana="#relig">siren's note</seg></l>
-                                <l><seg resp="#student #dl" ana="#relig">To drown the careless hearer.</seg><note resp="#dl" type="gloss">
+                                <l><seg resp="#student #dl" ana="#relig">To drown the careless hearer</seg><note resp="#dl" type="gloss">
                                         <term>siren's note ... hearer</term>: Rosella likens Albert to the figure
                                         of the siren to reinforce her argument that men are
                                         dangerously manipulative. Based in Greek mythology, "sirens"
@@ -1206,7 +1176,7 @@
                                         but Rosella inverts this association, emphasizing Albert's
                                         manipulation. This linguistic inversion points to the larger
                                         theme of reversing traditional gender roles within
-                                        play.</note> Have I not taught thee</l>
+                                        play.</note>. Have I not taught thee</l>
                                 <l>The falsehood and the perjuries of men</l>
                                 <l>On whom but for a woman to show pity</l>
                                 <l>Is to be cruel to herself? The sovereignty<note resp="#student" type="gloss">
@@ -1239,7 +1209,7 @@
                                 <l>On man but as a monster? And wilt thou</l>
                                 <l>Be the first precedent<note resp="#dl" type="gloss">
                                     <term>precedent</term>: instance establishing rule or guide</note> to infringe<note resp="#dl" type="gloss">
-                                    <term>infringe</term>: breach, violate</note> thosevows</l>
+                                    <term>infringe</term>: breach, violate</note> those vows</l>
                                 <l>We made to <seg resp="#student" ana="#relig">heaven</seg>?</l>
                             </lg>
                         </sp>
@@ -1273,11 +1243,8 @@
                             <lg>
                                 <l rend="indent">Are ye mad?</l>
                                 <l>Can no persuasion alter ye? Suppose</l>
-                                <fw type="catch">You</fw>
                                 <pb n="TSV-008"
                                     facs="https://digital.libraries.psu.edu/digital/api/singleitem/image/emblem/4822/default.jpg"/>
-                                <fw type="pageNum">8</fw>
-                                <cb n="1"/>
                                 <l>You had my suffrage<note resp="#student #dl" type="gloss">
                                     <term>suffrage</term>: support, often in a spiritual or ecclesiastical sense</note> to your suit<note resp="#student #dl" type="gloss">
                                     <term>suit</term>: legal petition; entreaty</note>:</l>
@@ -1383,7 +1350,7 @@
                                         believed to have reigned between Eurasia and the Middle
                                         East, the play hints at taking place in the Mediterranean or
                                         Black Sea. (Indeed, the play references a black river
-                                        between the barren and fertile islands.)</note> This is the
+                                        between the barren and fertile islands.)</note>. This is the
                                     utmost</l>
                                 <l>Ye shall e'er obtain. As ye think fit,</l>
                                 <l>Ye may dismiss this stranger</l>
@@ -1395,9 +1362,9 @@
                             <speaker>Clarinda</speaker>
                             <lg>
                                 <l>Come, <seg resp="#dl" ana="#name">sir</seg>, will ye walk?</l>
-                                <l>We will show ye our <seg resp="#student" ana="#place">pleasant bowers<note resp="#student" type="gloss">
+                                <l>We will show ye our <seg resp="#student" ana="#place">pleasant bowers</seg><note resp="#student" type="gloss">
                                       <term>bowers</term>: natural dwellings, habitations, or abodes typically used for amorous
-                                            meetings</note></seg></l>
+                                            meetings</note></l>
                                 <l>And something ye shall find to cheer your heart.</l>
                             </lg>
                         </sp>
@@ -1409,8 +1376,8 @@
                                 <l>Should refuse rest and <seg resp="#student" ana="#food">meat</seg>, I must not take</l>
                                 <l>Your noble<note resp="#student" type="gloss">
                                     <term>noble</term>: fine, splendid</note> offer. I left in <seg resp="#student" ana="#place">yonder desert</seg></l>
-                                <l>A virgin <seg resp="#student" ana="#food">almost pined<note resp="#student #dl" type="gloss">
-                                    <term>pined</term>: starved or wasted</note></seg>—</l>
+                                <l>A virgin <seg resp="#student" ana="#food">almost pined</seg><note resp="#student #dl" type="gloss">
+                                    <term>pined</term>: starved or wasted</note>—</l>
                             </lg>
                         </sp>
                         <sp who="#cla" xml:id="TSV-sp304">
