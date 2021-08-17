@@ -14,7 +14,7 @@
     "watch": "rollup --watch -c rollup.config.js"
   },
   "dependencies": {
-    "@psul/tei-render": "0.0.34"
+    "@psul/tei-render": "0.0.40"
   },
   "devDependencies": {
     "@babel/plugin-transform-modules-amd": "^7.2.0",
