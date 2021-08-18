@@ -4,7 +4,7 @@ order: 6
 ---
 <p>by David LeBlanc</p>
 <h2 id="header-70fc00dc-97dd-1196-1a7f-ef5d997806af">A NOTE ON THE TEXT</h2>
-<p>This edition offers three versions of the playtext: (1) digital images of the 1647 base text; (2) a transcription of the 1647 base text; and (3) a fully modernized, student-generated edition.</p>
+<p>This edition offers three versions of the playtext: (1) digital images of the 1647 base text; (2) a transcription of the 1647 base text; and (3) a fully modernized, student-generated edition. The XML-TEI files for <i>The Sea Voyage</i> are also accessible for viewing or download via the play’s <a href="https://github.com/psu-libraries/dbfp-tsv/tree/main/src/files">GitHub repository</a>.</p>
 <p>Our transcription of <i>The Sea Voyage</i>
  is based on the copy of <i>Comedies & Tragedies</i>
  (1647) held in PSU Libraries' Eberly Family Special Collections Library. The text of the play in PSU's copy includes three scribal emendations in an early hand and a number of typographical oddities, including turned letters and warped letter forms. </p>
