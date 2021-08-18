@@ -72,7 +72,7 @@ workflows:
     jobs:
       - release_image:
           context:
-            - dbfp
+            - org-global
           name: "release image"
           filters:
             tags:
@@ -83,7 +83,7 @@ workflows:
                   - /.*/
       - build-and-push:
           context:
-            - dbfp
+            - org-global
           version: "$CIRCLE_SHA1"
           filters:
             branches:
@@ -92,7 +92,7 @@ workflows:
                 - /preview\/.*/
       - deploy:
           context:
-            - dbfp
+            - org-global
           config_env: qa
           requires:
             - build-and-push
@@ -102,7 +102,7 @@ workflows:
                 - main
       - deploy:
           context:
-            - dbfp
+            - org-global
           config_env: dev
           requires:
             - build-and-push
