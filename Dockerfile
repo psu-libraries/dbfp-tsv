@@ -1,5 +1,5 @@
 
-FROM node:14.17.0-alpine3.13 as dev
+FROM node:14.17.6-alpine3.13 as dev
 WORKDIR /app-dev
 RUN apk add git
 RUN git clone https://github.com/elmsln/hax11ty.git /app-dev
@@ -10,7 +10,7 @@ COPY src .
 RUN yarn install
 CMD [ "yarn", "start" ]
 
-FROM node:14.17.0-alpine3.13 as build
+FROM node:14.17.6-alpine3.13 as build
 WORKDIR /app
 RUN apk add git
 RUN git clone https://github.com/elmsln/hax11ty.git /app
