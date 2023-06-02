@@ -1,5 +1,0 @@
-#!/bin/bash
-# version this thing
-
-TARGETVERSION=`./bin/next-version`
-echo "Tagging and releasing $TARGETVERSION" && git tag $TARGETVERSION && git push --tags && echo "Released `basename $(pwd)` $TARGETVERSION"
