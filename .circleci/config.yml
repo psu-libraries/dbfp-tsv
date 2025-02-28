@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  docker: circleci/docker@2.6.0
+  docker: circleci/docker@2.8.2
 
 jobs:
   release_image:
@@ -9,8 +9,6 @@ jobs:
       - image: harbor.k8s.libraries.psu.edu/library/ci-utils:$CI_UTILS_IMG_TAG
     environment:
       REGISTRY_HOST: harbor.k8s.libraries.psu.edu
-      # DOCKER_USERNAME: 'robot$circleci'
-      # GITHUB_USER: 'psu-stewardship-bot'
       CONFIG_REPO: git@github.com:psu-libraries/dbfp-config.git
     steps:
       - add_ssh_keys
@@ -24,7 +22,6 @@ jobs:
             git clone $CONFIG_REPO
             cd dbfp-config
             /usr/local/bin/pr-release clusters/prod/manifests/$CIRCLE_PROJECT_REPONAME/prod.yaml
-
   build-and-push:
     parameters:
       version:
@@ -32,21 +29,20 @@ jobs:
     executor: docker/docker
     environment:
       REGISTRY_HOST: harbor.k8s.libraries.psu.edu
-      # DOCKER_LOGIN: 'robot$circleci'
     steps:
-    - setup_remote_docker
-    - checkout
-    - docker/check:
-        registry: $REGISTRY_HOST
-    - docker/build:
-        image: "library/$CIRCLE_PROJECT_REPONAME"
-        registry: $REGISTRY_HOST
-        tag: << parameters.version >>
-    - docker/push:
-        registry: $REGISTRY_HOST
-        image: "library/$CIRCLE_PROJECT_REPONAME"
-        tag: << parameters.version >>
-  deploy:
+      - setup_remote_docker
+      - checkout
+      - docker/check:
+          registry: $REGISTRY_HOST
+      - docker/build:
+          image: "library/$CIRCLE_PROJECT_REPONAME"
+          registry: $REGISTRY_HOST
+          tag: << parameters.version >>
+      - docker/push:
+          registry: $REGISTRY_HOST
+          image: "library/$CIRCLE_PROJECT_REPONAME"
+          tag: << parameters.version >>
+  deploy-job:
     docker:
       - image: harbor.k8s.libraries.psu.edu/library/ci-utils:$CI_UTILS_IMG_TAG
     environment:
@@ -67,7 +63,7 @@ jobs:
             ./bin/generate_app
 
 workflows:
-  dbfp_tsv_jobs:
+  dbfp_jobs:
     jobs:
       - release_image:
           context:
@@ -89,7 +85,7 @@ workflows:
               only:
                 - main
                 - /preview\/.*/
-      - deploy:
+      - deploy-job:
           context:
             - org-global
           config_env: qa
@@ -99,7 +95,7 @@ workflows:
             branches:
               only:
                 - main
-      - deploy:
+      - deploy-job:
           context:
             - org-global
           config_env: dev
