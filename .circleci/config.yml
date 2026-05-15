@@ -1,111 +1,221 @@
 version: 2.1
 
 orbs:
-  docker: circleci/docker@2.8.2
+  docker: circleci/docker@3.0.1
 
-jobs:
-  release_image:
+parameters:
+  GHA_Action:
+    type: string
+    default: ""
+  GHA_Actor:
+    type: string
+    default: ""
+  GHA_Event:
+    type: string
+    default: ""
+  GHA_Meta:
+    type: string
+    default: ""
+  CI_UTILS_IMAGE_TAG:
+    type: string
+    default: "v4.6.1"
+  PIPELINE_CONFIG_VERSION:
+    type: string
+    default: "1.0.0"
+
+executors:
+  ci-utils:
+    parameters:
+      image_tag:
+        type: string
     docker:
-      - image: harbor.k8s.libraries.psu.edu/library/ci-utils:$CI_UTILS_IMG_TAG
-    environment:
-      REGISTRY_HOST: harbor.k8s.libraries.psu.edu
-      # DOCKER_USERNAME: 'robot$circleci'
-      # GITHUB_USER: 'psu-stewardship-bot'
-      CONFIG_REPO: git@github.com:psu-libraries/dbfp-config.git
+      - image: harbor.k8s.libraries.psu.edu/library/ci-utils:<< parameters.image_tag >>
+
+commands:
+  clone-dbfp-config:
     steps:
       - add_ssh_keys
-      - checkout
       - run:
-          name: "Release"
+          name: Prepare GitHub Access
           command: |
-            export REGISTRY_REPO="library/$CIRCLE_PROJECT_REPONAME"
-            /usr/local/bin/tag-image
+            mkdir -p ~/.ssh
             ssh-keyscan github.com > ~/.ssh/known_hosts
-            git clone $CONFIG_REPO
-            cd dbfp-config
-            /usr/local/bin/pr-release clusters/prod/manifests/$CIRCLE_PROJECT_REPONAME/prod.yaml
+            git clone git@github.com:psu-libraries/dbfp-config.git
+  announce-config-version:
+    steps:
+      - run:
+          name: Announce Pipeline Config Version
+          command: echo "PIPELINE_CONFIG_VERSION=<< pipeline.parameters.PIPELINE_CONFIG_VERSION >>"
+  compute-docker-tag:
+    steps:
+      - run:
+          name: Compute Docker Tag
+          command: |
+            if [[ "$CIRCLE_BRANCH" == "main" ]]; then
+              TAG="$CIRCLE_SHA1"
+            else
+              SLUG=$(slugify-branch "$CIRCLE_BRANCH")
+              TAG="${SLUG}--$CIRCLE_SHA1"
+            fi
+            echo "Computed Docker Tag: $TAG"
+            echo "export TAG=$TAG" >> "$BASH_ENV"
 
+jobs:
   build-and-push:
     parameters:
       version:
         type: string
-    executor: docker/docker
     environment:
       REGISTRY_HOST: harbor.k8s.libraries.psu.edu
-      # DOCKER_LOGIN: 'robot$circleci'
+      REGISTRY_REPO: "library/$CIRCLE_PROJECT_REPONAME"
+      PIPELINE_CONFIG_VERSION: << pipeline.parameters.PIPELINE_CONFIG_VERSION >>
+    executor:
+      name: ci-utils
+      image_tag: << pipeline.parameters.CI_UTILS_IMAGE_TAG >>
     steps:
-    - setup_remote_docker
-    - checkout
-    - docker/check:
-        registry: $REGISTRY_HOST
-    - docker/build:
-        image: "library/$CIRCLE_PROJECT_REPONAME"
-        registry: $REGISTRY_HOST
-        tag: << parameters.version >>
-    - docker/push:
-        registry: $REGISTRY_HOST
-        image: "library/$CIRCLE_PROJECT_REPONAME"
-        tag: << parameters.version >>
-  deploy:
-    docker:
-      - image: harbor.k8s.libraries.psu.edu/library/ci-utils:$CI_UTILS_IMG_TAG
+      - setup_remote_docker:
+          docker_layer_caching: true
+      - checkout
+      - announce-config-version
+      - compute-docker-tag
+      - docker/check:
+          registry: $REGISTRY_HOST
+      - docker/build:
+          image: $REGISTRY_REPO
+          registry: $REGISTRY_HOST
+          tag: $TAG
+      - docker/push:
+          image: $REGISTRY_REPO
+          registry: $REGISTRY_HOST
+          tag: $TAG
+
+  delete-deployment:
+    parameters:
+      delete_branch:
+        type: string
+    executor:
+      name: ci-utils
+      image_tag: << pipeline.parameters.CI_UTILS_IMAGE_TAG >>
     environment:
       CONFIG_REPO: git@github.com:psu-libraries/dbfp-config.git
-    parameters:
-      config_env:
-        type: string
+      DELETE_BRANCH: << parameters.delete_branch >>
+      PIPELINE_CONFIG_VERSION: << pipeline.parameters.PIPELINE_CONFIG_VERSION >>
     steps:
-      - add_ssh_keys
-      - checkout
+      - clone-dbfp-config
+      - announce-config-version
       - run:
-          name: "Updating Config Repo"
+          name: Delete Deployment
           command: |
-            export CONFIG_ENV=<< parameters.config_env >>
-            ssh-keyscan github.com > ~/.ssh/known_hosts
-            git clone $CONFIG_REPO
-            cd dbfp-config
-            ./bin/generate_app
+            cd ~/project/dbfp-config
+            ./bin/ci-delete-manifest
+
+  deploy-application:
+    parameters:
+      version:
+        type: string
+      clusters:
+        type: string
+    executor:
+      name: ci-utils
+      image_tag: << pipeline.parameters.CI_UTILS_IMAGE_TAG >>
+    environment:
+      clusters: << parameters.clusters >>
+      CONFIG_REPO: git@github.com:psu-libraries/dbfp-config.git
+      PIPELINE_CONFIG_VERSION: << pipeline.parameters.PIPELINE_CONFIG_VERSION >>
+    steps:
+      - clone-dbfp-config
+      - announce-config-version
+      - compute-docker-tag
+      - run:
+          name: Add or Update Application Manifest
+          command: |
+            IFS=',' read -ra CLUSTERS \<<< "${clusters// /}"
+            for cluster in "${CLUSTERS[@]}"; do
+              export TARGET_CLUSTER="$cluster"
+              echo "Processing cluster: $TARGET_CLUSTER"
+              cd ~/project/dbfp-config
+              ./bin/ci-write-manifest
+            done
+
+  release-image:
+    parameters:
+      to_tag:
+        type: string
+      from_tag:
+        type: string
+      clusters:
+        type: string
+    executor:
+      name: ci-utils
+      image_tag: << pipeline.parameters.CI_UTILS_IMAGE_TAG >>
+    environment:
+      clusters: << parameters.clusters >>
+      CONFIG_REPO: git@github.com:psu-libraries/dbfp-config.git
+      REGISTRY_HOST: harbor.k8s.libraries.psu.edu
+      FROM_TAG: << parameters.from_tag >>
+      TO_TAG: << parameters.to_tag >>
+      PIPELINE_CONFIG_VERSION: << pipeline.parameters.PIPELINE_CONFIG_VERSION >>
+    steps:
+      - clone-dbfp-config
+      - announce-config-version
+      - run:
+          name: Tag & Release Image
+          command: |
+            export REGISTRY_REPO="$CIRCLE_PROJECT_REPONAME"
+            /usr/local/bin/image-tag
+            cd ~/project/dbfp-config
+            IFS=',' read -ra CLUSTERS \<<< "${clusters// /}"
+            for cluster in "${CLUSTERS[@]}"; do
+              export TARGET_CLUSTER="$cluster"
+              echo "Processing cluster: $TARGET_CLUSTER"
+              /usr/local/bin/image-release-pr "clusters/$TARGET_CLUSTER/manifests/$CIRCLE_PROJECT_REPONAME/prod.yaml"
+            done
 
 workflows:
-  dbfp_tsv_jobs:
+  handle-delete-event:
+    when:
+      equal: ["delete", << pipeline.parameters.GHA_Event >>]
     jobs:
-      - release_image:
-          context:
-            - org-global
-          name: "release image"
+      - delete-deployment:
+          name: delete-deployment
+          context: [org-global]
+          delete_branch: << pipeline.parameters.GHA_Meta >>
+          filters:
+            branches:
+              only: main
+
+  docker-push:
+    unless:
+      equal: ["delete", << pipeline.parameters.GHA_Event >>]
+    jobs:
+      - build-and-push:
+          name: build-and-push
+          context: [org-global]
+          version: "<< pipeline.git.revision >>"
+          filters:
+            branches:
+              only:
+                - main
+                - /preview\/.*/
+      - deploy-application:
+          name: deploy-non-prod
+          context: [org-global]
+          version: "<< pipeline.git.revision >>"
+          clusters: "uldev"
+          requires: [build-and-push]
+          filters:
+            branches:
+              only:
+                - main
+                - /preview\/.*/
+      - release-image:
+          name: release-image
+          context: [org-global]
+          from_tag: "<< pipeline.git.revision >>"
+          to_tag: "<< pipeline.git.tag >>"
+          clusters: "prod,ulprod"
           filters:
             tags:
-              only:
-                - /^v\d+.\d+.\d+.*/
+              only: /^v\d+\.\d+\.\d+.*/
             branches:
-              ignore:
-                  - /.*/
-      - build-and-push:
-          context:
-            - org-global
-          version: "$CIRCLE_SHA1"
-          filters:
-            branches:
-              only:
-                - main
-                - /preview\/.*/
-      - deploy:
-          context:
-            - org-global
-          config_env: qa
-          requires:
-            - build-and-push
-          filters:
-            branches:
-              only:
-                - main
-      - deploy:
-          context:
-            - org-global
-          config_env: dev
-          requires:
-            - build-and-push
-          filters:
-            branches:
-              only:
-                - /preview\/.*/
+              ignore: /.*/
