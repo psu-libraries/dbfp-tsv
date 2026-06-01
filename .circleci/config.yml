@@ -18,7 +18,7 @@ parameters:
     default: ""
   CI_UTILS_IMAGE_TAG:
     type: string
-    default: "v4.6.1"
+    default: "v4.6.4"
   PIPELINE_CONFIG_VERSION:
     type: string
     default: "1.0.0"
