@@ -213,7 +213,7 @@ workflows:
           context: [org-global]
           from_tag: "<< pipeline.git.revision >>"
           to_tag: "<< pipeline.git.tag >>"
-          clusters: "prod,ulprod"
+          clusters: "ulprod"
           filters:
             tags:
               only: /^v\d+\.\d+\.\d+.*/
