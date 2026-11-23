@@ -29,7 +29,7 @@ executors:
       image_tag:
         type: string
     docker:
-      - image: harbor.k8s.libraries.psu.edu/library/ci-utils:<< parameters.image_tag >>
+      - image: harbor.libraries.psu.edu/library/ci-utils:<< parameters.image_tag >>
 
 commands:
   clone-dbfp-config:
@@ -66,7 +66,7 @@ jobs:
       version:
         type: string
     environment:
-      REGISTRY_HOST: harbor.k8s.libraries.psu.edu
+      REGISTRY_HOST: harbor.libraries.psu.edu
       REGISTRY_REPO: "library/$CIRCLE_PROJECT_REPONAME"
       PIPELINE_CONFIG_VERSION: << pipeline.parameters.PIPELINE_CONFIG_VERSION >>
     executor:
@@ -151,7 +151,7 @@ jobs:
     environment:
       clusters: << parameters.clusters >>
       CONFIG_REPO: git@github.com:psu-libraries/dbfp-config.git
-      REGISTRY_HOST: harbor.k8s.libraries.psu.edu
+      REGISTRY_HOST: harbor.libraries.psu.edu
       FROM_TAG: << parameters.from_tag >>
       TO_TAG: << parameters.to_tag >>
       PIPELINE_CONFIG_VERSION: << pipeline.parameters.PIPELINE_CONFIG_VERSION >>
